@@ -1,0 +1,150 @@
+{
+  "request_compliant": true,
+  "failures": [],
+  "expected_track_count": 9724,
+  "actual_track_count": 9724,
+  "unexpected_track_changes": {
+    "added_count": 0,
+    "removed_count": 0,
+    "added": [],
+    "removed": []
+  },
+  "nontrack_changes": {
+    "pads": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    },
+    "vias": {
+      "added_count": 2,
+      "removed_count": 0,
+      "added": [
+        {
+          "record": {
+            "high_layer_id": "32",
+            "hole_size_raw": "80000",
+            "low_layer_id": "1",
+            "net": "SAI1_RXD3",
+            "size_raw": "160000",
+            "x_raw": "130928300",
+            "y_raw": "85226800"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "high_layer_id": "32",
+            "hole_size_raw": "80000",
+            "low_layer_id": "1",
+            "net": "SAI1_RXD3",
+            "size_raw": "160000",
+            "x_raw": "131338500",
+            "y_raw": "88214100"
+          },
+          "count": 1
+        }
+      ],
+      "removed": []
+    },
+    "rules": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    },
+    "net_assignments": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    }
+  },
+  "immutable_board_changes": {},
+  "changed_nets": [
+    {
+      "net": "GND",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    },
+    {
+      "net": "SAI1_RXD3",
+      "baseline_remaining": 1,
+      "current_remaining": 0,
+      "reduction": 1,
+      "newly_complete": true,
+      "geometry_changed": true
+    },
+    {
+      "net": "SAI1_RXD4",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    },
+    {
+      "net": "SAI5_RXFS",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    }
+  ],
+  "ordinary_comparator_regressions": [
+    "Baseline tracks removed or modified"
+  ],
+  "unexpected_via_changes": {
+    "added_count": 0,
+    "removed_count": 0,
+    "added": [],
+    "removed": []
+  },
+  "accepted_run_added_track_edits": [],
+  "accepted_run_added_track_deletions": [
+    {
+      "net": "SAI1_RXD4",
+      "x1_raw": "130883500",
+      "y1_raw": "85294100",
+      "x2_raw": "131083500",
+      "y2_raw": "85094100",
+      "width_raw": "32000",
+      "layer_id": "3",
+      "expected_track_count": "9689"
+    },
+    {
+      "net": "SAI1_RXD4",
+      "x1_raw": "130883500",
+      "y1_raw": "85294100",
+      "x2_raw": "130883500",
+      "y2_raw": "86309100",
+      "width_raw": "32000",
+      "layer_id": "3",
+      "expected_track_count": "9689"
+    },
+    {
+      "net": "SAI5_RXFS",
+      "x1_raw": "130275400",
+      "y1_raw": "85323800",
+      "x2_raw": "131126400",
+      "y2_raw": "85323800",
+      "width_raw": "32000",
+      "layer_id": "2",
+      "expected_track_count": "9689"
+    },
+    {
+      "net": "GND",
+      "x1_raw": "130770800",
+      "y1_raw": "84986800",
+      "x2_raw": "130770800",
+      "y2_raw": "85226800",
+      "width_raw": "100000",
+      "layer_id": "32",
+      "expected_track_count": "9689"
+    }
+  ]
+}

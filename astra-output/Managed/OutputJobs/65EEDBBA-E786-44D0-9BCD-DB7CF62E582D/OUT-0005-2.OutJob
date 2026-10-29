@@ -1,0 +1,89 @@
+[OutputJobFile]
+Version=1.0
+Caption=Validation
+Description=Validation
+VaultGUID=87DE25F6-88EE-4579-955E-C9F98706A2B6
+ItemGUID=0C2CB739-366B-415B-BC1C-A67A481E5C58
+ItemHRID=
+RevisionGUID=65EEDBBA-E786-44D0-9BCD-DB7CF62E582D
+RevisionId=
+VaultHRID=Hosted NEXUS Server
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=Job Group
+Description=
+TargetOutputMedium=Folder Structure
+VariantName=[No Variations]
+VariantScope=1
+CurrentConfigurationName=
+TargetPrinter=WARHOL
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium1=Print Job
+OutputMedium1_Type=Printer
+OutputMedium1_Printer=
+OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium2=Folder Structure
+OutputMedium2_Type=GeneratedFiles
+OutputType1=Design Rules Check
+OutputName1=Design Rules Check
+OutputCategory1=Validation
+OutputDocumentPath1=
+OutputVariantName1=
+OutputEnabled1=1
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=2
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType2=Electrical Rules Check
+OutputName2=Electrical Rules Check
+OutputCategory2=Validation
+OutputDocumentPath2=
+OutputVariantName2=
+OutputEnabled2=1
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=1
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType3=Differences Report
+OutputName3=Differences Report
+OutputCategory3=Validation
+OutputDocumentPath3=
+OutputVariantName3=
+OutputEnabled3=1
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=3
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+
+[PublishSettings]
+OutputFilePath2=
+ReleaseManaged2=1
+OutputBasePath2=Project Outputs for Free Documents
+OutputPathMedia2=
+OutputPathMediaValue2=
+OutputPathOutputer2=[Output Type]
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=
+OutputFileName2=
+OutputFileNameMulti2=
+UseOutputNameForMulti2=1
+OutputFileNameSpecial2=
+OpenOutput2=1
+
+[GeneratedFilesSettings]
+RelativeOutputPath2=
+OpenOutputs2=1
+AddToProject2=1
+TimestampFolder2=0
+UseOutputName2=0
+OpenODBOutput2=0
+OpenGerberOutput2=0
+OpenNCDrillOutput2=0
+OpenIPCOutput2=0
+EnableReload2=0
+

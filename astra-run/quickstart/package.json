@@ -1,0 +1,10 @@
+{
+  "name": "astra-router-altium",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local Codex runtime for the Altium workstation",
+  "dependencies": {
+    "@openai/codex": "0.159.0",
+    "@openai/codex-sdk": "0.159.0"
+  }
+}

@@ -1,0 +1,2101 @@
+{
+  "frozen": true,
+  "status": "READY_FULL_RXD3_COMPLETION",
+  "net": "SAI1_RXD3",
+  "base": "batches/637-rxd3-native-via/after",
+  "guard": [
+    9689,
+    993
+  ],
+  "ready_delete_tracks": [
+    {
+      "net": "SAI1_RXD4",
+      "x1_raw": "130883500",
+      "y1_raw": "85294100",
+      "x2_raw": "131083500",
+      "y2_raw": "85094100",
+      "width_raw": "32000",
+      "layer_id": "3",
+      "layer": "Mid Layer 2",
+      "selected": "false"
+    },
+    {
+      "net": "SAI1_RXD4",
+      "x1_raw": "130883500",
+      "y1_raw": "85294100",
+      "x2_raw": "130883500",
+      "y2_raw": "86309100",
+      "width_raw": "32000",
+      "layer_id": "3",
+      "layer": "Mid Layer 2",
+      "selected": "false"
+    },
+    {
+      "net": "SAI5_RXFS",
+      "x1_raw": "130275400",
+      "y1_raw": "85323800",
+      "x2_raw": "131126400",
+      "y2_raw": "85323800",
+      "width_raw": "32000",
+      "layer_id": "2",
+      "layer": "Mid Layer 1",
+      "selected": "false"
+    },
+    {
+      "net": "GND",
+      "x1_raw": "130770800",
+      "y1_raw": "84986800",
+      "x2_raw": "130770800",
+      "y2_raw": "85226800",
+      "width_raw": "100000",
+      "layer_id": "32",
+      "layer": "Bottom Layer",
+      "selected": "false"
+    }
+  ],
+  "ready_fulltracks_rows": [
+    {
+      "action": "add",
+      "net": "GND",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 130770800,
+      "new_y1_raw": 84986800,
+      "new_x2_raw": 130770800,
+      "new_y2_raw": 85226800,
+      "width_raw": 50000,
+      "layer_id": 32,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD4",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 130883500,
+      "new_y1_raw": 86309100,
+      "new_x2_raw": 130883500,
+      "new_y2_raw": 85719100,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD4",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 130883500,
+      "new_y1_raw": 85719100,
+      "new_x2_raw": 130981500,
+      "new_y2_raw": 85719100,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD4",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 130981500,
+      "new_y1_raw": 85719100,
+      "new_x2_raw": 131083500,
+      "new_y2_raw": 85617100,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD4",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 131083500,
+      "new_y1_raw": 85617100,
+      "new_x2_raw": 131083500,
+      "new_y2_raw": 85094100,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI5_RXFS",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 130275400,
+      "new_y1_raw": 85323800,
+      "new_x2_raw": 130298400,
+      "new_y2_raw": 85346800,
+      "width_raw": 32000,
+      "layer_id": 2,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI5_RXFS",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 130298400,
+      "new_y1_raw": 85346800,
+      "new_x2_raw": 130884400,
+      "new_y2_raw": 85346800,
+      "width_raw": 32000,
+      "layer_id": 2,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI5_RXFS",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 130884400,
+      "new_y1_raw": 85346800,
+      "new_x2_raw": 130890400,
+      "new_y2_raw": 85352800,
+      "width_raw": 32000,
+      "layer_id": 2,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI5_RXFS",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 130890400,
+      "new_y1_raw": 85352800,
+      "new_x2_raw": 130908400,
+      "new_y2_raw": 85352800,
+      "width_raw": 32000,
+      "layer_id": 2,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI5_RXFS",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 130908400,
+      "new_y1_raw": 85352800,
+      "new_x2_raw": 130909400,
+      "new_y2_raw": 85353800,
+      "width_raw": 32000,
+      "layer_id": 2,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI5_RXFS",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 130909400,
+      "new_y1_raw": 85353800,
+      "new_x2_raw": 131126400,
+      "new_y2_raw": 85353800,
+      "width_raw": 32000,
+      "layer_id": 2,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI5_RXFS",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 131126400,
+      "new_y1_raw": 85353800,
+      "new_x2_raw": 131126400,
+      "new_y2_raw": 85323800,
+      "width_raw": 32000,
+      "layer_id": 2,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125407700,
+      "new_y1_raw": 91179900,
+      "new_x2_raw": 125408500,
+      "new_y2_raw": 91179100,
+      "width_raw": 41000,
+      "layer_id": 32,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125408500,
+      "new_y1_raw": 91179100,
+      "new_x2_raw": 125483500,
+      "new_y2_raw": 91104100,
+      "width_raw": 41000,
+      "layer_id": 32,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125483500,
+      "new_y1_raw": 91104100,
+      "new_x2_raw": 125483500,
+      "new_y2_raw": 89839100,
+      "width_raw": 41000,
+      "layer_id": 32,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125483500,
+      "new_y1_raw": 89839100,
+      "new_x2_raw": 127298500,
+      "new_y2_raw": 89839100,
+      "width_raw": 41000,
+      "layer_id": 32,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 127298500,
+      "new_y1_raw": 89839100,
+      "new_x2_raw": 127298500,
+      "new_y2_raw": 88214100,
+      "width_raw": 41000,
+      "layer_id": 32,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 127298500,
+      "new_y1_raw": 88214100,
+      "new_x2_raw": 127888500,
+      "new_y2_raw": 88214100,
+      "width_raw": 41000,
+      "layer_id": 32,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 127888500,
+      "new_y1_raw": 88214100,
+      "new_x2_raw": 128013500,
+      "new_y2_raw": 88089100,
+      "width_raw": 41000,
+      "layer_id": 32,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 128013500,
+      "new_y1_raw": 88089100,
+      "new_x2_raw": 129213500,
+      "new_y2_raw": 88089100,
+      "width_raw": 41000,
+      "layer_id": 32,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 129213500,
+      "new_y1_raw": 88089100,
+      "new_x2_raw": 129223500,
+      "new_y2_raw": 88079100,
+      "width_raw": 41000,
+      "layer_id": 32,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 129223500,
+      "new_y1_raw": 88079100,
+      "new_x2_raw": 129243500,
+      "new_y2_raw": 88079100,
+      "width_raw": 41000,
+      "layer_id": 32,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 129243500,
+      "new_y1_raw": 88079100,
+      "new_x2_raw": 129248500,
+      "new_y2_raw": 88074100,
+      "width_raw": 41000,
+      "layer_id": 32,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 129248500,
+      "new_y1_raw": 88074100,
+      "new_x2_raw": 129868500,
+      "new_y2_raw": 88074100,
+      "width_raw": 41000,
+      "layer_id": 32,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 129868500,
+      "new_y1_raw": 88074100,
+      "new_x2_raw": 129868500,
+      "new_y2_raw": 88214100,
+      "width_raw": 41000,
+      "layer_id": 32,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 129868500,
+      "new_y1_raw": 88214100,
+      "new_x2_raw": 131338500,
+      "new_y2_raw": 88214100,
+      "width_raw": 41000,
+      "layer_id": 32,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 131338500,
+      "new_y1_raw": 88214100,
+      "new_x2_raw": 132148500,
+      "new_y2_raw": 89024100,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 132148500,
+      "new_y1_raw": 89024100,
+      "new_x2_raw": 132413500,
+      "new_y2_raw": 89024100,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 132413500,
+      "new_y1_raw": 89024100,
+      "new_x2_raw": 132413500,
+      "new_y2_raw": 86124100,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 132413500,
+      "new_y1_raw": 86124100,
+      "new_x2_raw": 131433500,
+      "new_y2_raw": 86124100,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 131433500,
+      "new_y1_raw": 86124100,
+      "new_x2_raw": 131433500,
+      "new_y2_raw": 85019100,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 131433500,
+      "new_y1_raw": 85019100,
+      "new_x2_raw": 131188500,
+      "new_y2_raw": 85019100,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 131188500,
+      "new_y1_raw": 85019100,
+      "new_x2_raw": 131188500,
+      "new_y2_raw": 84969100,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 131188500,
+      "new_y1_raw": 84969100,
+      "new_x2_raw": 131138500,
+      "new_y2_raw": 84969100,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 131138500,
+      "new_y1_raw": 84969100,
+      "new_x2_raw": 131128500,
+      "new_y2_raw": 84959100,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 131128500,
+      "new_y1_raw": 84959100,
+      "new_x2_raw": 130928500,
+      "new_y2_raw": 84959100,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 130928500,
+      "new_y1_raw": 84959100,
+      "new_x2_raw": 130928500,
+      "new_y2_raw": 85229100,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 130928500,
+      "new_y1_raw": 85229100,
+      "new_x2_raw": 130928500,
+      "new_y2_raw": 85227000,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9685
+    },
+    {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 130928500,
+      "new_y1_raw": 85227000,
+      "new_x2_raw": 130928300,
+      "new_y2_raw": 85226800,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9685
+    }
+  ],
+  "ready_fullvia_rows": [
+    {
+      "net": "SAI1_RXD3",
+      "x_raw": 130928300,
+      "y_raw": 85226800,
+      "size_raw": 160000,
+      "hole_size_raw": 80000,
+      "expected_via_count": 993,
+      "minimum_clearance_mil": 3.0999999999999885,
+      "hole_gap_mil": 12.419679233523716
+    },
+    {
+      "net": "SAI1_RXD3",
+      "x_raw": 131338500,
+      "y_raw": 88214100,
+      "size_raw": 160000,
+      "hole_size_raw": 80000,
+      "expected_via_count": 993,
+      "minimum_clearance_mil": 3.95,
+      "hole_gap_mil": 59.63091896462737
+    }
+  ],
+  "ready_move_vias": [],
+  "source_existing_via": {
+    "net": "SAI1_RXD3",
+    "x_raw": "125347700",
+    "y_raw": "91169900",
+    "size_raw": "160000",
+    "hole_size_raw": "80000",
+    "low_layer_id": "1",
+    "high_layer_id": "32",
+    "selected": "false"
+  },
+  "source_contact": {
+    "segment": {
+      "action": "add",
+      "net": "SAI1_RXD3",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125407700,
+      "new_y1_raw": 91179900,
+      "new_x2_raw": 125408500,
+      "new_y2_raw": 91179100,
+      "width_raw": 41000,
+      "layer_id": 32,
+      "expected_track_count": 9685
+    },
+    "center_to_segment_mil": 6.082762530298219,
+    "positive_overlap_mil": 3.9672374697017814
+  },
+  "target_terminal_proofs": [
+    {
+      "net": "GND",
+      "preserved": [
+        [
+          "pad",
+          "J5",
+          "84"
+        ],
+        [
+          "via",
+          "GND",
+          130770800,
+          84986800
+        ]
+      ],
+      "after": [
+        [
+          "pad",
+          "J5",
+          "84"
+        ],
+        [
+          "via",
+          "GND",
+          130770800,
+          84986800
+        ]
+      ],
+      "missing": []
+    },
+    {
+      "net": "SAI1_RXD4",
+      "preserved": [
+        [
+          "via",
+          "SAI1_RXD4",
+          125281700,
+          90984100
+        ],
+        [
+          "pad",
+          "J5",
+          "88"
+        ],
+        [
+          "pad",
+          "U1",
+          "AG18"
+        ],
+        [
+          "via",
+          "SAI1_RXD4",
+          131083500,
+          85094100
+        ],
+        [
+          "via",
+          "SAI1_RXD4",
+          129313500,
+          89544100
+        ],
+        [
+          "via",
+          "SAI1_RXD4",
+          125753500,
+          90344100
+        ]
+      ],
+      "after": [
+        [
+          "via",
+          "SAI1_RXD4",
+          125281700,
+          90984100
+        ],
+        [
+          "pad",
+          "J5",
+          "88"
+        ],
+        [
+          "pad",
+          "U1",
+          "AG18"
+        ],
+        [
+          "via",
+          "SAI1_RXD4",
+          131083500,
+          85094100
+        ],
+        [
+          "via",
+          "SAI1_RXD4",
+          129313500,
+          89544100
+        ],
+        [
+          "via",
+          "SAI1_RXD4",
+          125753500,
+          90344100
+        ]
+      ],
+      "missing": []
+    },
+    {
+      "net": "SAI5_RXFS",
+      "preserved": [
+        [
+          "via",
+          "SAI5_RXFS",
+          125258400,
+          92835400
+        ],
+        [
+          "pad",
+          "U1",
+          "AB15"
+        ],
+        [
+          "via",
+          "SAI5_RXFS",
+          129663500,
+          85226800
+        ],
+        [
+          "pad",
+          "J5",
+          "70"
+        ]
+      ],
+      "after": [
+        [
+          "via",
+          "SAI5_RXFS",
+          125258400,
+          92835400
+        ],
+        [
+          "pad",
+          "U1",
+          "AB15"
+        ],
+        [
+          "via",
+          "SAI5_RXFS",
+          129663500,
+          85226800
+        ],
+        [
+          "pad",
+          "J5",
+          "70"
+        ]
+      ],
+      "missing": []
+    }
+  ],
+  "rxd3_terminals": [
+    [
+      "pad",
+      "U1",
+      "AF17"
+    ],
+    [
+      "via",
+      "SAI1_RXD3",
+      125347700,
+      91169900
+    ],
+    [
+      "via",
+      "SAI1_RXD3",
+      130928300,
+      85226800
+    ],
+    [
+      "via",
+      "SAI1_RXD3",
+      131338500,
+      88214100
+    ],
+    [
+      "pad",
+      "J5",
+      "86"
+    ]
+  ],
+  "raw_track_checks": [
+    [
+      [
+        5.25,
+        "via",
+        "993",
+        "SAI1_RXD3",
+        74
+      ],
+      [
+        9.25,
+        "pad",
+        "J5-82",
+        "SAI1_RXD2",
+        32
+      ],
+      [
+        9.25,
+        "pad",
+        "J5-86",
+        "SAI1_RXD3",
+        32
+      ]
+    ],
+    [
+      [
+        4.349240122673331,
+        "via",
+        "140",
+        "SAI1_TXD1",
+        74
+      ],
+      [
+        6.9,
+        "via",
+        "177",
+        "SAI2_RXC",
+        74
+      ],
+      [
+        13.3,
+        "track",
+        "4394",
+        "SAI2_RXC",
+        3
+      ]
+    ],
+    [
+      [
+        3.2798291914140165,
+        "via",
+        "177",
+        "SAI2_RXC",
+        74
+      ],
+      [
+        9.679829191414017,
+        "track",
+        "4394",
+        "SAI2_RXC",
+        3
+      ],
+      [
+        26.799999999999997,
+        "track",
+        "4115",
+        "SAI1_RXFS",
+        3
+      ]
+    ],
+    [
+      [
+        3.2798291914140165,
+        "via",
+        "177",
+        "SAI2_RXC",
+        74
+      ],
+      [
+        9.679829191414017,
+        "track",
+        "4394",
+        "SAI2_RXC",
+        3
+      ],
+      [
+        31.799999999999997,
+        "track",
+        "9715",
+        "SAI1_RXD3",
+        3
+      ]
+    ],
+    [
+      [
+        5.919999999999982,
+        "via",
+        "993",
+        "SAI1_RXD3",
+        74
+      ],
+      [
+        6.3800000000000185,
+        "via",
+        "139",
+        "SAI1_RXD5",
+        74
+      ],
+      [
+        9.70348790056394,
+        "track",
+        "9716",
+        "SAI1_RXD3",
+        3
+      ]
+    ],
+    [
+      [
+        3.3065874653217104,
+        "via",
+        "31",
+        "SAI1_RXD0",
+        74
+      ],
+      [
+        20.99236015739874,
+        "via",
+        "135",
+        "SAI1_RXD1",
+        74
+      ],
+      [
+        22.760732377373706,
+        "via",
+        "15",
+        "SAI1_RXFS",
+        74
+      ]
+    ],
+    [
+      [
+        3.177797149743805,
+        "via",
+        "993",
+        "SAI1_RXD3",
+        74
+      ],
+      [
+        5.4,
+        "via",
+        "31",
+        "SAI1_RXD0",
+        74
+      ],
+      [
+        17.4,
+        "via",
+        "135",
+        "SAI1_RXD1",
+        74
+      ]
+    ],
+    [
+      [
+        3.177797149743805,
+        "via",
+        "993",
+        "SAI1_RXD3",
+        74
+      ],
+      [
+        22.571120589746386,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        24.897562171832607,
+        "track",
+        "48",
+        "ENET_TD2",
+        2
+      ]
+    ],
+    [
+      [
+        3.1561788949512586,
+        "via",
+        "993",
+        "SAI1_RXD3",
+        74
+      ],
+      [
+        21.63870996056015,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        24.48387617368636,
+        "track",
+        "48",
+        "ENET_TD2",
+        2
+      ]
+    ],
+    [
+      [
+        3.1561788949512586,
+        "via",
+        "993",
+        "SAI1_RXD3",
+        74
+      ],
+      [
+        21.63870996056015,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        24.36608423407287,
+        "track",
+        "48",
+        "ENET_TD2",
+        2
+      ]
+    ],
+    [
+      [
+        3.099999999999989,
+        "via",
+        "993",
+        "SAI1_RXD3",
+        74
+      ],
+      [
+        7.661115259449518,
+        "via",
+        "139",
+        "SAI1_RXD5",
+        74
+      ],
+      [
+        16.369999999999997,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ]
+    ],
+    [
+      [
+        5.590329160357292,
+        "via",
+        "139",
+        "SAI1_RXD5",
+        74
+      ],
+      [
+        12.457336647927317,
+        "via",
+        "993",
+        "SAI1_RXD3",
+        74
+      ],
+      [
+        13.767177835588097,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ]
+    ],
+    [
+      [
+        13.210103181198459,
+        "via",
+        "17",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        24.86999999999996,
+        "track",
+        "6313",
+        "VDDA_1V8",
+        32
+      ],
+      [
+        28.68401871576773,
+        "track",
+        "6260",
+        "VDDA_1V8",
+        32
+      ]
+    ],
+    [
+      [
+        12.704696218583063,
+        "via",
+        "17",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        18.07741699796952,
+        "track",
+        "6260",
+        "VDDA_1V8",
+        32
+      ],
+      [
+        20.148178070456936,
+        "track",
+        "7058",
+        "VDDA_1V8",
+        32
+      ]
+    ],
+    [
+      [
+        3.755700000000002,
+        "track",
+        "6254",
+        "VDDA_1V8",
+        32
+      ],
+      [
+        3.755700000000002,
+        "track",
+        "6255",
+        "VDDA_1V8",
+        32
+      ],
+      [
+        3.755700000000002,
+        "track",
+        "6260",
+        "VDDA_1V8",
+        32
+      ]
+    ],
+    [
+      [
+        4.38528137423857,
+        "track",
+        "6319",
+        "SAI1_RXD5",
+        32
+      ],
+      [
+        23.830717856868628,
+        "track",
+        "6868",
+        "SAI3_MCLK",
+        32
+      ],
+      [
+        40.45,
+        "via",
+        "11",
+        "SAI1_RXD4",
+        74
+      ]
+    ],
+    [
+      [
+        4.38528137423857,
+        "track",
+        "6319",
+        "SAI1_RXD5",
+        32
+      ],
+      [
+        19.149583373055126,
+        "via",
+        "96",
+        "UART1_TXD",
+        74
+      ],
+      [
+        19.45,
+        "via",
+        "357",
+        "SAI1_TXC",
+        74
+      ]
+    ],
+    [
+      [
+        4.280125610056572,
+        "via",
+        "289",
+        "SAI1_RXD2",
+        74
+      ],
+      [
+        10.230125610056572,
+        "track",
+        "6994",
+        "SAI1_RXD2",
+        32
+      ],
+      [
+        19.149583373055126,
+        "via",
+        "96",
+        "UART1_TXD",
+        74
+      ]
+    ],
+    [
+      [
+        4.280125610056572,
+        "via",
+        "289",
+        "SAI1_RXD2",
+        74
+      ],
+      [
+        10.230125610056572,
+        "track",
+        "6994",
+        "SAI1_RXD2",
+        32
+      ],
+      [
+        13.060000000000024,
+        "track",
+        "6629",
+        "UART1_TXD",
+        32
+      ]
+    ],
+    [
+      [
+        3.8154246238620466,
+        "via",
+        "359",
+        "SAI1_TXFS",
+        74
+      ],
+      [
+        13.060000000000024,
+        "track",
+        "6629",
+        "UART1_TXD",
+        32
+      ],
+      [
+        14.272880174847721,
+        "via",
+        "289",
+        "SAI1_RXD2",
+        74
+      ]
+    ],
+    [
+      [
+        3.8154246238620466,
+        "via",
+        "359",
+        "SAI1_TXFS",
+        74
+      ],
+      [
+        12.060000000000024,
+        "track",
+        "6629",
+        "UART1_TXD",
+        32
+      ],
+      [
+        19.16010000000002,
+        "track",
+        "6625",
+        "UART1_CTS",
+        32
+      ]
+    ],
+    [
+      [
+        3.7793166859393317,
+        "via",
+        "359",
+        "SAI1_TXFS",
+        74
+      ],
+      [
+        12.060000000000024,
+        "track",
+        "6629",
+        "UART1_TXD",
+        32
+      ],
+      [
+        19.16010000000002,
+        "track",
+        "6625",
+        "UART1_CTS",
+        32
+      ]
+    ],
+    [
+      [
+        3.7793166859393317,
+        "via",
+        "359",
+        "SAI1_TXFS",
+        74
+      ],
+      [
+        11.560000000000024,
+        "track",
+        "6629",
+        "UART1_TXD",
+        32
+      ],
+      [
+        18.66010000000002,
+        "track",
+        "6625",
+        "UART1_CTS",
+        32
+      ]
+    ],
+    [
+      [
+        3.7896272236645814,
+        "via",
+        "330",
+        "PDM_DATA2",
+        74
+      ],
+      [
+        3.9499999999999993,
+        "via",
+        "359",
+        "SAI1_TXFS",
+        74
+      ],
+      [
+        11.560000000000024,
+        "track",
+        "6629",
+        "UART1_TXD",
+        32
+      ]
+    ],
+    [
+      [
+        3.7896272236645814,
+        "via",
+        "330",
+        "PDM_DATA2",
+        74
+      ],
+      [
+        11.560000000000024,
+        "track",
+        "6629",
+        "UART1_TXD",
+        32
+      ],
+      [
+        18.66010000000002,
+        "track",
+        "6625",
+        "UART1_CTS",
+        32
+      ]
+    ],
+    [
+      [
+        5.920000000000027,
+        "via",
+        "330",
+        "PDM_DATA2",
+        74
+      ],
+      [
+        6.949999999999999,
+        "via",
+        "13",
+        "SAI1_RXFS",
+        74
+      ],
+      [
+        25.560000000000024,
+        "track",
+        "6629",
+        "UART1_TXD",
+        32
+      ]
+    ],
+    [
+      [
+        9.141664813991312,
+        "via",
+        "178",
+        "SAI2_RXC",
+        74
+      ],
+      [
+        15.290410355998535,
+        "via",
+        "281",
+        "SD1_CLK",
+        74
+      ],
+      [
+        15.541664813991312,
+        "track",
+        "4395",
+        "SAI2_RXC",
+        3
+      ]
+    ],
+    [
+      [
+        3.4000000000000004,
+        "via",
+        "178",
+        "SAI2_RXC",
+        74
+      ],
+      [
+        9.8,
+        "track",
+        "4395",
+        "SAI2_RXC",
+        3
+      ],
+      [
+        15.290410355998535,
+        "via",
+        "281",
+        "SD1_CLK",
+        74
+      ]
+    ],
+    [
+      [
+        3.4000000000000004,
+        "via",
+        "178",
+        "SAI2_RXC",
+        74
+      ],
+      [
+        7.769999999999891,
+        "via",
+        "60",
+        "SD1_DATA3",
+        74
+      ],
+      [
+        9.8,
+        "track",
+        "4394",
+        "SAI2_RXC",
+        3
+      ]
+    ],
+    [
+      [
+        3.163961030678928,
+        "track",
+        "4394",
+        "SAI2_RXC",
+        3
+      ],
+      [
+        19.9,
+        "via",
+        "58",
+        "SAI1_TXD7",
+        74
+      ],
+      [
+        22.42999999999997,
+        "via",
+        "342",
+        "SAI1_TXD6",
+        74
+      ]
+    ],
+    [
+      [
+        3.163961030678928,
+        "track",
+        "4394",
+        "SAI2_RXC",
+        3
+      ],
+      [
+        3.600000000000046,
+        "via",
+        "125",
+        "SAI1_RXD7",
+        74
+      ],
+      [
+        5.9,
+        "via",
+        "58",
+        "SAI1_TXD7",
+        74
+      ]
+    ],
+    [
+      [
+        3.3034879005639404,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        9.70348790056394,
+        "track",
+        "9689",
+        "SAI1_RXD4",
+        3
+      ],
+      [
+        11.170000000000009,
+        "via",
+        "139",
+        "SAI1_RXD5",
+        74
+      ]
+    ],
+    [
+      [
+        3.3034879005639404,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        9.70348790056394,
+        "track",
+        "9689",
+        "SAI1_RXD4",
+        3
+      ],
+      [
+        11.880765815026255,
+        "via",
+        "139",
+        "SAI1_RXD5",
+        74
+      ]
+    ],
+    [
+      [
+        4.056500283747663,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        10.456500283747664,
+        "track",
+        "9689",
+        "SAI1_RXD4",
+        3
+      ],
+      [
+        16.746219842702306,
+        "via",
+        "139",
+        "SAI1_RXD5",
+        74
+      ]
+    ],
+    [
+      [
+        4.056500283747663,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        10.456500283747664,
+        "track",
+        "9689",
+        "SAI1_RXD4",
+        3
+      ],
+      [
+        18.219476990051426,
+        "via",
+        "139",
+        "SAI1_RXD5",
+        74
+      ]
+    ],
+    [
+      [
+        3.9000000000000004,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        6.411427169368741,
+        "via",
+        "524",
+        "GND",
+        74
+      ],
+      [
+        10.3,
+        "track",
+        "9689",
+        "SAI1_RXD4",
+        3
+      ]
+    ],
+    [
+      [
+        5.9,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        6.169999999999982,
+        "via",
+        "524",
+        "GND",
+        74
+      ],
+      [
+        12.3,
+        "track",
+        "9689",
+        "SAI1_RXD4",
+        3
+      ]
+    ],
+    [
+      [
+        10.817494949185114,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        12.3,
+        "track",
+        "9689",
+        "SAI1_RXD4",
+        3
+      ],
+      [
+        19.134183475435638,
+        "via",
+        "524",
+        "GND",
+        74
+      ]
+    ],
+    [
+      [
+        10.817494949185114,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        12.3,
+        "track",
+        "9689",
+        "SAI1_RXD4",
+        3
+      ],
+      [
+        19.106488813506953,
+        "via",
+        "524",
+        "GND",
+        74
+      ]
+    ]
+  ],
+  "raw_via_checks": [
+    {
+      "via": {
+        "net": "SAI1_RXD3",
+        "x_raw": 130928300,
+        "y_raw": 85226800,
+        "size_raw": 160000,
+        "hole_size_raw": 80000,
+        "expected_via_count": 993,
+        "minimum_clearance_mil": 3.0999999999999885,
+        "hole_gap_mil": 12.419679233523716
+      },
+      "minimum": 3.0999999999999885,
+      "hole_gap": 12.419679233523716
+    },
+    {
+      "via": {
+        "net": "SAI1_RXD3",
+        "x_raw": 131338500,
+        "y_raw": 88214100,
+        "size_raw": 160000,
+        "hole_size_raw": 80000,
+        "expected_via_count": 993,
+        "minimum_clearance_mil": 3.95,
+        "hole_gap_mil": 59.63091896462737
+      },
+      "minimum": 3.95,
+      "hole_gap": 59.63091896462737
+    }
+  ],
+  "minimum_track_clearance": 3.099999999999989,
+  "minimum_via_clearance": 3.0999999999999885,
+  "minimum_hole_gap": 12.419679233523716,
+  "actual_board_edge": {
+    "track_min": 204.86999999999935,
+    "via_min": 225.23999999999936
+  },
+  "native_width_proofs": {
+    "width442-Top-native.tsv": [
+      {
+        "net": "SAI1_RXD3",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L1_min_width_raw": "41000",
+        "L1_favored_width_raw": "41000",
+        "L1_max_width_raw": "41000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      },
+      {
+        "net": "SAI1_RXD4",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L1_min_width_raw": "41000",
+        "L1_favored_width_raw": "41000",
+        "L1_max_width_raw": "41000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      },
+      {
+        "net": "SAI5_RXFS",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L1_min_width_raw": "41000",
+        "L1_favored_width_raw": "41000",
+        "L1_max_width_raw": "41000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      }
+    ],
+    "width351-native.tsv": [
+      {
+        "net": "SAI1_RXD3",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L2_min_width_raw": "32000",
+        "L2_favored_width_raw": "100000",
+        "L2_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      },
+      {
+        "net": "SAI1_RXD4",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L2_min_width_raw": "32000",
+        "L2_favored_width_raw": "100000",
+        "L2_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      },
+      {
+        "net": "SAI5_RXFS",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L2_min_width_raw": "32000",
+        "L2_favored_width_raw": "100000",
+        "L2_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      }
+    ],
+    "width337-native.tsv": [
+      {
+        "net": "SAI1_RXD3",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L4_min_width_raw": "32000",
+        "L4_favored_width_raw": "100000",
+        "L4_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      },
+      {
+        "net": "SAI1_RXD4",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L4_min_width_raw": "32000",
+        "L4_favored_width_raw": "100000",
+        "L4_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      },
+      {
+        "net": "SAI5_RXFS",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L4_min_width_raw": "32000",
+        "L4_favored_width_raw": "100000",
+        "L4_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      }
+    ],
+    "width229-native.tsv": [
+      {
+        "net": "SAI1_RXD3",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L6_min_width_raw": "32000",
+        "L6_favored_width_raw": "100000",
+        "L6_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      },
+      {
+        "net": "SAI1_RXD4",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L6_min_width_raw": "32000",
+        "L6_favored_width_raw": "100000",
+        "L6_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      },
+      {
+        "net": "SAI5_RXFS",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L6_min_width_raw": "32000",
+        "L6_favored_width_raw": "100000",
+        "L6_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      }
+    ],
+    "width366-L5-native.tsv": [
+      {
+        "net": "SAI1_RXD3",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L5_min_width_raw": "32000",
+        "L5_favored_width_raw": "100000",
+        "L5_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      },
+      {
+        "net": "SAI1_RXD4",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L5_min_width_raw": "32000",
+        "L5_favored_width_raw": "100000",
+        "L5_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      },
+      {
+        "net": "SAI5_RXFS",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L5_min_width_raw": "32000",
+        "L5_favored_width_raw": "100000",
+        "L5_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      }
+    ],
+    "width366-L7-native.tsv": [
+      {
+        "net": "SAI1_RXD3",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L7_min_width_raw": "32000",
+        "L7_favored_width_raw": "100000",
+        "L7_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      },
+      {
+        "net": "SAI1_RXD4",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L7_min_width_raw": "32000",
+        "L7_favored_width_raw": "100000",
+        "L7_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      },
+      {
+        "net": "SAI5_RXFS",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L7_min_width_raw": "32000",
+        "L7_favored_width_raw": "100000",
+        "L7_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      }
+    ]
+  },
+  "expected_after": [
+    9724,
+    995
+  ],
+  "limits": [
+    "No source-side deletion request: native Push must preserve all source neighbors and create actual connected16/8via977.42,828.58.",
+    "Rebase all guards and exact full-path geometry on fresh source Push inventory before insertion.",
+    "Target J5-86 via center lies in own SMD pad; filled/capped fabrication approval pending.",
+    "RXD3 maintrunk uses designated signal layers. SAI5_RXFS targetkeeper retains L2 cleanup debt.",
+    "Ground spur narrows10mil to5mil over24mil under unchanged POWER rule; return/current review pending.",
+    "Native repour and all-net preservation remain required; coupling/timing/impedance unfinished.",
+    "Actual637sourcevia positively overlaps frozen Bottom start by 3.9672374697017814mil; no extra source lead is needed.",
+    "Native repour/all-net reconciliation still required."
+  ]
+}

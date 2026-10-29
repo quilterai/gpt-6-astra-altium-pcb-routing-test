@@ -1,0 +1,22 @@
+# Preserve the bytes of saved Altium files and historical evidence.
+* -text
+*.md text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+CITATION.cff text eol=lf
+LICENSE text eol=lf
+LICENSES/*.txt text eol=lf
+astra-run/scripts/*.py text eol=lf
+astra-run/recording/*.py text eol=lf
+astra-run/quickstart/*.ps1 text eol=crlf
+astra-run/quickstart/*.psd1 text eol=crlf
+astra-run/quickstart/*.json text eol=lf
+astra-run/quickstart/*.toml text eol=lf
+astra-run/quickstart/uv.lock text eol=lf
+astra-output/** -text
+
+# Track files at least 10 MiB in LFS; smaller files use ordinary Git blobs.
+astra-output/IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc filter=lfs diff=lfs merge=lfs -text
+astra-output/QCMISOM.PcbLib filter=lfs diff=lfs merge=lfs -text
+astra-output/evidence/pre-drc-checkpoint113.PcbDoc filter=lfs diff=lfs merge=lfs -text
+speedrun-input/QCMISOM.PcbLib filter=lfs diff=lfs merge=lfs -text

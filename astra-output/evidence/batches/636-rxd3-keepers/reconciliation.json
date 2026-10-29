@@ -1,0 +1,168 @@
+{
+  "request_compliant": true,
+  "failures": [],
+  "expected_track_count": 9681,
+  "actual_track_count": 9681,
+  "unexpected_track_changes": {
+    "added_count": 0,
+    "removed_count": 0,
+    "added": [],
+    "removed": []
+  },
+  "nontrack_changes": {
+    "pads": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    },
+    "vias": {
+      "added_count": 1,
+      "removed_count": 0,
+      "added": [
+        {
+          "record": {
+            "high_layer_id": "32",
+            "hole_size_raw": "80000",
+            "low_layer_id": "1",
+            "net": "GPIO1_IO05",
+            "size_raw": "160000",
+            "x_raw": "127988500",
+            "y_raw": "86079100"
+          },
+          "count": 1
+        }
+      ],
+      "removed": []
+    },
+    "rules": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    },
+    "net_assignments": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    }
+  },
+  "immutable_board_changes": {},
+  "changed_nets": [
+    {
+      "net": "GPIO1_IO05",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    },
+    {
+      "net": "GPIO1_IO06",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    },
+    {
+      "net": "GPIO1_IO07",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    },
+    {
+      "net": "PDM_DATA2",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    }
+  ],
+  "ordinary_comparator_regressions": [
+    "Baseline tracks removed or modified"
+  ],
+  "unexpected_via_changes": {
+    "added_count": 0,
+    "removed_count": 0,
+    "added": [],
+    "removed": []
+  },
+  "accepted_run_added_track_edits": [],
+  "accepted_run_added_track_deletions": [
+    {
+      "net": "GPIO1_IO07",
+      "x1_raw": "124743500",
+      "y1_raw": "91764100",
+      "x2_raw": "128413500",
+      "y2_raw": "88094100",
+      "width_raw": "32000",
+      "layer_id": "5",
+      "expected_track_count": "9638"
+    },
+    {
+      "net": "GPIO1_IO06",
+      "x1_raw": "124737790",
+      "y1_raw": "91760000",
+      "x2_raw": "128723600",
+      "y2_raw": "87774190",
+      "width_raw": "32000",
+      "layer_id": "3",
+      "expected_track_count": "9638"
+    },
+    {
+      "net": "GPIO1_IO05",
+      "x1_raw": "124576700",
+      "y1_raw": "92010900",
+      "x2_raw": "128793500",
+      "y2_raw": "87794100",
+      "width_raw": "32000",
+      "layer_id": "3",
+      "expected_track_count": "9638"
+    },
+    {
+      "net": "PDM_DATA2",
+      "x1_raw": "125407700",
+      "y1_raw": "90138146",
+      "x2_raw": "125407700",
+      "y2_raw": "91983400",
+      "width_raw": "32000",
+      "layer_id": "7",
+      "expected_track_count": "9638"
+    },
+    {
+      "net": "GPIO1_IO05",
+      "x1_raw": "128793500",
+      "y1_raw": "85471800",
+      "x2_raw": "129038500",
+      "y2_raw": "85226800",
+      "width_raw": "32000",
+      "layer_id": "3",
+      "expected_track_count": "9638"
+    },
+    {
+      "net": "GPIO1_IO05",
+      "x1_raw": "128793500",
+      "y1_raw": "85471800",
+      "x2_raw": "128793500",
+      "y2_raw": "87794100",
+      "width_raw": "32000",
+      "layer_id": "3",
+      "expected_track_count": "9638"
+    },
+    {
+      "net": "GPIO1_IO05",
+      "x1_raw": "124488700",
+      "y1_raw": "92010900",
+      "x2_raw": "124576700",
+      "y2_raw": "92010900",
+      "width_raw": "32000",
+      "layer_id": "3",
+      "expected_track_count": "9638"
+    }
+  ]
+}

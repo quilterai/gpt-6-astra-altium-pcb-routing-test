@@ -1,0 +1,31 @@
+**/__pycache__/
+**/.pytest_cache/
+**/.venv/
+**/node_modules/
+.env
+.env.*
+*.local.*
+
+/astra-run/.tools/
+/astra-run/.runtime/
+/astra-run/runs/
+/astra-run/work/
+/astra-run/trials/
+/astra-run/results/
+/astra-run/scripts/Managed/
+
+# Altium generates these beside project documents.
+**/History/
+**/__Previews/
+**/Project Logs*/
+*.PcbDocPreview
+*.SchDocPreview
+*.PrjPCBStructure
+*.Lck
+*.lck
+*.bak
+
+/speedrun-input/Project Outputs*/
+/astra-output/Project Outputs*/
+!/astra-output/Project Outputs for QCMI_SOM8MM/
+!/astra-output/Project Outputs for QCMI_SOM8MM/*.html

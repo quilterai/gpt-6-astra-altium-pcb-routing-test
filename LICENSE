@@ -1,0 +1,42 @@
+Copyright 2026 Allegro Labs, Inc., doing business as Quilter.
+
+This repository uses three licenses. Each license applies to the materials
+described below, regardless of whether Git stores a file directly or through
+Git LFS.
+
+1. Documentation and validation evidence: CC BY 4.0
+
+   The prompt, reports, Markdown documentation, citation metadata, manifests,
+   and exported validation evidence use the Creative Commons Attribution 4.0
+   International license (SPDX: CC-BY-4.0).
+
+   This includes documentation and evidence under astra-run/ and astra-output/.
+   Source code and design files in those folders use the licenses described
+   below.
+
+   Full license text: LICENSES/CC-BY-4.0.txt
+   https://creativecommons.org/licenses/by/4.0/
+
+2. Source code and software configuration: MIT
+
+   Source scripts, tests, and their software project and dependency
+   configuration use the MIT License (SPDX: MIT). This includes the code in
+   astra-run/scripts/, astra-run/quickstart/, astra-run/recording/, and archived
+   helper or audit source files under astra-output/.
+
+   Full license text: LICENSES/MIT.txt
+
+3. Altium designs and engineering references: CC BY-NC 4.0
+
+   The Altium project, PCB, schematic, library, variant, and output-job files
+   under speedrun-input/ and astra-output/ use the Creative Commons
+   Attribution-NonCommercial 4.0 International license (SPDX: CC-BY-NC-4.0).
+   The supplied engineering reference spreadsheets and CSV files beside the
+   project files use this license as well. Saved PCB checkpoints under
+   astra-output/evidence/ are also design files covered by this license.
+
+   Full license text: LICENSES/CC-BY-NC-4.0.txt
+   https://creativecommons.org/licenses/by-nc/4.0/
+
+Existing third-party copyright and license notices continue to apply to the
+materials they cover.

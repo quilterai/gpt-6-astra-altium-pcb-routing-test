@@ -1,0 +1,715 @@
+{
+  "baseline_board": {
+    "board_file": "recorded-workspace\\projects\\work\\full-routing-2026-09-30\\QCMI_SOM8MM\\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc",
+    "coordinate_units": "Altium internal units",
+    "internal_units_per_mil": "10000",
+    "x_origin_raw": "115633500",
+    "y_origin_raw": "82894100",
+    "net_count": "321",
+    "pad_count": "1593",
+    "track_segment_count": "9689",
+    "via_count": "993",
+    "connection_object_count": "21",
+    "nonredundant_ratsnest_connections": "21",
+    "redundant_connection_objects": "0",
+    "connectivity_invalid_nets": "271",
+    "rule_count": "78"
+  },
+  "current_board": {
+    "board_file": "recorded-workspace\\projects\\work\\full-routing-2026-09-30\\QCMI_SOM8MM\\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc",
+    "coordinate_units": "Altium internal units",
+    "internal_units_per_mil": "10000",
+    "x_origin_raw": "115633500",
+    "y_origin_raw": "82894100",
+    "net_count": "321",
+    "pad_count": "1593",
+    "track_segment_count": "9724",
+    "via_count": "995",
+    "connection_object_count": "20",
+    "nonredundant_ratsnest_connections": "20",
+    "redundant_connection_objects": "0",
+    "connectivity_invalid_nets": "271",
+    "rule_count": "78"
+  },
+  "baseline_counts": {
+    "net_count": 321,
+    "pad_count": 1593,
+    "track_segment_count": 9689,
+    "via_count": 993,
+    "rule_count": 78,
+    "connection_object_count": 21,
+    "nonredundant_ratsnest_connections": 21,
+    "redundant_connection_objects": 0,
+    "connectivity_invalid_nets": 271
+  },
+  "current_counts": {
+    "net_count": 321,
+    "pad_count": 1593,
+    "track_segment_count": 9724,
+    "via_count": 995,
+    "rule_count": 78,
+    "connection_object_count": 20,
+    "nonredundant_ratsnest_connections": 20,
+    "redundant_connection_objects": 0,
+    "connectivity_invalid_nets": 271
+  },
+  "remaining_reduction": 1,
+  "newly_complete_nets": 1,
+  "changed_nets": [
+    {
+      "net": "GND",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    },
+    {
+      "net": "SAI1_RXD3",
+      "baseline_remaining": 1,
+      "current_remaining": 0,
+      "reduction": 1,
+      "newly_complete": true,
+      "geometry_changed": true
+    },
+    {
+      "net": "SAI1_RXD4",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    },
+    {
+      "net": "SAI5_RXFS",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    }
+  ],
+  "unexpected_nets": [],
+  "immutable_board_changes": {},
+  "changes": {
+    "pads": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    },
+    "rules": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    },
+    "tracks": {
+      "added_count": 39,
+      "removed_count": 4,
+      "added": [
+        {
+          "record": {
+            "layer": "Bottom Layer",
+            "layer_id": "32",
+            "net": "GND",
+            "width_raw": "50000",
+            "x1_raw": "130770800",
+            "x2_raw": "130770800",
+            "y1_raw": "84986800",
+            "y2_raw": "85226800"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Bottom Layer",
+            "layer_id": "32",
+            "net": "SAI1_RXD3",
+            "width_raw": "41000",
+            "x1_raw": "125407700",
+            "x2_raw": "125408500",
+            "y1_raw": "91179900",
+            "y2_raw": "91179100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Bottom Layer",
+            "layer_id": "32",
+            "net": "SAI1_RXD3",
+            "width_raw": "41000",
+            "x1_raw": "125408500",
+            "x2_raw": "125483500",
+            "y1_raw": "91179100",
+            "y2_raw": "91104100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Bottom Layer",
+            "layer_id": "32",
+            "net": "SAI1_RXD3",
+            "width_raw": "41000",
+            "x1_raw": "125483500",
+            "x2_raw": "125483500",
+            "y1_raw": "89839100",
+            "y2_raw": "91104100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Bottom Layer",
+            "layer_id": "32",
+            "net": "SAI1_RXD3",
+            "width_raw": "41000",
+            "x1_raw": "125483500",
+            "x2_raw": "127298500",
+            "y1_raw": "89839100",
+            "y2_raw": "89839100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Bottom Layer",
+            "layer_id": "32",
+            "net": "SAI1_RXD3",
+            "width_raw": "41000",
+            "x1_raw": "127298500",
+            "x2_raw": "127298500",
+            "y1_raw": "88214100",
+            "y2_raw": "89839100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Bottom Layer",
+            "layer_id": "32",
+            "net": "SAI1_RXD3",
+            "width_raw": "41000",
+            "x1_raw": "127298500",
+            "x2_raw": "127888500",
+            "y1_raw": "88214100",
+            "y2_raw": "88214100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Bottom Layer",
+            "layer_id": "32",
+            "net": "SAI1_RXD3",
+            "width_raw": "41000",
+            "x1_raw": "127888500",
+            "x2_raw": "128013500",
+            "y1_raw": "88214100",
+            "y2_raw": "88089100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Bottom Layer",
+            "layer_id": "32",
+            "net": "SAI1_RXD3",
+            "width_raw": "41000",
+            "x1_raw": "128013500",
+            "x2_raw": "129213500",
+            "y1_raw": "88089100",
+            "y2_raw": "88089100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Bottom Layer",
+            "layer_id": "32",
+            "net": "SAI1_RXD3",
+            "width_raw": "41000",
+            "x1_raw": "129213500",
+            "x2_raw": "129223500",
+            "y1_raw": "88089100",
+            "y2_raw": "88079100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Bottom Layer",
+            "layer_id": "32",
+            "net": "SAI1_RXD3",
+            "width_raw": "41000",
+            "x1_raw": "129223500",
+            "x2_raw": "129243500",
+            "y1_raw": "88079100",
+            "y2_raw": "88079100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Bottom Layer",
+            "layer_id": "32",
+            "net": "SAI1_RXD3",
+            "width_raw": "41000",
+            "x1_raw": "129243500",
+            "x2_raw": "129248500",
+            "y1_raw": "88079100",
+            "y2_raw": "88074100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Bottom Layer",
+            "layer_id": "32",
+            "net": "SAI1_RXD3",
+            "width_raw": "41000",
+            "x1_raw": "129248500",
+            "x2_raw": "129868500",
+            "y1_raw": "88074100",
+            "y2_raw": "88074100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Bottom Layer",
+            "layer_id": "32",
+            "net": "SAI1_RXD3",
+            "width_raw": "41000",
+            "x1_raw": "129868500",
+            "x2_raw": "129868500",
+            "y1_raw": "88074100",
+            "y2_raw": "88214100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Bottom Layer",
+            "layer_id": "32",
+            "net": "SAI1_RXD3",
+            "width_raw": "41000",
+            "x1_raw": "129868500",
+            "x2_raw": "131338500",
+            "y1_raw": "88214100",
+            "y2_raw": "88214100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 1",
+            "layer_id": "2",
+            "net": "SAI5_RXFS",
+            "width_raw": "32000",
+            "x1_raw": "130275400",
+            "x2_raw": "130298400",
+            "y1_raw": "85323800",
+            "y2_raw": "85346800"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 1",
+            "layer_id": "2",
+            "net": "SAI5_RXFS",
+            "width_raw": "32000",
+            "x1_raw": "130298400",
+            "x2_raw": "130884400",
+            "y1_raw": "85346800",
+            "y2_raw": "85346800"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 1",
+            "layer_id": "2",
+            "net": "SAI5_RXFS",
+            "width_raw": "32000",
+            "x1_raw": "130884400",
+            "x2_raw": "130890400",
+            "y1_raw": "85346800",
+            "y2_raw": "85352800"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 1",
+            "layer_id": "2",
+            "net": "SAI5_RXFS",
+            "width_raw": "32000",
+            "x1_raw": "130890400",
+            "x2_raw": "130908400",
+            "y1_raw": "85352800",
+            "y2_raw": "85352800"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 1",
+            "layer_id": "2",
+            "net": "SAI5_RXFS",
+            "width_raw": "32000",
+            "x1_raw": "130908400",
+            "x2_raw": "130909400",
+            "y1_raw": "85352800",
+            "y2_raw": "85353800"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 1",
+            "layer_id": "2",
+            "net": "SAI5_RXFS",
+            "width_raw": "32000",
+            "x1_raw": "130909400",
+            "x2_raw": "131126400",
+            "y1_raw": "85353800",
+            "y2_raw": "85353800"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 1",
+            "layer_id": "2",
+            "net": "SAI5_RXFS",
+            "width_raw": "32000",
+            "x1_raw": "131126400",
+            "x2_raw": "131126400",
+            "y1_raw": "85323800",
+            "y2_raw": "85353800"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD3",
+            "width_raw": "32000",
+            "x1_raw": "130928300",
+            "x2_raw": "130928500",
+            "y1_raw": "85226800",
+            "y2_raw": "85227000"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD3",
+            "width_raw": "32000",
+            "x1_raw": "130928500",
+            "x2_raw": "130928500",
+            "y1_raw": "84959100",
+            "y2_raw": "85229100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD3",
+            "width_raw": "32000",
+            "x1_raw": "130928500",
+            "x2_raw": "130928500",
+            "y1_raw": "85227000",
+            "y2_raw": "85229100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD3",
+            "width_raw": "32000",
+            "x1_raw": "130928500",
+            "x2_raw": "131128500",
+            "y1_raw": "84959100",
+            "y2_raw": "84959100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD3",
+            "width_raw": "32000",
+            "x1_raw": "131128500",
+            "x2_raw": "131138500",
+            "y1_raw": "84959100",
+            "y2_raw": "84969100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD3",
+            "width_raw": "32000",
+            "x1_raw": "131138500",
+            "x2_raw": "131188500",
+            "y1_raw": "84969100",
+            "y2_raw": "84969100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD3",
+            "width_raw": "32000",
+            "x1_raw": "131188500",
+            "x2_raw": "131188500",
+            "y1_raw": "84969100",
+            "y2_raw": "85019100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD3",
+            "width_raw": "32000",
+            "x1_raw": "131188500",
+            "x2_raw": "131433500",
+            "y1_raw": "85019100",
+            "y2_raw": "85019100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD3",
+            "width_raw": "32000",
+            "x1_raw": "131338500",
+            "x2_raw": "132148500",
+            "y1_raw": "88214100",
+            "y2_raw": "89024100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD3",
+            "width_raw": "32000",
+            "x1_raw": "131433500",
+            "x2_raw": "131433500",
+            "y1_raw": "85019100",
+            "y2_raw": "86124100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD3",
+            "width_raw": "32000",
+            "x1_raw": "131433500",
+            "x2_raw": "132413500",
+            "y1_raw": "86124100",
+            "y2_raw": "86124100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD3",
+            "width_raw": "32000",
+            "x1_raw": "132148500",
+            "x2_raw": "132413500",
+            "y1_raw": "89024100",
+            "y2_raw": "89024100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD3",
+            "width_raw": "32000",
+            "x1_raw": "132413500",
+            "x2_raw": "132413500",
+            "y1_raw": "86124100",
+            "y2_raw": "89024100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD4",
+            "width_raw": "32000",
+            "x1_raw": "130883500",
+            "x2_raw": "130883500",
+            "y1_raw": "85719100",
+            "y2_raw": "86309100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD4",
+            "width_raw": "32000",
+            "x1_raw": "130883500",
+            "x2_raw": "130981500",
+            "y1_raw": "85719100",
+            "y2_raw": "85719100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD4",
+            "width_raw": "32000",
+            "x1_raw": "130981500",
+            "x2_raw": "131083500",
+            "y1_raw": "85719100",
+            "y2_raw": "85617100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD4",
+            "width_raw": "32000",
+            "x1_raw": "131083500",
+            "x2_raw": "131083500",
+            "y1_raw": "85094100",
+            "y2_raw": "85617100"
+          },
+          "count": 1
+        }
+      ],
+      "removed": [
+        {
+          "record": {
+            "layer": "Bottom Layer",
+            "layer_id": "32",
+            "net": "GND",
+            "width_raw": "100000",
+            "x1_raw": "130770800",
+            "x2_raw": "130770800",
+            "y1_raw": "84986800",
+            "y2_raw": "85226800"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 1",
+            "layer_id": "2",
+            "net": "SAI5_RXFS",
+            "width_raw": "32000",
+            "x1_raw": "130275400",
+            "x2_raw": "131126400",
+            "y1_raw": "85323800",
+            "y2_raw": "85323800"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD4",
+            "width_raw": "32000",
+            "x1_raw": "130883500",
+            "x2_raw": "130883500",
+            "y1_raw": "85294100",
+            "y2_raw": "86309100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "SAI1_RXD4",
+            "width_raw": "32000",
+            "x1_raw": "130883500",
+            "x2_raw": "131083500",
+            "y1_raw": "85294100",
+            "y2_raw": "85094100"
+          },
+          "count": 1
+        }
+      ]
+    },
+    "vias": {
+      "added_count": 2,
+      "removed_count": 0,
+      "added": [
+        {
+          "record": {
+            "high_layer_id": "32",
+            "hole_size_raw": "80000",
+            "low_layer_id": "1",
+            "net": "SAI1_RXD3",
+            "size_raw": "160000",
+            "x_raw": "130928300",
+            "y_raw": "85226800"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "high_layer_id": "32",
+            "hole_size_raw": "80000",
+            "low_layer_id": "1",
+            "net": "SAI1_RXD3",
+            "size_raw": "160000",
+            "x_raw": "131338500",
+            "y_raw": "88214100"
+          },
+          "count": 1
+        }
+      ],
+      "removed": []
+    },
+    "net_assignments": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    }
+  },
+  "regressions": [
+    "Baseline tracks removed or modified"
+  ]
+}

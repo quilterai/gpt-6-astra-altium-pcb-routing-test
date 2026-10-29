@@ -1,0 +1,148 @@
+{
+  "source": "speedrun-input",
+  "working_copy": "astra-run/work/QCMI_SOM8MM",
+  "hash_algorithm": "SHA256",
+  "project_document_count": 18,
+  "files": [
+    {
+      "path": "01-TOP QCMI SOM.SchDoc",
+      "bytes": 46080,
+      "sha256": "7c4f88a61e54df0774b5d5eba137a7ddafbebc5c038e0f3448e9b041e839bd3a"
+    },
+    {
+      "path": "02-CPUPWR QCMI SOM.SchDoc",
+      "bytes": 834048,
+      "sha256": "fa149d209a42f739db38b34b32723c5628377b438716ddde2e2188b7c1eaf1f9"
+    },
+    {
+      "path": "03-CPULPDDR4 QCMI SOM.SchDoc",
+      "bytes": 723456,
+      "sha256": "2ed81dff8a531bcb437c40f8518f1a49b475488ac312bf411e9c037e17f86d45"
+    },
+    {
+      "path": "04-CPUIO QCMI SOM.SchDoc",
+      "bytes": 1599488,
+      "sha256": "b64a0f28d4a5f7a74916dc68c4fdd58934c9087c18d56e1234234721e6f81d18"
+    },
+    {
+      "path": "05-CPUPHY QCMI SOM.SchDoc",
+      "bytes": 1015808,
+      "sha256": "52fd44083dbfc92fa812ea71d4b697d0818964a403d66ea42f70a1a8506c6a57"
+    },
+    {
+      "path": "06-CPUCTL QCMI SOM.SchDoc",
+      "bytes": 361984,
+      "sha256": "906c73d3407964eddf3b2ecf6f4b59b23deb387a14c4dfa26a763ef41306ba25"
+    },
+    {
+      "path": "07-FLASH QCMI SOM.SchDoc",
+      "bytes": 287744,
+      "sha256": "057fa1fe79c94da0fc7658103937c2d84651b6dd35ff18f77b35865dc74529fd"
+    },
+    {
+      "path": "08-BOOTCFG QMCI SOM.SchDoc",
+      "bytes": 120832,
+      "sha256": "11a0e3fc20b472198d3dc68aaf5e0c7c138848d8c8720c81c380d88139fb4c59"
+    },
+    {
+      "path": "09-PMIC QCMI SOM.SchDoc",
+      "bytes": 541696,
+      "sha256": "f7a1c46f82e8ef9e003cf673ed1fe26b8dae1d0b678829dd9667de8e52ada569"
+    },
+    {
+      "path": "10-BBCON QCMI SOM.SchDoc",
+      "bytes": 333824,
+      "sha256": "2948394e21643d9519d79b31c0e4ee89aaa8dd7bbbfff90fcbcabb361c006895"
+    },
+    {
+      "path": "DDR_CLOCK_DELAY_REPORT_imx8_98_7_rev_8_21.XLS",
+      "bytes": 84721,
+      "sha256": "dba3211a923f71ce67f58044b9a13f8547bce6d0d1766543e05a2d8b6f3485f6"
+    },
+    {
+      "path": "imx8_98_7_rev_8_21_LAYER_STACK.csv",
+      "bytes": 1462,
+      "sha256": "266e979bf539ab663a3922e63b5d1a9548bee4c311f4975683204ca4b5040921"
+    },
+    {
+      "path": "IMX8M Mini SOM Length Tuning Comprehensions.csv",
+      "bytes": 4366,
+      "sha256": "c5c128607edc8b3103d32678a4fd867a8f712806db4f648639d01b7ef2c61bae"
+    },
+    {
+      "path": "IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc",
+      "bytes": 8078336,
+      "sha256": "2669fca73471169e5c4cf80b3dcd25790dd246219bd2cbc23c6c1044637d6f2b"
+    },
+    {
+      "path": "Length Tuning Comprehensions.xlsx",
+      "bytes": 42633,
+      "sha256": "96d4c3bef3fc8b847b93e5a83de0a878326dd7cbc72f09a21ffa9a60ff53bbf3"
+    },
+    {
+      "path": "Managed/OutputJobs/36A4008D-15FE-43B0-BA1A-B6403204A329/OUT-0004-2.OutJob",
+      "bytes": 9096,
+      "sha256": "6c5e4b2b5e1a1ecf493490b4d4c5f9b699815464054639e1cfd49598b4b57d60"
+    },
+    {
+      "path": "Managed/OutputJobs/62EFC360-F110-4853-A6C7-FEB3698B6FB7/OUT-0000-2.OutJob",
+      "bytes": 8442,
+      "sha256": "bdb5f25f8c59f73a16351c4b5dcc37b6b853d5bce64f22b05d63258f02993c4d"
+    },
+    {
+      "path": "Managed/OutputJobs/65EEDBBA-E786-44D0-9BCD-DB7CF62E582D/OUT-0005-2.OutJob",
+      "bytes": 3241,
+      "sha256": "faefe40966561ca66822c759188af4f1fd43828ab3c6fabd82e75e82a41b5149"
+    },
+    {
+      "path": "Managed/OutputJobs/8E93C50B-AFDD-45AA-8C56-67ACB4A8E96C/OUT-0001-2.OutJob",
+      "bytes": 3157,
+      "sha256": "8d2656d964ad8d4894daec135830094762f08cf657a5acbb08f97f5ab74e9a4c"
+    },
+    {
+      "path": "QCMI_SOM8MM.PrjPcb",
+      "bytes": 53193,
+      "sha256": "50aa324322b72037ac93e90270576a605b42bea8d123df68728bbcae20b1b51d"
+    },
+    {
+      "path": "QCMI_SOM8MM.PrjPcbVariants",
+      "bytes": 6144,
+      "sha256": "5182b83983761d9f81f5f5c27a49636efb8dab1f24be1a035f7680853b37b551"
+    },
+    {
+      "path": "QCMISOM.PcbLib",
+      "bytes": 22629376,
+      "sha256": "437a972b20b9eed6c5cb58c472d80662eaf5301b44a155d297eddfbfc6d6ea4d"
+    },
+    {
+      "path": "QCMISOM.SchLib",
+      "bytes": 617984,
+      "sha256": "2445ff151d115d2a3e0f38f9232861fde53ddd4ab662a33606919ab327f0aba9"
+    },
+    {
+      "path": "Sierra.OutJob",
+      "bytes": 10373,
+      "sha256": "42460c80840b93ba26a2cd038be1b188fcc3a1786f33a532d56ccc1da3ff466d"
+    }
+  ],
+  "omitted_files": [
+    {
+      "path": "History/imx8_98_7_rev_8_21.~(1).#(Deleted).pcbdoc.Zip",
+      "bytes": 6884285,
+      "sha256": "9469ee581b82998cc095532cc19964bc98b6652fad1808a382a78e774193f407",
+      "reason": "Altium autosave history is excluded from this repository"
+    },
+    {
+      "path": "History/QCMI_SOM8MM.~(1).PrjPcb.Zip",
+      "bytes": 7137,
+      "sha256": "a1c3c21c92651c066e5438a5fede92fd33d47e21175c9af430a69910e1f84fd4",
+      "reason": "Altium autosave history is excluded from this repository"
+    },
+    {
+      "path": "History/QCMI_SOM8MM.~(2).PrjPcb.Zip",
+      "bytes": 8516,
+      "sha256": "2b263508dbbef08ba2b18df9e18944dc84e34bd3f8e7b7ef63f0e2068e751863",
+      "reason": "Altium autosave history is excluded from this repository"
+    }
+  ]
+}

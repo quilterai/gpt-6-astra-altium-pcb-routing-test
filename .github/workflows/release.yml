@@ -1,0 +1,91 @@
+name: Release archive
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions: {}
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: github.repository == 'quilterai/gpt-6-astra-altium-pcb-routing-test' && !github.event.deleted
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    env:
+      RELEASE_TAG: ${{ github.ref_name }}
+    steps:
+      - name: Check out the tagged files, including Git LFS objects
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.sha }}
+          lfs: true
+          persist-credentials: false
+
+      - name: Verify design files and build the archive
+        shell: bash
+        env:
+          ARCHIVE_DIR: ${{ runner.temp }}/release
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import json
+          import os
+          from pathlib import Path
+          import re
+          import subprocess
+          import zipfile
+
+          tag = os.environ["RELEASE_TAG"]
+          if not re.fullmatch(r"v[0-9]+\.[0-9]+(?:\.[0-9]+)?", tag):
+              raise SystemExit("Use a release tag such as v1.0 or v1.0.1.")
+
+          lfs_files = json.loads(subprocess.check_output(
+              ["git", "lfs", "ls-files", "--json"]
+          ))["files"]
+          for entry in lfs_files:
+              path = Path(entry["name"])
+              if (path.stat().st_size != entry["size"] or
+                      hashlib.sha256(path.read_bytes()).hexdigest() != entry["oid"]):
+                  raise SystemExit(f"Missing or incorrect Git LFS contents: {path}")
+
+          paths = subprocess.check_output(["git", "ls-files", "-z"]).decode().split("\0")[:-1]
+          prefix = f"gpt-6-astra-altium-pcb-routing-test-{tag}"
+          output = Path(os.environ["ARCHIVE_DIR"])
+          output.mkdir(parents=True, exist_ok=True)
+          archive = output / f"{prefix}.zip"
+          with zipfile.ZipFile(archive, "w", zipfile.ZIP_DEFLATED) as bundle:
+              for name in paths:
+                  path = Path(name)
+                  if path.is_symlink() or not path.is_file():
+                      raise SystemExit(f"Expected a regular tracked file: {name}")
+                  with path.open("rb") as source:
+                      if source.read(128).startswith(b"version https://git-lfs.github.com/spec/v1"):
+                          raise SystemExit(f"Unresolved Git LFS pointer: {name}")
+                  bundle.write(path, f"{prefix}/{name}")
+
+          digest = hashlib.sha256(archive.read_bytes()).hexdigest()
+          archive.with_suffix(".zip.sha256").write_text(
+              f"{digest}  {archive.name}\n", encoding="utf-8"
+          )
+          print(f"Packaged {len(paths)} tracked files; verified {len(lfs_files)} Git LFS files.")
+          PY
+
+      - name: Publish the release with its archive and checksum
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ARCHIVE_DIR: ${{ runner.temp }}/release
+        run: |
+          archive="$ARCHIVE_DIR/gpt-6-astra-altium-pcb-routing-test-$RELEASE_TAG.zip"
+          gh release create "$RELEASE_TAG" "$archive" "$archive.sha256" \
+            --repo "$GITHUB_REPOSITORY" \
+            --verify-tag \
+            --title "GPT-6 Astra PCB Routing Test $RELEASE_TAG" \
+            --notes "Prompt, unchanged input design, final output, scripts, and validation evidence from Quilter's GPT-6 Astra PCB routing test in Altium Designer. The ZIP includes the complete design files. See the repository README and LICENSE for findings, limitations, and license terms."

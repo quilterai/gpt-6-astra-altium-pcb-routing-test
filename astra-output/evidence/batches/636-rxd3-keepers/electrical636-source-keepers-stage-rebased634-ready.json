@@ -1,0 +1,2346 @@
+{
+  "frozen": true,
+  "status": "READY_CONNECTED_KEEPER_PREPARATION_STAGE_NOT_RXD3_COMPLETION",
+  "base": "batches/634-pcie-txn/after",
+  "guard": [
+    9638,
+    991
+  ],
+  "ready_delete_tracks": [
+    {
+      "net": "GPIO1_IO07",
+      "x1_raw": "124743500",
+      "y1_raw": "91764100",
+      "x2_raw": "128413500",
+      "y2_raw": "88094100",
+      "width_raw": "32000",
+      "layer_id": "5",
+      "layer": "Mid Layer 4",
+      "selected": "false"
+    },
+    {
+      "net": "GPIO1_IO06",
+      "x1_raw": "124737790",
+      "y1_raw": "91760000",
+      "x2_raw": "128723600",
+      "y2_raw": "87774190",
+      "width_raw": "32000",
+      "layer_id": "3",
+      "layer": "Mid Layer 2",
+      "selected": "false"
+    },
+    {
+      "net": "GPIO1_IO05",
+      "x1_raw": "124576700",
+      "y1_raw": "92010900",
+      "x2_raw": "128793500",
+      "y2_raw": "87794100",
+      "width_raw": "32000",
+      "layer_id": "3",
+      "layer": "Mid Layer 2",
+      "selected": "false"
+    },
+    {
+      "net": "PDM_DATA2",
+      "x1_raw": "125407700",
+      "y1_raw": "90138146",
+      "x2_raw": "125407700",
+      "y2_raw": "91983400",
+      "width_raw": "32000",
+      "layer_id": "7",
+      "layer": "Mid Layer 6",
+      "selected": "false"
+    },
+    {
+      "net": "GPIO1_IO05",
+      "x1_raw": "128793500",
+      "y1_raw": "85471800",
+      "x2_raw": "129038500",
+      "y2_raw": "85226800",
+      "width_raw": "32000",
+      "layer_id": "3",
+      "layer": "Mid Layer 2",
+      "selected": "false"
+    },
+    {
+      "net": "GPIO1_IO05",
+      "x1_raw": "128793500",
+      "y1_raw": "85471800",
+      "x2_raw": "128793500",
+      "y2_raw": "87794100",
+      "width_raw": "32000",
+      "layer_id": "3",
+      "layer": "Mid Layer 2",
+      "selected": "false"
+    },
+    {
+      "net": "GPIO1_IO05",
+      "x1_raw": "124488700",
+      "y1_raw": "92010900",
+      "x2_raw": "124576700",
+      "y2_raw": "92010900",
+      "width_raw": "32000",
+      "layer_id": "3",
+      "layer": "Mid Layer 2",
+      "selected": "false"
+    }
+  ],
+  "ready_fulltracks_rows": [
+    {
+      "action": "add",
+      "net": "GPIO1_IO07",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 124743500,
+      "new_y1_raw": 91764100,
+      "new_x2_raw": 124775500,
+      "new_y2_raw": 91732100,
+      "width_raw": 32000,
+      "layer_id": 5,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO07",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 124775500,
+      "new_y1_raw": 91732100,
+      "new_x2_raw": 124921500,
+      "new_y2_raw": 91732100,
+      "width_raw": 32000,
+      "layer_id": 5,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO07",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 124921500,
+      "new_y1_raw": 91732100,
+      "new_x2_raw": 125145500,
+      "new_y2_raw": 91508100,
+      "width_raw": 32000,
+      "layer_id": 5,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO07",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125145500,
+      "new_y1_raw": 91508100,
+      "new_x2_raw": 125145500,
+      "new_y2_raw": 89589100,
+      "width_raw": 32000,
+      "layer_id": 5,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO07",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125145500,
+      "new_y1_raw": 89589100,
+      "new_x2_raw": 127064500,
+      "new_y2_raw": 89589100,
+      "width_raw": 32000,
+      "layer_id": 5,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO07",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 127064500,
+      "new_y1_raw": 89589100,
+      "new_x2_raw": 127064500,
+      "new_y2_raw": 89443100,
+      "width_raw": 32000,
+      "layer_id": 5,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO07",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 127064500,
+      "new_y1_raw": 89443100,
+      "new_x2_raw": 128413500,
+      "new_y2_raw": 88094100,
+      "width_raw": 32000,
+      "layer_id": 5,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO06",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 124737790,
+      "new_y1_raw": 91760000,
+      "new_x2_raw": 124737790,
+      "new_y2_raw": 91760190,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO06",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 124737790,
+      "new_y1_raw": 91760190,
+      "new_x2_raw": 124769790,
+      "new_y2_raw": 91728190,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO06",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 124769790,
+      "new_y1_raw": 91728190,
+      "new_x2_raw": 125050790,
+      "new_y2_raw": 91728190,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO06",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125050790,
+      "new_y1_raw": 91728190,
+      "new_x2_raw": 125050790,
+      "new_y2_raw": 91619190,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO06",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125050790,
+      "new_y1_raw": 91619190,
+      "new_x2_raw": 125144790,
+      "new_y2_raw": 91525190,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO06",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125144790,
+      "new_y1_raw": 91525190,
+      "new_x2_raw": 125144790,
+      "new_y2_raw": 90942190,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO06",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125144790,
+      "new_y1_raw": 90942190,
+      "new_x2_raw": 125176790,
+      "new_y2_raw": 90910190,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO06",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125176790,
+      "new_y1_raw": 90910190,
+      "new_x2_raw": 125176790,
+      "new_y2_raw": 90875190,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO06",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125176790,
+      "new_y1_raw": 90875190,
+      "new_x2_raw": 125213790,
+      "new_y2_raw": 90875190,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO06",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125213790,
+      "new_y1_raw": 90875190,
+      "new_x2_raw": 125245790,
+      "new_y2_raw": 90843190,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO06",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125245790,
+      "new_y1_raw": 90843190,
+      "new_x2_raw": 125826790,
+      "new_y2_raw": 90843190,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO06",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125826790,
+      "new_y1_raw": 90843190,
+      "new_x2_raw": 128723790,
+      "new_y2_raw": 87946190,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO06",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 128723790,
+      "new_y1_raw": 87946190,
+      "new_x2_raw": 128723790,
+      "new_y2_raw": 87774190,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO06",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 128723790,
+      "new_y1_raw": 87774190,
+      "new_x2_raw": 128723600,
+      "new_y2_raw": 87774190,
+      "width_raw": 32000,
+      "layer_id": 3,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "PDM_DATA2",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125407700,
+      "new_y1_raw": 90138146,
+      "new_x2_raw": 125407700,
+      "new_y2_raw": 90913900,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "PDM_DATA2",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125407700,
+      "new_y1_raw": 90913900,
+      "new_x2_raw": 125533700,
+      "new_y2_raw": 91039900,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "PDM_DATA2",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125533700,
+      "new_y1_raw": 91039900,
+      "new_x2_raw": 125533700,
+      "new_y2_raw": 91299900,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "PDM_DATA2",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125533700,
+      "new_y1_raw": 91299900,
+      "new_x2_raw": 125407700,
+      "new_y2_raw": 91425900,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "PDM_DATA2",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125407700,
+      "new_y1_raw": 91425900,
+      "new_x2_raw": 125407700,
+      "new_y2_raw": 91983400,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 124488700,
+      "new_y1_raw": 92010900,
+      "new_x2_raw": 124488500,
+      "new_y2_raw": 92010700,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 124488500,
+      "new_y1_raw": 92010700,
+      "new_x2_raw": 124488500,
+      "new_y2_raw": 92009100,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 124488500,
+      "new_y1_raw": 92009100,
+      "new_x2_raw": 124873500,
+      "new_y2_raw": 92009100,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 124873500,
+      "new_y1_raw": 92009100,
+      "new_x2_raw": 124873500,
+      "new_y2_raw": 90004100,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 124873500,
+      "new_y1_raw": 90004100,
+      "new_x2_raw": 125173500,
+      "new_y2_raw": 90004100,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 125173500,
+      "new_y1_raw": 90004100,
+      "new_x2_raw": 126478500,
+      "new_y2_raw": 88699100,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 126478500,
+      "new_y1_raw": 88699100,
+      "new_x2_raw": 126483500,
+      "new_y2_raw": 88699100,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 126483500,
+      "new_y1_raw": 88699100,
+      "new_x2_raw": 126483500,
+      "new_y2_raw": 88374100,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 126483500,
+      "new_y1_raw": 88374100,
+      "new_x2_raw": 126808500,
+      "new_y2_raw": 88374100,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 126808500,
+      "new_y1_raw": 88374100,
+      "new_x2_raw": 126808500,
+      "new_y2_raw": 87654100,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 126808500,
+      "new_y1_raw": 87654100,
+      "new_x2_raw": 127393500,
+      "new_y2_raw": 87654100,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 127393500,
+      "new_y1_raw": 87654100,
+      "new_x2_raw": 127758500,
+      "new_y2_raw": 87289100,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 127758500,
+      "new_y1_raw": 87289100,
+      "new_x2_raw": 127758500,
+      "new_y2_raw": 86669100,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 127758500,
+      "new_y1_raw": 86669100,
+      "new_x2_raw": 127988500,
+      "new_y2_raw": 86439100,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 127988500,
+      "new_y1_raw": 86439100,
+      "new_x2_raw": 127988500,
+      "new_y2_raw": 86079100,
+      "width_raw": 32000,
+      "layer_id": 7,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 127988500,
+      "new_y1_raw": 86079100,
+      "new_x2_raw": 127988500,
+      "new_y2_raw": 86424100,
+      "width_raw": 41000,
+      "layer_id": 1,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 127988500,
+      "new_y1_raw": 86424100,
+      "new_x2_raw": 128193500,
+      "new_y2_raw": 86629100,
+      "width_raw": 41000,
+      "layer_id": 1,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 128193500,
+      "new_y1_raw": 86629100,
+      "new_x2_raw": 128193500,
+      "new_y2_raw": 87034100,
+      "width_raw": 41000,
+      "layer_id": 1,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 128193500,
+      "new_y1_raw": 87034100,
+      "new_x2_raw": 128493500,
+      "new_y2_raw": 87034100,
+      "width_raw": 41000,
+      "layer_id": 1,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 128493500,
+      "new_y1_raw": 87034100,
+      "new_x2_raw": 128498500,
+      "new_y2_raw": 87039100,
+      "width_raw": 41000,
+      "layer_id": 1,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 128498500,
+      "new_y1_raw": 87039100,
+      "new_x2_raw": 129173500,
+      "new_y2_raw": 87039100,
+      "width_raw": 41000,
+      "layer_id": 1,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 129173500,
+      "new_y1_raw": 87039100,
+      "new_x2_raw": 129173500,
+      "new_y2_raw": 85364100,
+      "width_raw": 41000,
+      "layer_id": 1,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 129173500,
+      "new_y1_raw": 85364100,
+      "new_x2_raw": 129038500,
+      "new_y2_raw": 85229100,
+      "width_raw": 41000,
+      "layer_id": 1,
+      "expected_track_count": 9631
+    },
+    {
+      "action": "add",
+      "net": "GPIO1_IO05",
+      "old_x1_raw": 0,
+      "old_y1_raw": 0,
+      "old_x2_raw": 0,
+      "old_y2_raw": 0,
+      "new_x1_raw": 129038500,
+      "new_y1_raw": 85229100,
+      "new_x2_raw": 129038500,
+      "new_y2_raw": 85226800,
+      "width_raw": 41000,
+      "layer_id": 1,
+      "expected_track_count": 9631
+    }
+  ],
+  "ready_fullvia_rows": [
+    {
+      "net": "GPIO1_IO05",
+      "x_raw": 127988500,
+      "y_raw": 86079100,
+      "size_raw": 160000,
+      "hole_size_raw": 80000,
+      "expected_via_count": 991,
+      "minimum_clearance_mil": 3.6653232150596256,
+      "hole_gap_mil": 36.58417320081194
+    }
+  ],
+  "ready_move_vias": [],
+  "terminal_proofs": [
+    {
+      "net": "GPIO1_IO05",
+      "before_count": 4,
+      "after_count": 5,
+      "preserved": [
+        [
+          "pad",
+          "U1",
+          "AF12"
+        ],
+        [
+          "via",
+          "GPIO1_IO05",
+          129038500,
+          85226800
+        ],
+        [
+          "via",
+          "GPIO1_IO05",
+          124488700,
+          92010900
+        ],
+        [
+          "pad",
+          "J5",
+          "62"
+        ]
+      ],
+      "missing": []
+    },
+    {
+      "net": "GPIO1_IO06",
+      "before_count": 4,
+      "after_count": 4,
+      "preserved": [
+        [
+          "via",
+          "GPIO1_IO06",
+          124291800,
+          91634000
+        ],
+        [
+          "via",
+          "GPIO1_IO06",
+          128723600,
+          84986800
+        ],
+        [
+          "pad",
+          "J5",
+          "58"
+        ],
+        [
+          "pad",
+          "U1",
+          "AG11"
+        ]
+      ],
+      "missing": []
+    },
+    {
+      "net": "GPIO1_IO07",
+      "before_count": 4,
+      "after_count": 4,
+      "preserved": [
+        [
+          "via",
+          "GPIO1_IO07",
+          128566100,
+          85226800
+        ],
+        [
+          "pad",
+          "U1",
+          "AF11"
+        ],
+        [
+          "via",
+          "GPIO1_IO07",
+          124291800,
+          92030900
+        ],
+        [
+          "pad",
+          "J5",
+          "56"
+        ]
+      ],
+      "missing": []
+    },
+    {
+      "net": "PDM_DATA2",
+      "before_count": 5,
+      "after_count": 5,
+      "preserved": [
+        [
+          "via",
+          "PDM_DATA2",
+          130005487,
+          88054400
+        ],
+        [
+          "via",
+          "PDM_DATA2",
+          124506700,
+          92402800
+        ],
+        [
+          "pad",
+          "U1",
+          "AD13"
+        ],
+        [
+          "pad",
+          "J5",
+          "71"
+        ],
+        [
+          "via",
+          "PDM_DATA2",
+          129945900,
+          86159400
+        ]
+      ],
+      "missing": []
+    }
+  ],
+  "raw_checks": [
+    [
+      [
+        3.7062466533579297,
+        "via",
+        "607",
+        "WDOG_B",
+        74
+      ],
+      [
+        13.577669529663687,
+        "track",
+        "9273",
+        "VDD_3V3",
+        5
+      ],
+      [
+        19.009272972237525,
+        "via",
+        "579",
+        "SD2_VSEL",
+        74
+      ]
+    ],
+    [
+      [
+        3.2539105243401583,
+        "track",
+        "9273",
+        "VDD_3V3",
+        5
+      ],
+      [
+        3.7062466533579297,
+        "via",
+        "607",
+        "WDOG_B",
+        74
+      ],
+      [
+        12.038079859359165,
+        "via",
+        "30",
+        "SAI1_RXD0",
+        74
+      ]
+    ],
+    [
+      [
+        3.2539105243400783,
+        "track",
+        "9273",
+        "VDD_3V3",
+        5
+      ],
+      [
+        11.408142469052418,
+        "via",
+        "30",
+        "SAI1_RXD0",
+        74
+      ],
+      [
+        15.948467664421578,
+        "via",
+        "607",
+        "WDOG_B",
+        74
+      ]
+    ],
+    [
+      [
+        3.2539105243400783,
+        "track",
+        "9273",
+        "VDD_3V3",
+        5
+      ],
+      [
+        4.020000000000005,
+        "via",
+        "15",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        4.029999999999996,
+        "via",
+        "17",
+        "SAI1_RXFS",
+        74
+      ]
+    ],
+    [
+      [
+        3.2539105243401583,
+        "track",
+        "9273",
+        "VDD_3V3",
+        5
+      ],
+      [
+        23.84009569364303,
+        "via",
+        "318",
+        "VDDA_1V8",
+        74
+      ],
+      [
+        30.528993462598343,
+        "track",
+        "9489",
+        "GPIO1_IO08",
+        5
+      ]
+    ],
+    [
+      [
+        3.2539105243401583,
+        "track",
+        "9273",
+        "VDD_3V3",
+        5
+      ],
+      [
+        36.3,
+        "track",
+        "9157",
+        "SAI1_RXD6",
+        5
+      ],
+      [
+        39.842537099943314,
+        "track",
+        "9158",
+        "SAI1_RXD6",
+        5
+      ]
+    ],
+    [
+      [
+        4.38528137423857,
+        "track",
+        "9270",
+        "VDD_3V3",
+        5
+      ],
+      [
+        4.38528137423857,
+        "track",
+        "9271",
+        "VDD_3V3",
+        5
+      ],
+      [
+        4.86033367526491,
+        "via",
+        "287",
+        "SAI1_RXD2",
+        74
+      ]
+    ],
+    [
+      [
+        4.0381069434141015,
+        "via",
+        "607",
+        "WDOG_B",
+        74
+      ],
+      [
+        10.438106943414102,
+        "track",
+        "4870",
+        "WDOG_B",
+        3
+      ],
+      [
+        18.314481564234722,
+        "via",
+        "579",
+        "SD2_VSEL",
+        74
+      ]
+    ],
+    [
+      [
+        3.0331754519597887,
+        "via",
+        "607",
+        "WDOG_B",
+        74
+      ],
+      [
+        9.433175451959789,
+        "track",
+        "4870",
+        "WDOG_B",
+        3
+      ],
+      [
+        18.323062905061118,
+        "via",
+        "579",
+        "SD2_VSEL",
+        74
+      ]
+    ],
+    [
+      [
+        3.0331754519597887,
+        "via",
+        "607",
+        "WDOG_B",
+        74
+      ],
+      [
+        3.259970528737634,
+        "via",
+        "30",
+        "SAI1_RXD0",
+        74
+      ],
+      [
+        9.433175451959789,
+        "track",
+        "4870",
+        "WDOG_B",
+        3
+      ]
+    ],
+    [
+      [
+        3.259970528737634,
+        "via",
+        "30",
+        "SAI1_RXD0",
+        74
+      ],
+      [
+        5.350999999999932,
+        "track",
+        "4313",
+        "GPIO1_IO12",
+        3
+      ],
+      [
+        5.350999999999932,
+        "track",
+        "4314",
+        "GPIO1_IO12",
+        3
+      ]
+    ],
+    [
+      [
+        3.224277239114112,
+        "track",
+        "4314",
+        "GPIO1_IO12",
+        3
+      ],
+      [
+        3.224277239114112,
+        "track",
+        "4863",
+        "GPIO1_IO12",
+        3
+      ],
+      [
+        3.93138402030066,
+        "track",
+        "4313",
+        "GPIO1_IO12",
+        3
+      ]
+    ],
+    [
+      [
+        3.224277239114112,
+        "track",
+        "4863",
+        "GPIO1_IO12",
+        3
+      ],
+      [
+        3.9589999999999694,
+        "via",
+        "17",
+        "SAI1_RXFS",
+        74
+      ],
+      [
+        4.091000000000031,
+        "via",
+        "15",
+        "SAI1_RXD4",
+        74
+      ]
+    ],
+    [
+      [
+        3.233080768077537,
+        "via",
+        "15",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        10.42900000000002,
+        "track",
+        "4103",
+        "SAI1_RXFS",
+        3
+      ],
+      [
+        19.00826737151344,
+        "via",
+        "17",
+        "SAI1_RXFS",
+        74
+      ]
+    ],
+    [
+      [
+        3.233080768077537,
+        "via",
+        "15",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        13.628999999999952,
+        "track",
+        "4103",
+        "SAI1_RXFS",
+        3
+      ],
+      [
+        23.368363047018192,
+        "via",
+        "17",
+        "SAI1_RXFS",
+        74
+      ]
+    ],
+    [
+      [
+        3.2347793903907807,
+        "via",
+        "15",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        13.628999999999952,
+        "track",
+        "4103",
+        "SAI1_RXFS",
+        3
+      ],
+      [
+        26.426378696727127,
+        "via",
+        "17",
+        "SAI1_RXFS",
+        74
+      ]
+    ],
+    [
+      [
+        3.2347793903907807,
+        "via",
+        "15",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        17.328999999999994,
+        "track",
+        "4103",
+        "SAI1_RXFS",
+        3
+      ],
+      [
+        28.28939907150805,
+        "via",
+        "17",
+        "SAI1_RXFS",
+        74
+      ]
+    ],
+    [
+      [
+        3.224277239114183,
+        "track",
+        "4863",
+        "GPIO1_IO12",
+        3
+      ],
+      [
+        4.4910000000000085,
+        "via",
+        "15",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        7.73579999999995,
+        "via",
+        "16",
+        "VDDA_1V8",
+        74
+      ]
+    ],
+    [
+      [
+        3.224277239114112,
+        "track",
+        "4863",
+        "GPIO1_IO12",
+        3
+      ],
+      [
+        10.066737428622005,
+        "track",
+        "4245",
+        "SAI2_RXFS",
+        3
+      ],
+      [
+        16.048136519638167,
+        "via",
+        "16",
+        "VDDA_1V8",
+        74
+      ]
+    ],
+    [
+      [
+        3.224277239114112,
+        "track",
+        "4863",
+        "GPIO1_IO12",
+        3
+      ],
+      [
+        10.066737428622005,
+        "track",
+        "4245",
+        "SAI2_RXFS",
+        3
+      ],
+      [
+        13.772524938482796,
+        "via",
+        "354",
+        "SAI1_TXC",
+        74
+      ]
+    ],
+    [
+      [
+        13.758685343999993,
+        "via",
+        "354",
+        "SAI1_TXC",
+        74
+      ],
+      [
+        15.386513875522722,
+        "track",
+        "4863",
+        "GPIO1_IO12",
+        3
+      ],
+      [
+        22.228974065030613,
+        "track",
+        "4245",
+        "SAI2_RXFS",
+        3
+      ]
+    ],
+    [
+      [
+        4.8236056518471635,
+        "via",
+        "15",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        13.406700000000022,
+        "via",
+        "16",
+        "VDDA_1V8",
+        74
+      ],
+      [
+        15.767856562616602,
+        "track",
+        "5145",
+        "SAI1_RXD1",
+        7
+      ]
+    ],
+    [
+      [
+        4.8236056518471635,
+        "via",
+        "15",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        16.646841083658572,
+        "track",
+        "4951",
+        "SAI1_RXD1",
+        7
+      ],
+      [
+        16.646841083658572,
+        "track",
+        "4952",
+        "SAI1_RXD1",
+        7
+      ]
+    ],
+    [
+      [
+        15.194452781620349,
+        "via",
+        "4",
+        "VDDA_1V8",
+        74
+      ],
+      [
+        16.21039325543098,
+        "via",
+        "15",
+        "SAI1_RXD4",
+        74
+      ],
+      [
+        28.842198833183303,
+        "via",
+        "16",
+        "VDDA_1V8",
+        74
+      ]
+    ],
+    [
+      [
+        15.194452781620349,
+        "via",
+        "4",
+        "VDDA_1V8",
+        74
+      ],
+      [
+        16.24999999999993,
+        "track",
+        "4953",
+        "SAI1_RXD1",
+        7
+      ],
+      [
+        20.487399604008875,
+        "track",
+        "5004",
+        "SAI1_RXD1",
+        7
+      ]
+    ],
+    [
+      [
+        9.590000000000078,
+        "track",
+        "5265",
+        "PDM_DATA0",
+        7
+      ],
+      [
+        9.590000000000078,
+        "track",
+        "5266",
+        "PDM_DATA0",
+        7
+      ],
+      [
+        10.240000000000055,
+        "track",
+        "4974",
+        "PDM_DATA0",
+        7
+      ]
+    ],
+    [
+      [
+        10.17344937030457,
+        "via",
+        "115",
+        "GPIO1_IO07",
+        74
+      ],
+      [
+        12.813533857917246,
+        "via",
+        "825",
+        "GND",
+        74
+      ],
+      [
+        27.90566668631301,
+        "track",
+        "5280",
+        "PDM_DATA2",
+        7
+      ]
+    ],
+    [
+      [
+        10.17344937030457,
+        "via",
+        "115",
+        "GPIO1_IO07",
+        74
+      ],
+      [
+        12.823213418241426,
+        "via",
+        "825",
+        "GND",
+        74
+      ],
+      [
+        27.9100053319111,
+        "via",
+        "579",
+        "SD2_VSEL",
+        74
+      ]
+    ],
+    [
+      [
+        8.856736706090937,
+        "track",
+        "5006",
+        "SAI1_RXD1",
+        7
+      ],
+      [
+        8.856736706090937,
+        "track",
+        "5007",
+        "SAI1_RXD1",
+        7
+      ],
+      [
+        9.09752122608774,
+        "via",
+        "134",
+        "SAI1_RXD1",
+        74
+      ]
+    ],
+    [
+      [
+        3.868700000000013,
+        "via",
+        "313",
+        "SAI3_RXD",
+        74
+      ],
+      [
+        3.9700000000000504,
+        "via",
+        "17",
+        "SAI1_RXFS",
+        74
+      ],
+      [
+        7.370000000000051,
+        "track",
+        "5005",
+        "SAI1_RXD1",
+        7
+      ]
+    ],
+    [
+      [
+        3.8710678118654758,
+        "track",
+        "5145",
+        "SAI1_RXD1",
+        7
+      ],
+      [
+        3.994504847451297,
+        "track",
+        "4952",
+        "SAI1_RXD1",
+        7
+      ],
+      [
+        3.994504847451297,
+        "track",
+        "5003",
+        "SAI1_RXD1",
+        7
+      ]
+    ],
+    [
+      [
+        3.8710678118654758,
+        "track",
+        "5145",
+        "SAI1_RXD1",
+        7
+      ],
+      [
+        3.994504847451297,
+        "track",
+        "4952",
+        "SAI1_RXD1",
+        7
+      ],
+      [
+        3.994504847451297,
+        "track",
+        "5003",
+        "SAI1_RXD1",
+        7
+      ]
+    ],
+    [
+      [
+        3.517514421272201,
+        "track",
+        "5145",
+        "SAI1_RXD1",
+        7
+      ],
+      [
+        17.473972741361766,
+        "via",
+        "237",
+        "SAI3_MCLK",
+        74
+      ],
+      [
+        32.590046219457975,
+        "via",
+        "228",
+        "SAI5_MCLK",
+        74
+      ]
+    ],
+    [
+      [
+        3.517514421272201,
+        "track",
+        "5145",
+        "SAI1_RXD1",
+        7
+      ],
+      [
+        17.972631357924474,
+        "via",
+        "237",
+        "SAI3_MCLK",
+        74
+      ],
+      [
+        32.590046219457975,
+        "via",
+        "228",
+        "SAI5_MCLK",
+        74
+      ]
+    ],
+    [
+      [
+        3.517514421272201,
+        "track",
+        "5145",
+        "SAI1_RXD1",
+        7
+      ],
+      [
+        22.785572920372562,
+        "track",
+        "5144",
+        "SAI1_RXD1",
+        7
+      ],
+      [
+        23.84108953308788,
+        "via",
+        "94",
+        "UART1_TXD",
+        74
+      ]
+    ],
+    [
+      [
+        3.517514421272201,
+        "track",
+        "5145",
+        "SAI1_RXD1",
+        7
+      ],
+      [
+        11.295689014324225,
+        "track",
+        "5237",
+        "GPIO1_IO11",
+        7
+      ],
+      [
+        11.844600000000035,
+        "via",
+        "94",
+        "UART1_TXD",
+        74
+      ]
+    ],
+    [
+      [
+        3.517514421272201,
+        "track",
+        "5178",
+        "UART1_TXD",
+        7
+      ],
+      [
+        11.295689014324225,
+        "track",
+        "5237",
+        "GPIO1_IO11",
+        7
+      ],
+      [
+        18.366756826189697,
+        "track",
+        "5185",
+        "UART1_TXD",
+        7
+      ]
+    ],
+    [
+      [
+        3.517514421272201,
+        "track",
+        "5178",
+        "UART1_TXD",
+        7
+      ],
+      [
+        39.22640687119285,
+        "track",
+        "5143",
+        "SAI1_RXD1",
+        7
+      ],
+      [
+        49.733786910663305,
+        "via",
+        "94",
+        "UART1_TXD",
+        74
+      ]
+    ],
+    [
+      [
+        3.517514421272201,
+        "track",
+        "5178",
+        "UART1_TXD",
+        7
+      ],
+      [
+        8.16999999999998,
+        "via",
+        "526",
+        "GND",
+        74
+      ],
+      [
+        8.820815280171308,
+        "track",
+        "5237",
+        "GPIO1_IO11",
+        7
+      ]
+    ],
+    [
+      [
+        3.6936074863070623,
+        "via",
+        "526",
+        "GND",
+        74
+      ],
+      [
+        8.820815280171308,
+        "track",
+        "5236",
+        "GPIO1_IO11",
+        7
+      ],
+      [
+        8.820815280171308,
+        "track",
+        "5237",
+        "GPIO1_IO11",
+        7
+      ]
+    ],
+    [
+      [
+        14.992555784220535,
+        "via",
+        "526",
+        "GND",
+        74
+      ],
+      [
+        16.660017136323415,
+        "via",
+        "299",
+        "SAI3_RXFS",
+        74
+      ],
+      [
+        17.780000000000015,
+        "track",
+        "5236",
+        "GPIO1_IO11",
+        7
+      ]
+    ],
+    [
+      [
+        13.270000000000003,
+        "track",
+        "2348",
+        "SAI3_RXD",
+        1
+      ],
+      [
+        16.010195701490783,
+        "via",
+        "526",
+        "GND",
+        74
+      ],
+      [
+        16.254533829741202,
+        "via",
+        "299",
+        "SAI3_RXFS",
+        74
+      ]
+    ],
+    [
+      [
+        3.8572419845069437,
+        "track",
+        "2270",
+        "SAI3_RXFS",
+        1
+      ],
+      [
+        3.8572419845069437,
+        "track",
+        "2271",
+        "SAI3_RXFS",
+        1
+      ],
+      [
+        3.8631212473502714,
+        "track",
+        "2272",
+        "SAI3_RXFS",
+        1
+      ]
+    ],
+    [
+      [
+        3.8572419845069437,
+        "track",
+        "2270",
+        "SAI3_RXFS",
+        1
+      ],
+      [
+        3.8572419845069437,
+        "track",
+        "2271",
+        "SAI3_RXFS",
+        1
+      ],
+      [
+        3.8631212473502714,
+        "track",
+        "2272",
+        "SAI3_RXFS",
+        1
+      ]
+    ],
+    [
+      [
+        3.7826353237551764,
+        "via",
+        "289",
+        "SPDIF_RX",
+        74
+      ],
+      [
+        9.732635323755176,
+        "track",
+        "2241",
+        "SPDIF_RX",
+        1
+      ],
+      [
+        14.688633753705961,
+        "via",
+        "12",
+        "SAI1_RXFS",
+        74
+      ]
+    ],
+    [
+      [
+        3.7826353237551764,
+        "via",
+        "289",
+        "SPDIF_RX",
+        74
+      ],
+      [
+        9.732635323755176,
+        "track",
+        "2241",
+        "SPDIF_RX",
+        1
+      ],
+      [
+        14.085036772294341,
+        "via",
+        "12",
+        "SAI1_RXFS",
+        74
+      ]
+    ],
+    [
+      [
+        3.320000000000004,
+        "via",
+        "289",
+        "SPDIF_RX",
+        74
+      ],
+      [
+        9.270000000000003,
+        "track",
+        "2241",
+        "SPDIF_RX",
+        1
+      ],
+      [
+        9.270000000000003,
+        "track",
+        "2242",
+        "SPDIF_RX",
+        1
+      ]
+    ],
+    [
+      [
+        3.4499999999999993,
+        "via",
+        "525",
+        "GND",
+        74
+      ],
+      [
+        4.738834764831845,
+        "track",
+        "1840",
+        "QSPIA_DATA3",
+        1
+      ],
+      [
+        5.07877987534291,
+        "track",
+        "1841",
+        "QSPIA_DATA3",
+        1
+      ]
+    ],
+    [
+      [
+        4.738834764831845,
+        "track",
+        "1840",
+        "QSPIA_DATA3",
+        1
+      ],
+      [
+        4.738834764831845,
+        "track",
+        "1841",
+        "QSPIA_DATA3",
+        1
+      ],
+      [
+        12.588747756887962,
+        "via",
+        "145",
+        "SAI2_MCLK",
+        74
+      ]
+    ],
+    [
+      [
+        13.899999999999999,
+        "track",
+        "1841",
+        "QSPIA_DATA3",
+        1
+      ],
+      [
+        14.721530224718709,
+        "track",
+        "1840",
+        "QSPIA_DATA3",
+        1
+      ],
+      [
+        14.802192994464956,
+        "track",
+        "1842",
+        "QSPIA_DATA3",
+        1
+      ]
+    ]
+  ],
+  "via_checks": [
+    {
+      "via": {
+        "net": "GPIO1_IO05",
+        "x_raw": 127988500,
+        "y_raw": 86079100,
+        "size_raw": 160000,
+        "hole_size_raw": 80000,
+        "expected_via_count": 991,
+        "minimum_clearance_mil": 3.6653232150596256,
+        "hole_gap_mil": 36.58417320081194
+      },
+      "minimum": 3.6653232150596256,
+      "hole_gap": 36.58417320081194
+    }
+  ],
+  "minimum_track_clearance": 3.0331754519597887,
+  "board_edge": {
+    "track_min": 231.18999999999934,
+    "via_min": 310.46999999999935
+  },
+  "native_width_proofs": {
+    "width442-Top-native.tsv": [
+      {
+        "net": "GPIO1_IO05",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L1_min_width_raw": "41000",
+        "L1_favored_width_raw": "41000",
+        "L1_max_width_raw": "41000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      },
+      {
+        "net": "GPIO1_IO07",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L1_min_width_raw": "41000",
+        "L1_favored_width_raw": "41000",
+        "L1_max_width_raw": "41000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      }
+    ],
+    "width351-native.tsv": [
+      {
+        "net": "GPIO1_IO05",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L2_min_width_raw": "32000",
+        "L2_favored_width_raw": "100000",
+        "L2_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      },
+      {
+        "net": "GPIO1_IO07",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L2_min_width_raw": "32000",
+        "L2_favored_width_raw": "100000",
+        "L2_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      }
+    ],
+    "width337-native.tsv": [
+      {
+        "net": "GPIO1_IO05",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L4_min_width_raw": "32000",
+        "L4_favored_width_raw": "100000",
+        "L4_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      },
+      {
+        "net": "GPIO1_IO07",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L4_min_width_raw": "32000",
+        "L4_favored_width_raw": "100000",
+        "L4_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      }
+    ],
+    "width229-native.tsv": [
+      {
+        "net": "GPIO1_IO05",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L6_min_width_raw": "32000",
+        "L6_favored_width_raw": "100000",
+        "L6_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      },
+      {
+        "net": "GPIO1_IO07",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L6_min_width_raw": "32000",
+        "L6_favored_width_raw": "100000",
+        "L6_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      }
+    ],
+    "width366-L5-native.tsv": [
+      {
+        "net": "GPIO1_IO05",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L5_min_width_raw": "32000",
+        "L5_favored_width_raw": "100000",
+        "L5_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      },
+      {
+        "net": "GPIO1_IO07",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L5_min_width_raw": "32000",
+        "L5_favored_width_raw": "100000",
+        "L5_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      }
+    ],
+    "width366-L7-native.tsv": [
+      {
+        "net": "GPIO1_IO05",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L7_min_width_raw": "32000",
+        "L7_favored_width_raw": "100000",
+        "L7_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      },
+      {
+        "net": "GPIO1_IO07",
+        "status": "read",
+        "object_id": "2",
+        "object_layer_id": "32",
+        "rule_name": "50-OHM SE",
+        "L7_min_width_raw": "32000",
+        "L7_favored_width_raw": "100000",
+        "L7_max_width_raw": "100000",
+        "impedance_driven": "true",
+        "min_impedance": "50",
+        "favored_impedance": "50",
+        "max_impedance": "50"
+      }
+    ]
+  },
+  "expected_after": [
+    9681,
+    992
+  ],
+  "rxD3_remaining_requirement": "Top RXD4 diagonal still blocks971.42/827.58sourcevia; do not insert RXD3via/downstream before its connected preservation.",
+  "limits": [
+    "This stage preserves all four native connected neighbor terminal sets but yields zero immediate RXD3connection gain.",
+    "GPIO05 whole-chain lift temporarily uses non-signal layers; cleanup/reference/timing remains pending.",
+    "Native repour/all-net comparison remains required."
+  ]
+}

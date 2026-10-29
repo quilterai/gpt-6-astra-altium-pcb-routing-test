@@ -1,0 +1,3 @@
+net	x_raw	y_raw	size_raw	hole_size_raw	expected_via_count
+SAI1_RXD3	130928300	85226800	160000	80000	993
+SAI1_RXD3	131338500	88214100	160000	80000	993

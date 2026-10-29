@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use these files, please cite the article below. See LICENSE for the licenses that apply to each type of material."
+title: "GPT-6 Astra PCB Routing Test: 62 Hours in Altium"
+type: dataset
+authors:
+  - family-names: Poage
+    given-names: Patrick
+  - name: Quilter
+date-released: "2026-10-29"
+url: "https://www.quilter.ai/blog/gpt-6-astra-altium-pcb-routing-test"
+repository: "https://github.com/quilterai/gpt-6-astra-altium-pcb-routing-test"
+license-url: "https://github.com/quilterai/gpt-6-astra-altium-pcb-routing-test/blob/main/LICENSE"
+keywords:
+  - GPT-6 Astra
+  - PCB routing
+  - Altium Designer
+  - LPDDR4
+  - AI agents
+preferred-citation:
+  type: blog
+  title: "GPT-6 Astra in Altium: 62 Hours on an 8-Layer PCB"
+  authors:
+    - family-names: Poage
+      given-names: Patrick
+    - family-names: Zhuravel
+      given-names: Iryna
+  date-published: "2026-10-29"
+  url: "https://www.quilter.ai/blog/gpt-6-astra-altium-pcb-routing-test"
+  publisher:
+    name: Quilter

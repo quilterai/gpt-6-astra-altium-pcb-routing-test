@@ -1,0 +1,214 @@
+?<StackupDocument SerializerVersion="1.1.0.0" Version="2.1.0.0" Id="047f32f3-f8be-4f69-978d-04e2d7088c32" RevisionId="99ecbacd-af6c-49ba-83b9-20996f6aad1f" RevisionDate="2025-07-07T19:01:35.5521590Z" xmlns="http://altium.com/ns/LayerStackManager">
+  <FeatureSet>
+    <Feature Id="c8939e8a-fd0e-4d52-8860-b7a98f452016">Standard Stackup</Feature>
+    <Feature Id="e3df2b86-5f1b-49ca-b266-d1ae57f0ba6f">Impedance Calculator</Feature>
+  </FeatureSet>
+  <TypeExtensions />
+  <Stackup Type="Standard" RoughnessType="NoRoughness" RoughnessFactorSR="0um" RoughnessFactorRF="1%" RealisticRatio="True" CopperResistance="17.24nohm" ViaPlatingThickness="0.6mil" AmbientTemperature="20C" TemperatureRise="50C">
+    <Stacks>
+      <Stack Id="d8207132-ec2d-4fb6-939d-47ce6a28d32f" Name="Board Layer Stack" IsSymmetric="True" TemplateId="e3dbeb19-29ad-4cff-990d-746ffbf2f825">
+        <Layers>
+          <Layer Id="a0e0c4a7-0877-450d-ba19-5ef32ec44cb3" TypeId="c7ef040e-8d00-490b-b00c-a7e7823ff174" Name="Top Overlay" IsShared="True">
+            <Properties />
+          </Layer>
+          <Layer Id="fc31401b-b9f5-43b8-b7d0-8df352dfb6de" TypeId="7b384237-13d8-4318-8bcb-accd8d9a51e7" Name="Top Solder" IsShared="True">
+            <Properties>
+              <Property Name="Thickness" Type="LengthValue">0.4mil</Property>
+              <Property Name="Material" Type="String">Solder Resist</Property>
+              <Property Name="DielectricConstant" Type="DimensionlessValue">3.5</Property>
+              <Property Name="CoverlayExpansion" Type="LengthValue">0mil</Property>
+            </Properties>
+          </Layer>
+          <Layer Id="fe6a2cac-5385-4a11-8d05-0989c8d91af0" TypeId="f4eccd87-2cfb-4f37-be50-4f3a272b4d01" Name="L1_PS" IsShared="True">
+            <Properties>
+              <Property Name="Thickness" Type="LengthValue">1.7mil</Property>
+              <Property Name="ComponentPlacement" Type="Altium.LayerStackManager.LayerSchema.ComponentPlacement, Altium.LayerStackManager.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=51600b9dd346ed18">BodyUp</Property>
+              <Property Name="CopperOrientation" Type="Int32">0</Property>
+              <Property Name="Weight" Type="MassValue">1oz</Property>
+            </Properties>
+          </Layer>
+          <Layer Id="9b5dd74f-8a0e-414b-aab7-e6109476d959" TypeId="1a79611a-039d-4d40-a204-53c26c50f8b5" Name="Dielectric 1" IsShared="True">
+            <Properties>
+              <Property Name="Thickness" Type="LengthValue">2.77mil</Property>
+              <Property Name="Material" Type="String">TU768</Property>
+              <Property Name="DielectricConstant" Type="DimensionlessValue">3.9</Property>
+              <Property Name="LossTangent" Type="DimensionlessValue">0.02</Property>
+            </Properties>
+          </Layer>
+          <Layer Id="8385e89e-c0a0-4544-b02e-5c78f39c3bde" TypeId="f4eccd87-2cfb-4f37-be50-4f3a272b4d01" Name="L2_GND_1" IsShared="True">
+            <Properties>
+              <Property Name="Thickness" Type="LengthValue">1.2mil</Property>
+              <Property Name="ComponentPlacement" Type="Altium.LayerStackManager.LayerSchema.ComponentPlacement, Altium.LayerStackManager.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=51600b9dd346ed18">None</Property>
+              <Property Name="CopperOrientation" Type="Int32">0</Property>
+              <Property Name="Weight" Type="MassValue">1oz</Property>
+            </Properties>
+          </Layer>
+          <Layer Id="08947261-5b15-4b1a-8ce6-39d00323b299" TypeId="136c62ef-1fa6-4897-ae71-7e797b632b92" Name="Dielectric2" IsShared="True">
+            <Properties>
+              <Property Name="Thickness" Type="LengthValue">3.94mil</Property>
+              <Property Name="Material" Type="String">TU768</Property>
+              <Property Name="DielectricConstant" Type="DimensionlessValue">4.25</Property>
+              <Property Name="LossTangent" Type="DimensionlessValue">0.02</Property>
+            </Properties>
+          </Layer>
+          <Layer Id="e539c13c-2615-481e-aaea-d3b32df21d87" TypeId="f4eccd87-2cfb-4f37-be50-4f3a272b4d01" Name="L3_IN1" IsShared="True">
+            <Properties>
+              <Property Name="Thickness" Type="LengthValue">1.2mil</Property>
+              <Property Name="ComponentPlacement" Type="Altium.LayerStackManager.LayerSchema.ComponentPlacement, Altium.LayerStackManager.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=51600b9dd346ed18">None</Property>
+              <Property Name="CopperOrientation" Type="Int32">0</Property>
+              <Property Name="Weight" Type="MassValue">1oz</Property>
+            </Properties>
+          </Layer>
+          <Layer Id="b4b626a3-f3e1-494d-b7ed-2a469c3d958e" TypeId="1a79611a-039d-4d40-a204-53c26c50f8b5" Name="Dielectric3" IsShared="True">
+            <Properties>
+              <Property Name="Thickness" Type="LengthValue">5.04mil</Property>
+              <Property Name="Material" Type="String">TU768</Property>
+              <Property Name="DielectricConstant" Type="DimensionlessValue">3.9</Property>
+              <Property Name="LossTangent" Type="DimensionlessValue">0.02</Property>
+            </Properties>
+          </Layer>
+          <Layer Id="28b24c66-dcda-47cf-b309-905e46850122" TypeId="f4eccd87-2cfb-4f37-be50-4f3a272b4d01" Name="L4_GND_2" IsShared="True">
+            <Properties>
+              <Property Name="Thickness" Type="LengthValue">1.2mil</Property>
+              <Property Name="ComponentPlacement" Type="Altium.LayerStackManager.LayerSchema.ComponentPlacement, Altium.LayerStackManager.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=51600b9dd346ed18">None</Property>
+              <Property Name="CopperOrientation" Type="Int32">0</Property>
+              <Property Name="Weight" Type="MassValue">1oz</Property>
+            </Properties>
+          </Layer>
+          <Layer Id="093ef729-38ac-4590-90a6-6903b2f60cd5" TypeId="136c62ef-1fa6-4897-ae71-7e797b632b92" Name="Dielectric4" IsShared="True">
+            <Properties>
+              <Property Name="Thickness" Type="LengthValue">12mil</Property>
+              <Property Name="Material" Type="String">TU768</Property>
+              <Property Name="DielectricConstant" Type="DimensionlessValue">4.25</Property>
+              <Property Name="LossTangent" Type="DimensionlessValue">0.02</Property>
+            </Properties>
+          </Layer>
+          <Layer Id="986fc7e0-4bc3-45d7-b22c-11c9a9d531c1" TypeId="f4eccd87-2cfb-4f37-be50-4f3a272b4d01" Name="L5_PWR_1" IsShared="True">
+            <Properties>
+              <Property Name="Thickness" Type="LengthValue">1.2mil</Property>
+              <Property Name="ComponentPlacement" Type="Altium.LayerStackManager.LayerSchema.ComponentPlacement, Altium.LayerStackManager.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=51600b9dd346ed18">None</Property>
+              <Property Name="CopperOrientation" Type="Int32">1</Property>
+              <Property Name="Weight" Type="MassValue">1oz</Property>
+            </Properties>
+          </Layer>
+          <Layer Id="75567ab0-0d02-450f-a284-4264cfff2767" TypeId="1a79611a-039d-4d40-a204-53c26c50f8b5" Name="Dielectric 5" IsShared="True">
+            <Properties>
+              <Property Name="Thickness" Type="LengthValue">5.04mil</Property>
+              <Property Name="Material" Type="String">TU768</Property>
+              <Property Name="DielectricConstant" Type="DimensionlessValue">3.9</Property>
+              <Property Name="LossTangent" Type="DimensionlessValue">0.02</Property>
+            </Properties>
+          </Layer>
+          <Layer Id="2fbd944a-9605-4ec2-a989-cf259d80a845" TypeId="f4eccd87-2cfb-4f37-be50-4f3a272b4d01" Name="L6_PWR_2" IsShared="True">
+            <Properties>
+              <Property Name="Thickness" Type="LengthValue">1.2mil</Property>
+              <Property Name="ComponentPlacement" Type="Altium.LayerStackManager.LayerSchema.ComponentPlacement, Altium.LayerStackManager.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=51600b9dd346ed18">None</Property>
+              <Property Name="CopperOrientation" Type="Int32">1</Property>
+              <Property Name="Weight" Type="MassValue">1oz</Property>
+            </Properties>
+          </Layer>
+          <Layer Id="582abec2-568f-46dd-ae0a-66517e27405c" TypeId="136c62ef-1fa6-4897-ae71-7e797b632b92" Name="Dielectric 6" IsShared="True">
+            <Properties>
+              <Property Name="Thickness" Type="LengthValue">3.94mil</Property>
+              <Property Name="Material" Type="String">TU768</Property>
+              <Property Name="DielectricConstant" Type="DimensionlessValue">4.25</Property>
+              <Property Name="LossTangent" Type="DimensionlessValue">0.02</Property>
+            </Properties>
+          </Layer>
+          <Layer Id="75e1b84b-1d13-4a9d-86b3-d38baa0b3762" TypeId="f4eccd87-2cfb-4f37-be50-4f3a272b4d01" Name="L7_GND_3" IsShared="True">
+            <Properties>
+              <Property Name="Thickness" Type="LengthValue">1.2mil</Property>
+              <Property Name="ComponentPlacement" Type="Altium.LayerStackManager.LayerSchema.ComponentPlacement, Altium.LayerStackManager.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=51600b9dd346ed18">None</Property>
+              <Property Name="CopperOrientation" Type="Int32">1</Property>
+              <Property Name="Weight" Type="MassValue">1oz</Property>
+            </Properties>
+          </Layer>
+          <Layer Id="885c9fed-77db-4d95-90db-d4b2ae1a2f21" TypeId="1a79611a-039d-4d40-a204-53c26c50f8b5" Name="Dielectric 7" IsShared="True">
+            <Properties>
+              <Property Name="Thickness" Type="LengthValue">2.77mil</Property>
+              <Property Name="Material" Type="String">TU768</Property>
+              <Property Name="DielectricConstant" Type="DimensionlessValue">3.9</Property>
+              <Property Name="LossTangent" Type="DimensionlessValue">0.02</Property>
+            </Properties>
+          </Layer>
+          <Layer Id="1a5b7eb4-618e-448a-9101-f6278dedaca3" TypeId="f4eccd87-2cfb-4f37-be50-4f3a272b4d01" Name="L8_SS" IsShared="True">
+            <Properties>
+              <Property Name="Thickness" Type="LengthValue">1.7mil</Property>
+              <Property Name="ComponentPlacement" Type="Altium.LayerStackManager.LayerSchema.ComponentPlacement, Altium.LayerStackManager.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=51600b9dd346ed18">BodyDown</Property>
+              <Property Name="CopperOrientation" Type="Int32">1</Property>
+              <Property Name="Weight" Type="MassValue">1oz</Property>
+            </Properties>
+          </Layer>
+          <Layer Id="85526479-0f03-46ba-8bab-1cbf6c203432" TypeId="7b384237-13d8-4318-8bcb-accd8d9a51e7" Name="Board Layer Stack Bottom Solder" IsShared="True">
+            <Properties>
+              <Property Name="Thickness" Type="LengthValue">0.4mil</Property>
+              <Property Name="Material" Type="String">Solder Resist</Property>
+              <Property Name="DielectricConstant" Type="DimensionlessValue">3.5</Property>
+              <Property Name="CoverlayExpansion" Type="LengthValue">0mil</Property>
+            </Properties>
+          </Layer>
+          <Layer Id="9d187224-cfba-4f43-a33c-992a9eaeea67" TypeId="c7ef040e-8d00-490b-b00c-a7e7823ff174" Name="Board Layer Stack Bottom Overlay" IsShared="True">
+            <Properties />
+          </Layer>
+        </Layers>
+        <ViaSpans>
+          <ViaSpan Id="188d1eb5-6f07-4bf7-9e49-d8bf1cd5e9fd" AutoName="Thru 1:8" Type="ThruVia" StartLayerId="fe6a2cac-5385-4a11-8d05-0989c8d91af0" StopLayerId="1a5b7eb4-618e-448a-9101-f6278dedaca3" />
+        </ViaSpans>
+        <DrillSpans />
+      </Stack>
+    </Stacks>
+    <ImpedanceProfiles>
+      <ImpedanceProfile Id="89889b90-efd7-412b-af80-5db2da82b89d" AutoName="S50" Type="Single" Impedance="50ohm" Tolerance="10%">
+        <TransmissionLines>
+          <TransmissionLine LayerId="fe6a2cac-5385-4a11-8d05-0989c8d91af0" StackId="d8207132-ec2d-4fb6-939d-47ce6a28d32f" TLTypeName="Coated Microstrip" CalcMode="Impedance" BottomRefLayerId="8385e89e-c0a0-4544-b02e-5c78f39c3bde" TraceWidth="4.1mil" EtchFactor="2" TraceGap="5mil" ImpedanceError="9.163814129499173%" UseSolderMask="True" CoatedHeight1="0.4mil" CoatedHeight2="0.6mil" ClearanceToPlane="5mil">
+            <ElectricParameters Z="54.581907064749586ohm" TP="5.88065208833298ns/m" L="320.874001820043nH/m" C="107.763128891874pF/m" />
+          </TransmissionLine>
+          <TransmissionLine LayerId="1a5b7eb4-618e-448a-9101-f6278dedaca3" StackId="d8207132-ec2d-4fb6-939d-47ce6a28d32f" TLTypeName="Coated Microstrip" CalcMode="Impedance" TopRefLayerId="75e1b84b-1d13-4a9d-86b3-d38baa0b3762" TraceWidth="4.1mil" EtchFactor="2" TraceGap="5mil" ImpedanceError="9.163814129499173%" UseSolderMask="True" CoatedHeight1="0.4mil" CoatedHeight2="0.6mil" ClearanceToPlane="5mil">
+            <ElectricParameters Z="54.581907064749586ohm" TP="5.88065208833298ns/m" L="320.874001820043nH/m" C="107.763128891874pF/m" />
+          </TransmissionLine>
+        </TransmissionLines>
+      </ImpedanceProfile>
+      <ImpedanceProfile Id="25ae6077-c0e4-4dad-9663-5ee50f136fea" AutoName="D85" CustomName="85-Ohm Diff" Type="Differential" Impedance="85ohm" Tolerance="10%">
+        <TransmissionLines>
+          <TransmissionLine LayerId="1a5b7eb4-618e-448a-9101-f6278dedaca3" StackId="d8207132-ec2d-4fb6-939d-47ce6a28d32f" IsDifferential="True" TLTypeName="Edge-Coupled Coated Microstrip" CalcMode="Impedance" TopRefLayerId="75e1b84b-1d13-4a9d-86b3-d38baa0b3762" TraceWidth="4.2mil" TraceGap="4.8mil" ImpedanceError="4.91940571597359%" UseSolderMask="True" CoatedHeight1="0.4mil" CoatedHeight2="0.4mil" ClearanceToPlane="5mil">
+            <ElectricParameters Ze="57.965566393506094ohm" Zo="44.590747429288776ohm" TP="5.53372733474754ns/m" L="493.340822601586nH/m" C="62.0634082843462pF/m" />
+          </TransmissionLine>
+          <TransmissionLine LayerId="fe6a2cac-5385-4a11-8d05-0989c8d91af0" StackId="d8207132-ec2d-4fb6-939d-47ce6a28d32f" IsDifferential="True" TLTypeName="Edge-Coupled Coated Microstrip" CalcMode="Impedance" BottomRefLayerId="8385e89e-c0a0-4544-b02e-5c78f39c3bde" TraceWidth="4.2mil" TraceGap="4.8mil" ImpedanceError="4.91940571597359%" UseSolderMask="True" CoatedHeight1="0.4mil" CoatedHeight2="0.4mil" ClearanceToPlane="5mil">
+            <ElectricParameters Ze="57.965566393506094ohm" Zo="44.590747429288776ohm" TP="5.53372733474754ns/m" L="493.340822601586nH/m" C="62.0634082843462pF/m" />
+          </TransmissionLine>
+        </TransmissionLines>
+      </ImpedanceProfile>
+      <ImpedanceProfile Id="c5fd790a-dab0-4d3e-a45f-77c841a274f8" AutoName="D90" CustomName="90-Ohm Diff" Type="Differential" Impedance="90ohm" Tolerance="10%">
+        <TransmissionLines>
+          <TransmissionLine LayerId="fe6a2cac-5385-4a11-8d05-0989c8d91af0" StackId="d8207132-ec2d-4fb6-939d-47ce6a28d32f" IsDifferential="True" TLTypeName="Edge-Coupled Coated Microstrip" CalcMode="Impedance" BottomRefLayerId="8385e89e-c0a0-4544-b02e-5c78f39c3bde" TraceWidth="3.6mil" EtchFactor="Infinity" TraceGap="0.12446mm" ImpedanceError="5.890276854748796%" UseSolderMask="True" CoatedHeight1="0.4mil" CoatedHeight2="0.4mil" ClearanceToPlane="5mil">
+            <ElectricParameters Z="87.95253811456563ohm" Ze="62.15562947125546ohm" Zo="47.65062458463696ohm" TP="5.50753480381914ns/m" L="524.686032710088nH/m" C="57.8036469945065pF/m" />
+          </TransmissionLine>
+          <TransmissionLine LayerId="1a5b7eb4-618e-448a-9101-f6278dedaca3" StackId="d8207132-ec2d-4fb6-939d-47ce6a28d32f" IsDifferential="True" TLTypeName="Edge-Coupled Coated Microstrip" CalcMode="Impedance" TopRefLayerId="75e1b84b-1d13-4a9d-86b3-d38baa0b3762" TraceWidth="3.6mil" EtchFactor="Infinity" TraceGap="0.12446mm" ImpedanceError="5.890276854748796%" UseSolderMask="True" CoatedHeight1="0.4mil" CoatedHeight2="0.4mil" ClearanceToPlane="5mil">
+            <ElectricParameters Z="87.95253811456563ohm" Ze="62.15562947125546ohm" Zo="47.65062458463696ohm" TP="5.50753480381914ns/m" L="524.686032710088nH/m" C="57.8036469945065pF/m" />
+          </TransmissionLine>
+        </TransmissionLines>
+      </ImpedanceProfile>
+      <ImpedanceProfile Id="4c188132-3096-425c-a600-01d08e21a632" AutoName="D100" CustomName="100-Ohm Diff" Type="Differential" Impedance="100ohm" Tolerance="10%">
+        <TransmissionLines>
+          <TransmissionLine LayerId="fe6a2cac-5385-4a11-8d05-0989c8d91af0" StackId="d8207132-ec2d-4fb6-939d-47ce6a28d32f" IsDifferential="True" TLTypeName="Edge-Coupled Coated Microstrip" CalcMode="Impedance" BottomRefLayerId="8385e89e-c0a0-4544-b02e-5c78f39c3bde" TraceWidth="3mil" EtchFactor="Infinity" TraceGap="6mil" ImpedanceError="5.947727184052539%" UseSolderMask="True" CoatedHeight1="0.4mil" CoatedHeight2="0.4mil" ClearanceToPlane="5mil">
+            <ElectricParameters Z="50.011108198708506ohm" Ze="65.60880244799162ohm" Zo="52.97386359202627ohm" TP="5.51173163726605ns/m" L="583.738765300986nH/m" C="52.0351749402192pF/m" />
+          </TransmissionLine>
+          <TransmissionLine LayerId="1a5b7eb4-618e-448a-9101-f6278dedaca3" StackId="d8207132-ec2d-4fb6-939d-47ce6a28d32f" IsDifferential="True" TLTypeName="Edge-Coupled Coated Microstrip" CalcMode="Impedance" TopRefLayerId="75e1b84b-1d13-4a9d-86b3-d38baa0b3762" TraceWidth="3mil" EtchFactor="Infinity" TraceGap="6mil" ImpedanceError="5.947727184052539%" UseSolderMask="True" CoatedHeight1="0.4mil" CoatedHeight2="0.4mil" ClearanceToPlane="5mil">
+            <ElectricParameters Z="50.011108198708506ohm" Ze="65.60880244799162ohm" Zo="52.97386359202627ohm" TP="5.51173163726605ns/m" L="583.738765300986nH/m" C="52.0351749402192pF/m" />
+          </TransmissionLine>
+        </TransmissionLines>
+      </ImpedanceProfile>
+    </ImpedanceProfiles>
+    <Branches>
+      <Branch Id="44a58c04-0323-4b6e-bc97-004309771907" Name="Board" Description="">
+        <Sections>
+          <BranchSection Id="e9dcc75a-4c8e-4165-803b-643790bc6f58" Name="Branch Section-1">
+            <Stacks>
+              <BranchSectionStack Id="0d553d1f-ba91-40a8-b6e9-909361766734" LayerStackId="d8207132-ec2d-4fb6-939d-47ce6a28d32f" Description="Board Layer Stack" MaterialUsage="Common" Source="Design" IsLeftIntrusionsLinked="True" IntrusionLeftBottom="0m" IntrusionLeftTop="0m" IsRightIntrusionsLinked="True" IntrusionRightBottom="0m" IntrusionRightTop="0m" />
+            </Stacks>
+          </BranchSection>
+        </Sections>
+      </Branch>
+    </Branches>
+  </Stackup>
+</StackupDocument>

@@ -1,0 +1,15 @@
+field	value
+board_file	recorded-workspace\projects\work\full-routing-2026-09-30\QCMI_SOM8MM\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc
+coordinate_units	Altium internal units
+internal_units_per_mil	10000
+x_origin_raw	115633500
+y_origin_raw	82894100
+net_count	321
+pad_count	1593
+track_segment_count	2944
+via_count	373
+connection_object_count	838
+nonredundant_ratsnest_connections	838
+redundant_connection_objects	0
+connectivity_invalid_nets	320
+rule_count	78

@@ -1,0 +1,649 @@
+{
+  "baseline": "batches/637-rxd3-native-via/after",
+  "tracks": 39,
+  "added_tracks": 39,
+  "edited_tracks": 0,
+  "vias": 2,
+  "expected_tracks": 9724,
+  "expected_vias": 995,
+  "checks": [
+    {
+      "net": "GND",
+      "kind": "track",
+      "minimum": [
+        5.25,
+        "via",
+        "993",
+        "SAI1_RXD3",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD4",
+      "kind": "track",
+      "minimum": [
+        4.349240122673331,
+        "via",
+        "140",
+        "SAI1_TXD1",
+        74
+      ],
+      "retained_exact_source": {
+        "net": "SAI1_RXD4",
+        "x1_raw": "130883500",
+        "y1_raw": "85294100",
+        "x2_raw": "130883500",
+        "y2_raw": "86309100",
+        "width_raw": "32000",
+        "layer_id": "3",
+        "layer": "Mid Layer 2",
+        "selected": "false"
+      },
+      "retained_baseline_minimum": [
+        4.349240122673331,
+        "via",
+        "140",
+        "SAI1_TXD1",
+        74
+      ],
+      "unchanged_clearance": true
+    },
+    {
+      "net": "SAI1_RXD4",
+      "kind": "track",
+      "minimum": [
+        3.2798291914140165,
+        "via",
+        "177",
+        "SAI2_RXC",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD4",
+      "kind": "track",
+      "minimum": [
+        3.2798291914140165,
+        "via",
+        "177",
+        "SAI2_RXC",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD4",
+      "kind": "track",
+      "minimum": [
+        5.919999999999982,
+        "via",
+        "993",
+        "SAI1_RXD3",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI5_RXFS",
+      "kind": "track",
+      "minimum": [
+        3.3065874653217104,
+        "via",
+        "31",
+        "SAI1_RXD0",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI5_RXFS",
+      "kind": "track",
+      "minimum": [
+        3.177797149743805,
+        "via",
+        "993",
+        "SAI1_RXD3",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI5_RXFS",
+      "kind": "track",
+      "minimum": [
+        3.177797149743805,
+        "via",
+        "993",
+        "SAI1_RXD3",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI5_RXFS",
+      "kind": "track",
+      "minimum": [
+        3.1561788949512586,
+        "via",
+        "993",
+        "SAI1_RXD3",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI5_RXFS",
+      "kind": "track",
+      "minimum": [
+        3.1561788949512586,
+        "via",
+        "993",
+        "SAI1_RXD3",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI5_RXFS",
+      "kind": "track",
+      "minimum": [
+        3.099999999999989,
+        "via",
+        "993",
+        "SAI1_RXD3",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI5_RXFS",
+      "kind": "track",
+      "minimum": [
+        5.590329160357292,
+        "via",
+        "139",
+        "SAI1_RXD5",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        13.210103181198459,
+        "via",
+        "17",
+        "SAI1_RXD4",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        12.704696218583063,
+        "via",
+        "17",
+        "SAI1_RXD4",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        3.755700000000002,
+        "track",
+        "6254",
+        "VDDA_1V8",
+        32
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        4.38528137423857,
+        "track",
+        "6319",
+        "SAI1_RXD5",
+        32
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        4.38528137423857,
+        "track",
+        "6319",
+        "SAI1_RXD5",
+        32
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        4.280125610056572,
+        "via",
+        "289",
+        "SAI1_RXD2",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        4.280125610056572,
+        "via",
+        "289",
+        "SAI1_RXD2",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        3.8154246238620466,
+        "via",
+        "359",
+        "SAI1_TXFS",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        3.8154246238620466,
+        "via",
+        "359",
+        "SAI1_TXFS",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        3.7793166859393317,
+        "via",
+        "359",
+        "SAI1_TXFS",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        3.7793166859393317,
+        "via",
+        "359",
+        "SAI1_TXFS",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        3.7896272236645814,
+        "via",
+        "330",
+        "PDM_DATA2",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        3.7896272236645814,
+        "via",
+        "330",
+        "PDM_DATA2",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        5.920000000000027,
+        "via",
+        "330",
+        "PDM_DATA2",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        9.141664813991312,
+        "via",
+        "178",
+        "SAI2_RXC",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        3.4000000000000004,
+        "via",
+        "178",
+        "SAI2_RXC",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        3.4000000000000004,
+        "via",
+        "178",
+        "SAI2_RXC",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        3.163961030678928,
+        "track",
+        "4394",
+        "SAI2_RXC",
+        3
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        3.163961030678928,
+        "track",
+        "4394",
+        "SAI2_RXC",
+        3
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        3.3034879005639404,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        3.3034879005639404,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        4.056500283747663,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        4.056500283747663,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        3.9000000000000004,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        5.9,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        10.817494949185114,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "track",
+      "minimum": [
+        10.817494949185114,
+        "via",
+        "9",
+        "SAI1_RXD4",
+        74
+      ],
+      "retained_exact_source": null,
+      "retained_baseline_minimum": null,
+      "unchanged_clearance": false
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "via",
+      "minimum": [
+        3.0999999999999885,
+        "track",
+        "9695",
+        "SAI5_RXFS",
+        2
+      ],
+      "hole_min": 12.419679233523716
+    },
+    {
+      "net": "SAI1_RXD3",
+      "kind": "via",
+      "minimum": [
+        3.95,
+        "track",
+        "2487",
+        "SD2_DATA2",
+        1
+      ],
+      "hole_min": 59.63091896462737
+    }
+  ],
+  "failures": [],
+  "native_drc_checked": false,
+  "electrical_acceptance_pending": true,
+  "consumed_planning_reservations": [],
+  "minimum_copper_clearance_mil": 3.1,
+  "deleted_run_added_tracks": [
+    {
+      "net": "SAI1_RXD4",
+      "x1_raw": "130883500",
+      "y1_raw": "85294100",
+      "x2_raw": "131083500",
+      "y2_raw": "85094100",
+      "width_raw": "32000",
+      "layer_id": "3",
+      "layer": "Mid Layer 2",
+      "selected": "false"
+    },
+    {
+      "net": "SAI1_RXD4",
+      "x1_raw": "130883500",
+      "y1_raw": "85294100",
+      "x2_raw": "130883500",
+      "y2_raw": "86309100",
+      "width_raw": "32000",
+      "layer_id": "3",
+      "layer": "Mid Layer 2",
+      "selected": "false"
+    },
+    {
+      "net": "SAI5_RXFS",
+      "x1_raw": "130275400",
+      "y1_raw": "85323800",
+      "x2_raw": "131126400",
+      "y2_raw": "85323800",
+      "width_raw": "32000",
+      "layer_id": "2",
+      "layer": "Mid Layer 1",
+      "selected": "false"
+    },
+    {
+      "net": "GND",
+      "x1_raw": "130770800",
+      "y1_raw": "84986800",
+      "x2_raw": "130770800",
+      "y2_raw": "85226800",
+      "width_raw": "100000",
+      "layer_id": "32",
+      "layer": "Bottom Layer",
+      "selected": "false"
+    }
+  ],
+  "moved_run_added_vias": []
+}

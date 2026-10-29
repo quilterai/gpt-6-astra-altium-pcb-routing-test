@@ -1,0 +1,2 @@
+board	row	action	net	x1_raw	y1_raw	x2_raw	y2_raw	width_raw	layer_id	before_track_count	after_track_count	result
+recorded-workspace\projects\work\full-routing-2026-09-30\QCMI_SOM8MM\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc	1	edit	DRAMA_DATA8	122263300	96066350	122421750	96066350	30000	1	2939	2939	applied_readback_ok_drc_not_checked

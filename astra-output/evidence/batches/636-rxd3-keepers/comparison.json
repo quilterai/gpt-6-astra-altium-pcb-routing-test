@@ -1,0 +1,885 @@
+{
+  "baseline_board": {
+    "board_file": "recorded-workspace\\projects\\work\\full-routing-2026-09-30\\QCMI_SOM8MM\\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc",
+    "coordinate_units": "Altium internal units",
+    "internal_units_per_mil": "10000",
+    "x_origin_raw": "115633500",
+    "y_origin_raw": "82894100",
+    "net_count": "321",
+    "pad_count": "1593",
+    "track_segment_count": "9638",
+    "via_count": "991",
+    "connection_object_count": "21",
+    "nonredundant_ratsnest_connections": "21",
+    "redundant_connection_objects": "0",
+    "connectivity_invalid_nets": "274",
+    "rule_count": "78"
+  },
+  "current_board": {
+    "board_file": "recorded-workspace\\projects\\work\\full-routing-2026-09-30\\QCMI_SOM8MM\\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc",
+    "coordinate_units": "Altium internal units",
+    "internal_units_per_mil": "10000",
+    "x_origin_raw": "115633500",
+    "y_origin_raw": "82894100",
+    "net_count": "321",
+    "pad_count": "1593",
+    "track_segment_count": "9681",
+    "via_count": "992",
+    "connection_object_count": "21",
+    "nonredundant_ratsnest_connections": "21",
+    "redundant_connection_objects": "0",
+    "connectivity_invalid_nets": "271",
+    "rule_count": "78"
+  },
+  "baseline_counts": {
+    "net_count": 321,
+    "pad_count": 1593,
+    "track_segment_count": 9638,
+    "via_count": 991,
+    "rule_count": 78,
+    "connection_object_count": 21,
+    "nonredundant_ratsnest_connections": 21,
+    "redundant_connection_objects": 0,
+    "connectivity_invalid_nets": 274
+  },
+  "current_counts": {
+    "net_count": 321,
+    "pad_count": 1593,
+    "track_segment_count": 9681,
+    "via_count": 992,
+    "rule_count": 78,
+    "connection_object_count": 21,
+    "nonredundant_ratsnest_connections": 21,
+    "redundant_connection_objects": 0,
+    "connectivity_invalid_nets": 271
+  },
+  "remaining_reduction": 0,
+  "newly_complete_nets": 0,
+  "changed_nets": [
+    {
+      "net": "GPIO1_IO05",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    },
+    {
+      "net": "GPIO1_IO06",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    },
+    {
+      "net": "GPIO1_IO07",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    },
+    {
+      "net": "PDM_DATA2",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    }
+  ],
+  "unexpected_nets": [],
+  "immutable_board_changes": {},
+  "changes": {
+    "pads": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    },
+    "rules": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    },
+    "tracks": {
+      "added_count": 50,
+      "removed_count": 7,
+      "added": [
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO06",
+            "width_raw": "32000",
+            "x1_raw": "124737790",
+            "x2_raw": "124737790",
+            "y1_raw": "91760000",
+            "y2_raw": "91760190"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO06",
+            "width_raw": "32000",
+            "x1_raw": "124737790",
+            "x2_raw": "124769790",
+            "y1_raw": "91760190",
+            "y2_raw": "91728190"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO06",
+            "width_raw": "32000",
+            "x1_raw": "124769790",
+            "x2_raw": "125050790",
+            "y1_raw": "91728190",
+            "y2_raw": "91728190"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO06",
+            "width_raw": "32000",
+            "x1_raw": "125050790",
+            "x2_raw": "125050790",
+            "y1_raw": "91619190",
+            "y2_raw": "91728190"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO06",
+            "width_raw": "32000",
+            "x1_raw": "125050790",
+            "x2_raw": "125144790",
+            "y1_raw": "91619190",
+            "y2_raw": "91525190"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO06",
+            "width_raw": "32000",
+            "x1_raw": "125144790",
+            "x2_raw": "125144790",
+            "y1_raw": "90942190",
+            "y2_raw": "91525190"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO06",
+            "width_raw": "32000",
+            "x1_raw": "125144790",
+            "x2_raw": "125176790",
+            "y1_raw": "90942190",
+            "y2_raw": "90910190"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO06",
+            "width_raw": "32000",
+            "x1_raw": "125176790",
+            "x2_raw": "125176790",
+            "y1_raw": "90875190",
+            "y2_raw": "90910190"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO06",
+            "width_raw": "32000",
+            "x1_raw": "125176790",
+            "x2_raw": "125213790",
+            "y1_raw": "90875190",
+            "y2_raw": "90875190"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO06",
+            "width_raw": "32000",
+            "x1_raw": "125213790",
+            "x2_raw": "125245790",
+            "y1_raw": "90875190",
+            "y2_raw": "90843190"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO06",
+            "width_raw": "32000",
+            "x1_raw": "125245790",
+            "x2_raw": "125826790",
+            "y1_raw": "90843190",
+            "y2_raw": "90843190"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO06",
+            "width_raw": "32000",
+            "x1_raw": "125826790",
+            "x2_raw": "128723790",
+            "y1_raw": "90843190",
+            "y2_raw": "87946190"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO06",
+            "width_raw": "32000",
+            "x1_raw": "128723600",
+            "x2_raw": "128723790",
+            "y1_raw": "87774190",
+            "y2_raw": "87774190"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO06",
+            "width_raw": "32000",
+            "x1_raw": "128723790",
+            "x2_raw": "128723790",
+            "y1_raw": "87774190",
+            "y2_raw": "87946190"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 4",
+            "layer_id": "5",
+            "net": "GPIO1_IO07",
+            "width_raw": "32000",
+            "x1_raw": "124743500",
+            "x2_raw": "124775500",
+            "y1_raw": "91764100",
+            "y2_raw": "91732100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 4",
+            "layer_id": "5",
+            "net": "GPIO1_IO07",
+            "width_raw": "32000",
+            "x1_raw": "124775500",
+            "x2_raw": "124921500",
+            "y1_raw": "91732100",
+            "y2_raw": "91732100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 4",
+            "layer_id": "5",
+            "net": "GPIO1_IO07",
+            "width_raw": "32000",
+            "x1_raw": "124921500",
+            "x2_raw": "125145500",
+            "y1_raw": "91732100",
+            "y2_raw": "91508100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 4",
+            "layer_id": "5",
+            "net": "GPIO1_IO07",
+            "width_raw": "32000",
+            "x1_raw": "125145500",
+            "x2_raw": "125145500",
+            "y1_raw": "89589100",
+            "y2_raw": "91508100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 4",
+            "layer_id": "5",
+            "net": "GPIO1_IO07",
+            "width_raw": "32000",
+            "x1_raw": "125145500",
+            "x2_raw": "127064500",
+            "y1_raw": "89589100",
+            "y2_raw": "89589100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 4",
+            "layer_id": "5",
+            "net": "GPIO1_IO07",
+            "width_raw": "32000",
+            "x1_raw": "127064500",
+            "x2_raw": "127064500",
+            "y1_raw": "89443100",
+            "y2_raw": "89589100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 4",
+            "layer_id": "5",
+            "net": "GPIO1_IO07",
+            "width_raw": "32000",
+            "x1_raw": "127064500",
+            "x2_raw": "128413500",
+            "y1_raw": "89443100",
+            "y2_raw": "88094100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "124488500",
+            "x2_raw": "124488500",
+            "y1_raw": "92009100",
+            "y2_raw": "92010700"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "124488500",
+            "x2_raw": "124488700",
+            "y1_raw": "92010700",
+            "y2_raw": "92010900"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "124488500",
+            "x2_raw": "124873500",
+            "y1_raw": "92009100",
+            "y2_raw": "92009100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "124873500",
+            "x2_raw": "124873500",
+            "y1_raw": "90004100",
+            "y2_raw": "92009100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "124873500",
+            "x2_raw": "125173500",
+            "y1_raw": "90004100",
+            "y2_raw": "90004100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "125173500",
+            "x2_raw": "126478500",
+            "y1_raw": "90004100",
+            "y2_raw": "88699100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "126478500",
+            "x2_raw": "126483500",
+            "y1_raw": "88699100",
+            "y2_raw": "88699100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "126483500",
+            "x2_raw": "126483500",
+            "y1_raw": "88374100",
+            "y2_raw": "88699100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "126483500",
+            "x2_raw": "126808500",
+            "y1_raw": "88374100",
+            "y2_raw": "88374100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "126808500",
+            "x2_raw": "126808500",
+            "y1_raw": "87654100",
+            "y2_raw": "88374100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "126808500",
+            "x2_raw": "127393500",
+            "y1_raw": "87654100",
+            "y2_raw": "87654100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "127393500",
+            "x2_raw": "127758500",
+            "y1_raw": "87654100",
+            "y2_raw": "87289100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "127758500",
+            "x2_raw": "127758500",
+            "y1_raw": "86669100",
+            "y2_raw": "87289100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "127758500",
+            "x2_raw": "127988500",
+            "y1_raw": "86669100",
+            "y2_raw": "86439100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "127988500",
+            "x2_raw": "127988500",
+            "y1_raw": "86079100",
+            "y2_raw": "86439100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "PDM_DATA2",
+            "width_raw": "32000",
+            "x1_raw": "125407700",
+            "x2_raw": "125407700",
+            "y1_raw": "90138146",
+            "y2_raw": "90913900"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "PDM_DATA2",
+            "width_raw": "32000",
+            "x1_raw": "125407700",
+            "x2_raw": "125407700",
+            "y1_raw": "91425900",
+            "y2_raw": "91983400"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "PDM_DATA2",
+            "width_raw": "32000",
+            "x1_raw": "125407700",
+            "x2_raw": "125533700",
+            "y1_raw": "90913900",
+            "y2_raw": "91039900"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "PDM_DATA2",
+            "width_raw": "32000",
+            "x1_raw": "125407700",
+            "x2_raw": "125533700",
+            "y1_raw": "91425900",
+            "y2_raw": "91299900"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "PDM_DATA2",
+            "width_raw": "32000",
+            "x1_raw": "125533700",
+            "x2_raw": "125533700",
+            "y1_raw": "91039900",
+            "y2_raw": "91299900"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Top Layer",
+            "layer_id": "1",
+            "net": "GPIO1_IO05",
+            "width_raw": "41000",
+            "x1_raw": "127988500",
+            "x2_raw": "127988500",
+            "y1_raw": "86079100",
+            "y2_raw": "86424100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Top Layer",
+            "layer_id": "1",
+            "net": "GPIO1_IO05",
+            "width_raw": "41000",
+            "x1_raw": "127988500",
+            "x2_raw": "128193500",
+            "y1_raw": "86424100",
+            "y2_raw": "86629100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Top Layer",
+            "layer_id": "1",
+            "net": "GPIO1_IO05",
+            "width_raw": "41000",
+            "x1_raw": "128193500",
+            "x2_raw": "128193500",
+            "y1_raw": "86629100",
+            "y2_raw": "87034100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Top Layer",
+            "layer_id": "1",
+            "net": "GPIO1_IO05",
+            "width_raw": "41000",
+            "x1_raw": "128193500",
+            "x2_raw": "128493500",
+            "y1_raw": "87034100",
+            "y2_raw": "87034100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Top Layer",
+            "layer_id": "1",
+            "net": "GPIO1_IO05",
+            "width_raw": "41000",
+            "x1_raw": "128493500",
+            "x2_raw": "128498500",
+            "y1_raw": "87034100",
+            "y2_raw": "87039100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Top Layer",
+            "layer_id": "1",
+            "net": "GPIO1_IO05",
+            "width_raw": "41000",
+            "x1_raw": "128498500",
+            "x2_raw": "129173500",
+            "y1_raw": "87039100",
+            "y2_raw": "87039100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Top Layer",
+            "layer_id": "1",
+            "net": "GPIO1_IO05",
+            "width_raw": "41000",
+            "x1_raw": "129038500",
+            "x2_raw": "129038500",
+            "y1_raw": "85226800",
+            "y2_raw": "85229100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Top Layer",
+            "layer_id": "1",
+            "net": "GPIO1_IO05",
+            "width_raw": "41000",
+            "x1_raw": "129038500",
+            "x2_raw": "129173500",
+            "y1_raw": "85229100",
+            "y2_raw": "85364100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Top Layer",
+            "layer_id": "1",
+            "net": "GPIO1_IO05",
+            "width_raw": "41000",
+            "x1_raw": "129173500",
+            "x2_raw": "129173500",
+            "y1_raw": "85364100",
+            "y2_raw": "87039100"
+          },
+          "count": 1
+        }
+      ],
+      "removed": [
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "124488700",
+            "x2_raw": "124576700",
+            "y1_raw": "92010900",
+            "y2_raw": "92010900"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "124576700",
+            "x2_raw": "128793500",
+            "y1_raw": "92010900",
+            "y2_raw": "87794100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "128793500",
+            "x2_raw": "128793500",
+            "y1_raw": "85471800",
+            "y2_raw": "87794100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO05",
+            "width_raw": "32000",
+            "x1_raw": "128793500",
+            "x2_raw": "129038500",
+            "y1_raw": "85471800",
+            "y2_raw": "85226800"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 2",
+            "layer_id": "3",
+            "net": "GPIO1_IO06",
+            "width_raw": "32000",
+            "x1_raw": "124737790",
+            "x2_raw": "128723600",
+            "y1_raw": "91760000",
+            "y2_raw": "87774190"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 4",
+            "layer_id": "5",
+            "net": "GPIO1_IO07",
+            "width_raw": "32000",
+            "x1_raw": "124743500",
+            "x2_raw": "128413500",
+            "y1_raw": "91764100",
+            "y2_raw": "88094100"
+          },
+          "count": 1
+        },
+        {
+          "record": {
+            "layer": "Mid Layer 6",
+            "layer_id": "7",
+            "net": "PDM_DATA2",
+            "width_raw": "32000",
+            "x1_raw": "125407700",
+            "x2_raw": "125407700",
+            "y1_raw": "90138146",
+            "y2_raw": "91983400"
+          },
+          "count": 1
+        }
+      ]
+    },
+    "vias": {
+      "added_count": 1,
+      "removed_count": 0,
+      "added": [
+        {
+          "record": {
+            "high_layer_id": "32",
+            "hole_size_raw": "80000",
+            "low_layer_id": "1",
+            "net": "GPIO1_IO05",
+            "size_raw": "160000",
+            "x_raw": "127988500",
+            "y_raw": "86079100"
+          },
+          "count": 1
+        }
+      ],
+      "removed": []
+    },
+    "net_assignments": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    }
+  },
+  "regressions": [
+    "Baseline tracks removed or modified"
+  ]
+}

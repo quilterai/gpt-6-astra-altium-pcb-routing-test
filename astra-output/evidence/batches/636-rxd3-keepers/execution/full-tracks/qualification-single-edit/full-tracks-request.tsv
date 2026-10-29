@@ -1,0 +1,2 @@
+action	net	old_x1_raw	old_y1_raw	old_x2_raw	old_y2_raw	new_x1_raw	new_y1_raw	new_x2_raw	new_y2_raw	width_raw	layer_id	expected_track_count
+edit	DRAMA_DATA8	122323300	96066350	122421750	96066350	122263300	96066350	122421750	96066350	30000	1	2939

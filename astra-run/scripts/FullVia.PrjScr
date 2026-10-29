@@ -1,0 +1,8 @@
+[Design]
+Version=1.0
+
+[Document1]
+DocumentPath=FullVia.pas
+
+[Document2]
+DocumentPath=AstraPaths.pas

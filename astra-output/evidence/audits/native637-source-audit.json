@@ -1,0 +1,456 @@
+{
+  "baseline": "batches/637-rxd3-native-via/before",
+  "after": "batches/637-rxd3-native-via/after",
+  "old_counts": {
+    "net_count": 321,
+    "pad_count": 1593,
+    "track_segment_count": 9681,
+    "via_count": 992,
+    "rule_count": 78,
+    "connection_object_count": 21,
+    "nonredundant_ratsnest_connections": 21,
+    "redundant_connection_objects": 0,
+    "connectivity_invalid_nets": 271
+  },
+  "new_counts": {
+    "net_count": 321,
+    "pad_count": 1593,
+    "track_segment_count": 9689,
+    "via_count": 993,
+    "rule_count": 78,
+    "connection_object_count": 21,
+    "nonredundant_ratsnest_connections": 21,
+    "redundant_connection_objects": 0,
+    "connectivity_invalid_nets": 271
+  },
+  "changed_nets": [
+    {
+      "net": "SAI1_RXC",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    },
+    {
+      "net": "SAI1_RXD2",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    },
+    {
+      "net": "SAI1_RXD3",
+      "baseline_remaining": 1,
+      "current_remaining": 1,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    },
+    {
+      "net": "SAI1_RXD4",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    }
+  ],
+  "track_delta": {
+    "added_count": 17,
+    "removed_count": 9,
+    "added": [
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXC",
+          "width_raw": "41000",
+          "x1_raw": "125365163",
+          "x2_raw": "125561487",
+          "y1_raw": "90782600",
+          "y2_raw": "90978924"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXC",
+          "width_raw": "41000",
+          "x1_raw": "125561487",
+          "x2_raw": "125561487",
+          "y1_raw": "90978924",
+          "y2_raw": "90998315"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXC",
+          "width_raw": "41000",
+          "x1_raw": "125561487",
+          "x2_raw": "125639772",
+          "y1_raw": "90998315",
+          "y2_raw": "91076600"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXC",
+          "width_raw": "41000",
+          "x1_raw": "125639772",
+          "x2_raw": "125716037",
+          "y1_raw": "91076600",
+          "y2_raw": "91076600"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXD2",
+          "width_raw": "41000",
+          "x1_raw": "125335754",
+          "x2_raw": "125490487",
+          "y1_raw": "90853600",
+          "y2_raw": "91008333"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXD2",
+          "width_raw": "41000",
+          "x1_raw": "125490487",
+          "x2_raw": "125490487",
+          "y1_raw": "91008333",
+          "y2_raw": "91027724"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXD2",
+          "width_raw": "41000",
+          "x1_raw": "125490487",
+          "x2_raw": "125549200",
+          "y1_raw": "91027724",
+          "y2_raw": "91086437"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXD2",
+          "width_raw": "41000",
+          "x1_raw": "125549200",
+          "x2_raw": "125549200",
+          "y1_raw": "91086437",
+          "y2_raw": "91101691"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXD2",
+          "width_raw": "41000",
+          "x1_raw": "125549200",
+          "x2_raw": "125549700",
+          "y1_raw": "91101691",
+          "y2_raw": "91102191"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXD3",
+          "width_raw": "41000",
+          "x1_raw": "125347700",
+          "x2_raw": "125357700",
+          "y1_raw": "91169900",
+          "y2_raw": "91179900"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXD3",
+          "width_raw": "41000",
+          "x1_raw": "125357700",
+          "x2_raw": "125407700",
+          "y1_raw": "91179900",
+          "y2_raw": "91179900"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXD4",
+          "width_raw": "41000",
+          "x1_raw": "125281700",
+          "x2_raw": "125313901",
+          "y1_raw": "90984100",
+          "y2_raw": "90984100"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXD4",
+          "width_raw": "41000",
+          "x1_raw": "125313901",
+          "x2_raw": "125369201",
+          "y1_raw": "90984100",
+          "y2_raw": "91039400"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXD4",
+          "width_raw": "41000",
+          "x1_raw": "125369201",
+          "x2_raw": "125401754",
+          "y1_raw": "91039400",
+          "y2_raw": "91039400"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXD4",
+          "width_raw": "41000",
+          "x1_raw": "125401754",
+          "x2_raw": "125478200",
+          "y1_raw": "91039400",
+          "y2_raw": "91115846"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXD4",
+          "width_raw": "41000",
+          "x1_raw": "125478200",
+          "x2_raw": "125478200",
+          "y1_raw": "91115846",
+          "y2_raw": "91149991"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXD4",
+          "width_raw": "41000",
+          "x1_raw": "125478200",
+          "x2_raw": "125478700",
+          "y1_raw": "91149991",
+          "y2_raw": "91150491"
+        },
+        "count": 1
+      }
+    ],
+    "removed": [
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXC",
+          "width_raw": "41000",
+          "x1_raw": "125365163",
+          "x2_raw": "125483200",
+          "y1_raw": "90782600",
+          "y2_raw": "90900637"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXC",
+          "width_raw": "41000",
+          "x1_raw": "125483200",
+          "x2_raw": "125483200",
+          "y1_raw": "90900637",
+          "y2_raw": "90935282"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXC",
+          "width_raw": "41000",
+          "x1_raw": "125483200",
+          "x2_raw": "125624518",
+          "y1_raw": "90935282",
+          "y2_raw": "91076600"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXC",
+          "width_raw": "41000",
+          "x1_raw": "125624518",
+          "x2_raw": "125716037",
+          "y1_raw": "91076600",
+          "y2_raw": "91076600"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXD2",
+          "width_raw": "41000",
+          "x1_raw": "125335754",
+          "x2_raw": "125412200",
+          "y1_raw": "90853600",
+          "y2_raw": "90930046"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXD2",
+          "width_raw": "41000",
+          "x1_raw": "125412200",
+          "x2_raw": "125412200",
+          "y1_raw": "90930046",
+          "y2_raw": "90964691"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXD2",
+          "width_raw": "41000",
+          "x1_raw": "125412200",
+          "x2_raw": "125549700",
+          "y1_raw": "90964691",
+          "y2_raw": "91102191"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXD4",
+          "width_raw": "41000",
+          "x1_raw": "125281700",
+          "x2_raw": "125312309",
+          "y1_raw": "90984100",
+          "y2_raw": "90984100"
+        },
+        "count": 1
+      },
+      {
+        "record": {
+          "layer_id": "1",
+          "net": "SAI1_RXD4",
+          "width_raw": "41000",
+          "x1_raw": "125312309",
+          "x2_raw": "125478700",
+          "y1_raw": "90984100",
+          "y2_raw": "91150491"
+        },
+        "count": 1
+      }
+    ]
+  },
+  "via_delta": {
+    "added_count": 1,
+    "removed_count": 0,
+    "added": [
+      {
+        "record": {
+          "high_layer_id": "32",
+          "hole_size_raw": "80000",
+          "low_layer_id": "1",
+          "net": "SAI1_RXD3",
+          "size_raw": "160000",
+          "x_raw": "125347700",
+          "y_raw": "91169900"
+        },
+        "count": 1
+      }
+    ],
+    "removed": []
+  },
+  "changed_geometry_nets": [
+    "SAI1_RXC",
+    "SAI1_RXD2",
+    "SAI1_RXD3",
+    "SAI1_RXD4"
+  ],
+  "lost_original_tracks": [],
+  "terminal_report": [
+    {
+      "net": "SAI1_RXC",
+      "pad_count": 2,
+      "deficits": []
+    },
+    {
+      "net": "SAI1_RXD2",
+      "pad_count": 3,
+      "deficits": []
+    },
+    {
+      "net": "SAI1_RXD3",
+      "pad_count": 2,
+      "deficits": []
+    },
+    {
+      "net": "SAI1_RXD4",
+      "pad_count": 2,
+      "deficits": []
+    }
+  ],
+  "source_via_count": 1,
+  "accepted_via_moves": [],
+  "immutable_changes": {
+    "pads": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    },
+    "rules": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    },
+    "net_assignments": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    }
+  },
+  "board_changes": {},
+  "raw_regressions": [
+    "Baseline tracks removed or modified"
+  ],
+  "no_net_edge_regression": true,
+  "pass_terminal_preservation": true
+}

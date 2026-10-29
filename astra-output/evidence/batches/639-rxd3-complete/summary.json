@@ -1,0 +1,47 @@
+{
+  "routed_connections": 1089,
+  "remaining_connections": 20,
+  "total_connections": 1109,
+  "whole_nets_complete": 301,
+  "total_named_nets": 321,
+  "tracks": 9724,
+  "vias": 995,
+  "gain": 1,
+  "exact_request_compliant": true,
+  "native_drc_checked": false,
+  "changed_nets": [
+    {
+      "net": "GND",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    },
+    {
+      "net": "SAI1_RXD3",
+      "baseline_remaining": 1,
+      "current_remaining": 0,
+      "reduction": 1,
+      "newly_complete": true,
+      "geometry_changed": true
+    },
+    {
+      "net": "SAI1_RXD4",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    },
+    {
+      "net": "SAI5_RXFS",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    }
+  ],
+  "regressions": []
+}

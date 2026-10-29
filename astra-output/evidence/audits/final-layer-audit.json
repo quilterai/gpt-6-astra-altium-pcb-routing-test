@@ -1,0 +1,122 @@
+{
+  "status": "read_only_audit",
+  "board": "batches/639-rxd3-complete/after",
+  "track_count": 9724,
+  "layer_summary": {
+    "2": {
+      "layer": "Mid Layer 1",
+      "role": "GND",
+      "tracks": 724,
+      "nets": 42,
+      "length_mil": 32799.241349,
+      "exact_inherited_tracks": 0,
+      "not_exact_inherited_tracks": 724,
+      "exact_inherited_length_mil": 0,
+      "not_exact_inherited_length_mil": 32799.241349,
+      "controlled_impedance_tracks": 707,
+      "controlled_impedance_nets": 40,
+      "controlled_impedance_length_mil": 31824.957827,
+      "controlled_impedance_not_exact_inherited_tracks": 707
+    },
+    "4": {
+      "layer": "Mid Layer 3",
+      "role": "GND",
+      "tracks": 406,
+      "nets": 21,
+      "length_mil": 18202.137585,
+      "exact_inherited_tracks": 0,
+      "not_exact_inherited_tracks": 406,
+      "exact_inherited_length_mil": 0,
+      "not_exact_inherited_length_mil": 18202.137585,
+      "controlled_impedance_tracks": 179,
+      "controlled_impedance_nets": 15,
+      "controlled_impedance_length_mil": 10391.456477,
+      "controlled_impedance_not_exact_inherited_tracks": 179
+    },
+    "5": {
+      "layer": "Mid Layer 4",
+      "role": "PWR",
+      "tracks": 537,
+      "nets": 37,
+      "length_mil": 27951.537459,
+      "exact_inherited_tracks": 0,
+      "not_exact_inherited_tracks": 537,
+      "exact_inherited_length_mil": 0,
+      "not_exact_inherited_length_mil": 27951.537459,
+      "controlled_impedance_tracks": 478,
+      "controlled_impedance_nets": 33,
+      "controlled_impedance_length_mil": 24863.397339,
+      "controlled_impedance_not_exact_inherited_tracks": 478
+    },
+    "6": {
+      "layer": "Mid Layer 5",
+      "role": "PWR",
+      "tracks": 759,
+      "nets": 41,
+      "length_mil": 41566.565194,
+      "exact_inherited_tracks": 0,
+      "not_exact_inherited_tracks": 759,
+      "exact_inherited_length_mil": 0,
+      "not_exact_inherited_length_mil": 41566.565194,
+      "controlled_impedance_tracks": 580,
+      "controlled_impedance_nets": 33,
+      "controlled_impedance_length_mil": 31933.670478,
+      "controlled_impedance_not_exact_inherited_tracks": 580
+    },
+    "7": {
+      "layer": "Mid Layer 6",
+      "role": "GND",
+      "tracks": 425,
+      "nets": 29,
+      "length_mil": 27308.839175,
+      "exact_inherited_tracks": 10,
+      "not_exact_inherited_tracks": 415,
+      "exact_inherited_length_mil": 376.705387,
+      "not_exact_inherited_length_mil": 26932.133788,
+      "controlled_impedance_tracks": 389,
+      "controlled_impedance_nets": 27,
+      "controlled_impedance_length_mil": 26412.046133,
+      "controlled_impedance_not_exact_inherited_tracks": 389
+    }
+  },
+  "ground_total": {
+    "tracks": 1555,
+    "length_mil": 78310.218109,
+    "nets": 83
+  },
+  "ground_signal_total": {
+    "tracks": 1275,
+    "length_mil": 68628.460437,
+    "nets": 74
+  },
+  "power_total": {
+    "tracks": 1296,
+    "length_mil": 69518.102653,
+    "nets": 75
+  },
+  "power_controlled_impedance_total": {
+    "tracks": 1058,
+    "length_mil": 56797.067817,
+    "nets": 65
+  },
+  "classifier": {
+    "ground_layer_ids": [
+      2,
+      4,
+      7
+    ],
+    "power_layer_ids": [
+      5,
+      6
+    ],
+    "layer_role_source": "electrical/stack-custom-data.txt L2_GND_1, L4_GND_2, L7_GND_3, L5_PWR_1, L6_PWR_2",
+    "power_class_source": "electrical/Classes6.json POWER KIND=0 members",
+    "controlled_impedance_source": "electrical/Rules6.json 50-OHM SE enabled Width priority 2 scope Not InNetClass('POWER')",
+    "provenance": "exact_inherited means identical net, layer, width, and unordered endpoints in baseline-inventory/tracks.tsv; not_exact_inherited can include modified inherited copper and is not proof of wholly new copper"
+  },
+  "limits": [
+    "Track lengths are summed centerline lengths; overlaps and polygons are not subtracted.",
+    "Rule applicability uses net class only; local room and differential-pair width priority are not evaluated per segment.",
+    "The audit does not claim that every 50-OHM SE track violates DRC; it identifies controlled-impedance routing on prohibited PWR layers."
+  ]
+}

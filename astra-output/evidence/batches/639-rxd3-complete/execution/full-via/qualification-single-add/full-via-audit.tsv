@@ -1,0 +1,2 @@
+board	row	net	x_raw	y_raw	size_raw	hole_size_raw	low_layer_id	high_layer_id	before_via_count	after_via_count	result
+recorded-workspace\projects\work\full-routing-2026-09-30\QCMI_SOM8MM\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc	1	DRAMA_SDQS1_T	122133500	95734100	160000	80000	1	32	372	373	added_readback_ok_drc_not_checked

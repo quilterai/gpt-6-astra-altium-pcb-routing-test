@@ -1,0 +1,4 @@
+occurrences	high_layer_id	hole_size_raw	low_layer_id	net	size_raw	x_raw	y_raw
+1	32	80000	1	GND	160000	127072400	93901000
+1	32	80000	1	GND	160000	127080300	93127400
+1	32	80000	1	SD2_DATA1	160000	126900100	93040500

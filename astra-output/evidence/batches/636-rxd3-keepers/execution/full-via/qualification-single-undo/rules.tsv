@@ -1,0 +1,79 @@
+name	kind_id	priority	drc_enabled	scope1	scope2	summary
+07-FLASH QCMI SOM	22	1	true	InComponentClass('07-FLASH QCMI SOM')	All	Region (BR) = (1461.65mil, 1020.59mil), (2041.65mil, 1755.59mil)    Style - Keep Inside
+BoardOutlineClearance	63	1	true	All	All	Generic clearance = 10mil, and 10 value(s) for objects
+UnpouredPolygon	62	1	true	All	All	Allow modified - No  Allow shelved - No
+AssemblyTestPointUsage	58	1	true	All	All	Testpoint - One Required    Multiple - Not Allowed
+AssemblyTestpoint	57	1	true	All	All	Under Comp - Allow    Sides - Top, Bottom    Pref Size = 60mil    Pref Hole Size = 32mil    Using Grid = Yes    Grid = 1mil    Grid Tolerance = 0.01mil
+NetAntennae	56	1	true	All	All	Net Antennae Tolerance = 0mil
+SilkToSilkClearance	55	1	true	All	All	Silk to Silk Clearance = 10mil
+SilkToSolderMaskClearance	54	1	true	IsPad	All	Silk To Solder Mask Clearance = 10mil
+MinimumSolderMaskSliver	53	1	true	All	All	Minimum Solder Mask Sliver = 10mil
+HoleToHoleClearance	52	1	true	All	All	Hole To Hole Clearance = 10mil
+DiffPairsRouting	51	6	true	All	All	Pref Gap = 10mil    Min Gap  = 6mil    Max Gap  = 10milPref Width = 15mil    Min Width  = 3mil    Max Width  = 15mil
+100OHM_MIPI	51	5	true	WithinRoom('Page05 LPDDR4') and  (InDifferentialPairClass('CSI') or InDifferentialPairClass('DSI'))	All	Pref Gap = 10mil    Min Gap  = 6mil    Max Gap  = 10milPref Width = 15mil    Min Width  = 3mil    Max Width  = 15mil
+90OHM_USB	51	4	true	InDifferentialPairClass('USB')	All	Pref Gap = 4.9mil    Min Gap  = 4.9mil    Max Gap  = 4.9milPref Width = 15mil    Min Width  = 3.6mil    Max Width  = 15mil
+85OHM_PHY	51	3	true	InDifferentialPairClass('DDR_CK_DQS') or InDifferentialPairClass('PCIE')	All	Pref Gap = 4.8mil    Min Gap  = 4.8mil    Max Gap  = 4.8milPref Width = 15mil    Min Width  = 4.2mil    Max Width  = 15mil
+90OHM_BGA	51	2	true	WithinRoom('Page05 LPDDR4') and InDifferentialPairClass('USB')	All	Pref Gap = 10mil    Min Gap  = 3.7mil    Max Gap  = 10milPref Width = 15mil    Min Width  = 3mil    Max Width  = 15mil
+85OHM_BGA	51	1	true	WithinRoom('Page05 LPDDR4') and (InDifferentialPairClass('PCIE') or InDifferentialPairClass('DDR_CK_DQS'))	All	Pref Gap = 10mil    Min Gap  = 3mil    Max Gap  = 10milPref Width = 15mil    Min Width  = 3mil    Max Width  = 15mil
+Height	50	1	true	All	All	Pref Height = 500mil    Min Height = 0mil    Max Height = 1000mil
+Fanout_Default	49	5	true	All	All	Style - Auto    Direction - Alternating In and Out Via Grid = 1mil
+Fanout_Small	49	4	true	(CompPinCount < 5)	All	Style - Auto    Direction - Out Then In Via Grid = 1mil
+Fanout_SOIC	49	3	true	IsSOIC	All	Style - Auto    Direction - Alternating In and Out Via Grid = 1mil
+Fanout_LCC	49	2	true	IsLCC	All	Style - Auto    Direction - Alternating In and Out Via Grid = 1mil
+Fanout_BGA	49	1	true	IsBGA	All	Style - Auto    Direction - Alternating In and Out Via Grid = 1mil
+LayerPairs	48	1	true	All	All	Layer Pairs - Enforce
+FabricationTestPointUsage	44	1	true	All	All	Testpoint - One Required    Multiple - Not Allowed
+FabricationTestpoint	43	1	true	All	All	Under Comp - Allow    Sides - Top, Bottom    Pref Size = 60mil    Pref Hole Size = 32mil    Using Grid = Yes    Grid = 1mil    Grid Tolerance = 0.01mil
+HoleSize	42	1	true	All	All	Min = 1mil    Max = 100mil
+Schematic Supply Nets	41	19	true	InNet('GND')	All	Voltage = 0.000
+Schematic Supply Nets_1	41	18	true	InNet('NVCC_DRAM_1V1')	All	Voltage = 1.100
+Schematic Supply Nets_2	41	17	true	InNet('VDD_PHY_1V2')	All	Voltage = 1.200
+Schematic Supply Nets_3	41	16	true	InNet('VDDA_1V8')	All	Voltage = 1.800
+Schematic Supply Nets_4	41	15	true	InNet('WIFI_1V8')	All	Voltage = 1.800
+Schematic Supply Nets_5	41	14	true	InNet('VDD_1V8')	All	Voltage = 1.800
+Schematic Supply Nets_6	41	13	true	InNet('NVCC_SNVS_1V8')	All	Voltage = 1.800
+Schematic Supply Nets_7	41	12	true	InNet('USB2_VBUS')	All	Voltage = 3.300
+Schematic Supply Nets_8	41	11	true	InNet('NVCC_ENET')	All	Voltage = 3.300
+Schematic Supply Nets_9	41	10	true	InNet('USB1_VBUS')	All	Voltage = 3.300
+Schematic Supply Nets_10	41	9	true	InNet('NVCC_SD2')	All	Voltage = 3.300
+Schematic Supply Nets_11	41	8	true	InNet('VDD_3V3')	All	Voltage = 3.300
+Schematic Supply Nets_12	41	7	true	InNet('SWOUT_3V3')	All	Voltage = 3.300
+Schematic Supply Nets_13	41	6	true	InNet('VSYS_5V')	All	Voltage = 5.000
+Schematic Supply Nets_14	41	5	true	InNet('VDD_SNVS_0V8')	All	Voltage = 800.0m
+Schematic Supply Nets_15	41	4	true	InNet('VDD_SOC_0V8')	All	Voltage = 800.0m
+Schematic Supply Nets_16	41	3	true	InNet('VDD_PHY_0V9')	All	Voltage = 900.0m
+Schematic Supply Nets_17	41	2	true	InNet('VDD_ARM_0V9')	All	Voltage = 900.0m
+Schematic Supply Nets_18	41	1	true	InNet('VDD_DRAM&PU_0V9')	All	Voltage = 900.0m
+ComponentClearance	24	1	true	All	All	Horizontal Clearance = 10mil    Vertical Clearance = 10mil
+09-PMIC QCMI SOM	22	3	true	InComponentClass('09-PMIC QCMI SOM')	All	Region (BR) = (1370mil, 910mil), (2685mil, 1755mil)    Style - Keep Inside
+03-CPULPDDR4 QCMI SOM	22	2	true	InComponentClass('03-CPULPDDR4 QCMI SOM')	All	Region (BR) = (20mil, 15mil), (1700mil, 1960mil)    Style - Keep Inside
+PolygonConnect	20	1	true	All	All	Style - Direct Connect
+UnRoutedNet	16	1	true	All	All	(No Attributes)
+ShortCircuit	15	1	true	All	All	Short Circuit - Not Allowed
+PasteMaskExpansion	14	1	true	All	All	Expansion = 0mil
+SolderMaskExpansion	13	2	true	All	All	Expansion = 0mil
+Vias	13	1	true	IsVia and Not IsTestpoint	All	Expansion = 0mil
+PlaneClearance	12	1	true	All	All	Clearance = 20mil
+RoutingVias	11	1	true	All	All	Pref Size = 16mil    Pref Hole Size = 8mil
+RoutingCorners	10	1	true	All	All	Style - 45 Degree    Min Setback = 100mil    Max Setback = 100mil
+RoutingLayers	9	1	true	All	All	TopLayer - Enabled MidLayer1 - Enabled MidLayer2 - Enabled MidLayer3 - Enabled MidLayer4 - Enabled MidLayer5 - Enabled MidLayer6 - Enabled BottomLayer - Enabled 
+RoutingPriority	8	1	true	All	All	Priority = 0
+RoutingTopology	7	1	true	All	All	Topology - Shortest
+PlaneConnect	6	1	true	All	All	Style - Direct Connect
+EMMC	4	10	true	InNetClass('EMMC_SD3')	All	Delay Tolerance = 100ps
+QSPI	4	9	true	InNetClass('QSPI')	All	Delay Tolerance = 100ps
+DDR_BYTE2	4	8	true	InNetClass('DRAM_BYTE2')	All	Delay Tolerance = 10ps
+DDR_BYTE3	4	7	true	InNetClass('DRAM_BYTE3')	All	Delay Tolerance = 10ps
+DDR_BYTE1	4	6	true	InNetClass('DRAM_BYTE1')	All	Delay Tolerance = 10ps
+DDR_BYTE0	4	5	true	InNetClass('DRAM_BYTE0')	All	Delay Tolerance = 10ps
+DRAMA_CA	4	4	true	InNetClass('DRAMA_CA')	All	Delay Tolerance = 25ps
+DDR_DQS_to_CLK	4	3	true	InDifferentialPairClass('DDR_CK_DQS')	All	Delay Tolerance = 85ps
+DDR_PAIRS	4	2	true	InDifferentialPairClass('DDR_CK_DQS')	All	Delay Tolerance = 1ps
+DRAMB_CA	4	1	true	InNetClass('DRAMB_CA')	All	Delay Tolerance = 25ps
+Schematic Length Constraint_2	3	1	true	InDifferentialPairClass('DDR_CK_DQS')	All	Min Delay = 0ps    Max Delay = 200ps
+Width	2	3	true	All	All	Pref Width = 10mil    Min Width = 3mil    Max Width = 100mil
+50-OHM SE	2	2	true	Not InNetClass('POWER')	All	Pref Impedance = 50.00ohms    Min Impedance = 50.00ohms    Max Impedance = 50.00ohms
+RF_ANTENNA	2	1	true	InNet('ANT_IN0')	All	Pref Width = 11mil    Min Width = 4.1mil    Max Width = 11mil
+Clearance	0	2	true	All	All	Generic clearance = 3mil, and 21 value(s) for objects
+Fanout_Top	0	1	true	WithinRoom('Page05 LPDDR4')	All	Generic clearance = 3mil, and 15 value(s) for objects
+SilkToBoardRegionClearance	59	1	true	All	All	Silk to Board Region Clearance

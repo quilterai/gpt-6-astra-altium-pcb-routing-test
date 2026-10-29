@@ -1,0 +1,4 @@
+refused_net_resolution
+expected_board=recorded-workspace\projects\work\full-routing-2026-09-30\QCMI_SOM8MM\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc
+row=2
+completed_readbacks=0

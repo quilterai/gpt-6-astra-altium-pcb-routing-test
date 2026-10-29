@@ -1,0 +1,8 @@
+board	row	action	net	x1_raw	y1_raw	x2_raw	y2_raw	width_raw	layer_id	before_track_count	after_track_count	result
+recorded-workspace\projects\work\full-routing-2026-09-30\QCMI_SOM8MM\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc	1	remove	GPIO1_IO07	124743500	91764100	128413500	88094100	32000	5	9638	9631	removed_batch_readback_ok_drc_not_checked
+recorded-workspace\projects\work\full-routing-2026-09-30\QCMI_SOM8MM\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc	2	remove	GPIO1_IO06	124737790	91760000	128723600	87774190	32000	3	9638	9631	removed_batch_readback_ok_drc_not_checked
+recorded-workspace\projects\work\full-routing-2026-09-30\QCMI_SOM8MM\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc	3	remove	GPIO1_IO05	124576700	92010900	128793500	87794100	32000	3	9638	9631	removed_batch_readback_ok_drc_not_checked
+recorded-workspace\projects\work\full-routing-2026-09-30\QCMI_SOM8MM\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc	4	remove	PDM_DATA2	125407700	90138146	125407700	91983400	32000	7	9638	9631	removed_batch_readback_ok_drc_not_checked
+recorded-workspace\projects\work\full-routing-2026-09-30\QCMI_SOM8MM\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc	5	remove	GPIO1_IO05	128793500	85471800	129038500	85226800	32000	3	9638	9631	removed_batch_readback_ok_drc_not_checked
+recorded-workspace\projects\work\full-routing-2026-09-30\QCMI_SOM8MM\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc	6	remove	GPIO1_IO05	128793500	85471800	128793500	87794100	32000	3	9638	9631	removed_batch_readback_ok_drc_not_checked
+recorded-workspace\projects\work\full-routing-2026-09-30\QCMI_SOM8MM\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc	7	remove	GPIO1_IO05	124488700	92010900	124576700	92010900	32000	3	9638	9631	removed_batch_readback_ok_drc_not_checked

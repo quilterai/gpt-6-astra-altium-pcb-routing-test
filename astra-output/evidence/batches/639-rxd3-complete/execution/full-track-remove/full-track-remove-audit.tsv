@@ -1,0 +1,5 @@
+board	row	action	net	x1_raw	y1_raw	x2_raw	y2_raw	width_raw	layer_id	before_track_count	after_track_count	result
+recorded-workspace\projects\work\full-routing-2026-09-30\QCMI_SOM8MM\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc	1	remove	SAI1_RXD4	130883500	85294100	131083500	85094100	32000	3	9689	9685	removed_batch_readback_ok_drc_not_checked
+recorded-workspace\projects\work\full-routing-2026-09-30\QCMI_SOM8MM\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc	2	remove	SAI1_RXD4	130883500	85294100	130883500	86309100	32000	3	9689	9685	removed_batch_readback_ok_drc_not_checked
+recorded-workspace\projects\work\full-routing-2026-09-30\QCMI_SOM8MM\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc	3	remove	SAI5_RXFS	130275400	85323800	131126400	85323800	32000	2	9689	9685	removed_batch_readback_ok_drc_not_checked
+recorded-workspace\projects\work\full-routing-2026-09-30\QCMI_SOM8MM\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc	4	remove	GND	130770800	84986800	130770800	85226800	100000	32	9689	9685	removed_batch_readback_ok_drc_not_checked

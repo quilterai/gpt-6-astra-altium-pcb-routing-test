@@ -1,0 +1,226 @@
+{
+  "baseline_board": {
+    "board_file": "recorded-workspace\\projects\\work\\full-routing-2026-09-30\\QCMI_SOM8MM\\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc",
+    "coordinate_units": "Altium internal units",
+    "internal_units_per_mil": "10000",
+    "x_origin_raw": "115633500",
+    "y_origin_raw": "82894100",
+    "net_count": "321",
+    "pad_count": "1593",
+    "track_segment_count": "2940",
+    "via_count": "372",
+    "connection_object_count": "837",
+    "nonredundant_ratsnest_connections": "837",
+    "redundant_connection_objects": "0",
+    "connectivity_invalid_nets": "320",
+    "rule_count": "78"
+  },
+  "current_board": {
+    "board_file": "recorded-workspace\\projects\\work\\full-routing-2026-09-30\\QCMI_SOM8MM\\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc",
+    "coordinate_units": "Altium internal units",
+    "internal_units_per_mil": "10000",
+    "x_origin_raw": "115633500",
+    "y_origin_raw": "82894100",
+    "net_count": "321",
+    "pad_count": "1593",
+    "track_segment_count": "2939",
+    "via_count": "372",
+    "connection_object_count": "837",
+    "nonredundant_ratsnest_connections": "837",
+    "redundant_connection_objects": "0",
+    "connectivity_invalid_nets": "320",
+    "rule_count": "78"
+  },
+  "baseline_counts": {
+    "net_count": 321,
+    "pad_count": 1593,
+    "track_segment_count": 2940,
+    "via_count": 372,
+    "rule_count": 78,
+    "connection_object_count": 837,
+    "nonredundant_ratsnest_connections": 837,
+    "redundant_connection_objects": 0,
+    "connectivity_invalid_nets": 320
+  },
+  "current_counts": {
+    "net_count": 321,
+    "pad_count": 1593,
+    "track_segment_count": 2939,
+    "via_count": 372,
+    "rule_count": 78,
+    "connection_object_count": 837,
+    "nonredundant_ratsnest_connections": 837,
+    "redundant_connection_objects": 0,
+    "connectivity_invalid_nets": 320
+  },
+  "remaining_reduction": 0,
+  "newly_complete_nets": 0,
+  "changed_nets": [
+    {
+      "net": "DRAMA_DATA8",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    }
+  ],
+  "unexpected_nets": [],
+  "immutable_board_changes": {},
+  "changes": {
+    "pads": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    },
+    "rules": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    },
+    "tracks": {
+      "added_count": 0,
+      "removed_count": 1,
+      "added": [],
+      "removed": [
+        {
+          "record": {
+            "layer": "Top Layer",
+            "layer_id": "1",
+            "net": "DRAMA_DATA8",
+            "width_raw": "41000",
+            "x1_raw": "122133500",
+            "x2_raw": "122263300",
+            "y1_raw": "96066350",
+            "y2_raw": "96066350"
+          },
+          "count": 1
+        }
+      ]
+    },
+    "vias": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    },
+    "net_assignments": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    }
+  },
+  "regressions": [
+    "Baseline tracks removed or modified"
+  ],
+  "created_utc": "2026-09-30T05:51:12.175562+00:00",
+  "sources": [
+    {
+      "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-batch\\inventory\\inventory-status.txt",
+      "bytes": 10,
+      "sha256": "5963977da4c2cb333a978aa0daa86f36234831cd8bc416443ca9087268bc8645",
+      "mtime_ns": 1790747368913793300
+    },
+    {
+      "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-batch\\inventory\\board.tsv",
+      "bytes": 546,
+      "sha256": "9cd90e5eb355fa1633c6ba807a840913f17b53695438511c47e6524c4c11f139",
+      "mtime_ns": 1790747368912774500
+    },
+    {
+      "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-batch\\inventory\\nets.tsv",
+      "bytes": 9908,
+      "sha256": "525b5899b5484fa5a1ed9ecfedac09d45a82100c7a82bea702ed0c7c19b98503",
+      "mtime_ns": 1790747368906727200
+    },
+    {
+      "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-batch\\inventory\\pads.tsv",
+      "bytes": 115224,
+      "sha256": "d12601c1289f70739e10683ebef5b72abf19ec12b6dcd7ae1eec8c399d7b3a9a",
+      "mtime_ns": 1790747368907218500
+    },
+    {
+      "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-batch\\inventory\\tracks.tsv",
+      "bytes": 214335,
+      "sha256": "275a1a845f562b91e02501552cddf270853e7d43c5762e0fbc41b419b019db5f",
+      "mtime_ns": 1790747368908729100
+    },
+    {
+      "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-batch\\inventory\\vias.tsv",
+      "bytes": 19743,
+      "sha256": "2310bb9c2b8a71fcec15035d68ddab9fec634e802bb8e3dd1c96ad09390ef564",
+      "mtime_ns": 1790747368909745900
+    },
+    {
+      "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-batch\\inventory\\connections.tsv",
+      "bytes": 62150,
+      "sha256": "c5320c2ab1ef57c59f83123299535be1bd84d34c16a785e6423cf9c865e34056",
+      "mtime_ns": 1790747368911263600
+    },
+    {
+      "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-batch\\inventory\\rules.tsv",
+      "bytes": 7455,
+      "sha256": "e6d1e6f68d896ad482bc9c222c58b633488fc2a554781dad4b7e00f8c8c6751e",
+      "mtime_ns": 1790747368912271900
+    },
+    {
+      "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-undo\\inventory-status.txt",
+      "bytes": 10,
+      "sha256": "5963977da4c2cb333a978aa0daa86f36234831cd8bc416443ca9087268bc8645",
+      "mtime_ns": 1790747428539103700
+    },
+    {
+      "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-undo\\board.tsv",
+      "bytes": 546,
+      "sha256": "daafd1772bdff0aa34601c55cb79b9ddc1cad1c2e3ea37b92e381ad8afc82c3b",
+      "mtime_ns": 1790747428539103700
+    },
+    {
+      "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-undo\\nets.tsv",
+      "bytes": 9908,
+      "sha256": "6901ca0483e01a4e9ff9210ae22c05c556d8b76d2822e1e23afbfb5972219e53",
+      "mtime_ns": 1790747428533098800
+    },
+    {
+      "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-undo\\pads.tsv",
+      "bytes": 115224,
+      "sha256": "d12601c1289f70739e10683ebef5b72abf19ec12b6dcd7ae1eec8c399d7b3a9a",
+      "mtime_ns": 1790747428534102700
+    },
+    {
+      "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-undo\\tracks.tsv",
+      "bytes": 214260,
+      "sha256": "1698d7b172849ff59f3809d936ac2422bb260ecc7743dd61a263d9a178c52df8",
+      "mtime_ns": 1790747428535101600
+    },
+    {
+      "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-undo\\vias.tsv",
+      "bytes": 19743,
+      "sha256": "2310bb9c2b8a71fcec15035d68ddab9fec634e802bb8e3dd1c96ad09390ef564",
+      "mtime_ns": 1790747428536102300
+    },
+    {
+      "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-undo\\connections.tsv",
+      "bytes": 62150,
+      "sha256": "c5320c2ab1ef57c59f83123299535be1bd84d34c16a785e6423cf9c865e34056",
+      "mtime_ns": 1790747428537108400
+    },
+    {
+      "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-undo\\rules.tsv",
+      "bytes": 7455,
+      "sha256": "e6d1e6f68d896ad482bc9c222c58b633488fc2a554781dad4b7e00f8c8c6751e",
+      "mtime_ns": 1790747428538101600
+    }
+  ],
+  "limits": [
+    "Legacy AllLayers inventory omits some mechanical objects.",
+    "Pad records are a placement proxy; component objects are not exported.",
+    "Polygons, arcs, pad stacks, stackup, and reference continuity are not modeled.",
+    "Connection counts need native reconciliation; invalid flags do not prove topology.",
+    "Unchanged exported rules do not prove complete rules or active online DRC.",
+    "A completed comparison does not establish routing or electrical acceptance."
+  ]
+}

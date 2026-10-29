@@ -1,0 +1,90 @@
+{
+  "created_utc": "2026-10-02T18:53:47.983171+00:00",
+  "state": "Stopped by user; final native DRC complete; electrical acceptance failed",
+  "pcb": {
+    "path": "IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc",
+    "bytes": 10842112,
+    "sha256": "ff874ed815ac5bb9d63cff1cab7cc17cf9abd1326e242108f2979e545f9b1e3d",
+    "saved_utc": "2026-10-02T18:48:03.909000+00:00"
+  },
+  "source_checkpoint": "113-rxd3 / batch639",
+  "project_document_count": 19,
+  "project_documents": [
+    "QCMISOM.SchLib",
+    "01-TOP QCMI SOM.SchDoc",
+    "02-CPUPWR QCMI SOM.SchDoc",
+    "03-CPULPDDR4 QCMI SOM.SchDoc",
+    "04-CPUIO QCMI SOM.SchDoc",
+    "05-CPUPHY QCMI SOM.SchDoc",
+    "06-CPUCTL QCMI SOM.SchDoc",
+    "07-FLASH QCMI SOM.SchDoc",
+    "08-BOOTCFG QMCI SOM.SchDoc",
+    "09-PMIC QCMI SOM.SchDoc",
+    "10-BBCON QCMI SOM.SchDoc",
+    "QCMISOM.PcbLib",
+    "IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc",
+    "Sierra.OutJob",
+    "Managed\\OutputJobs\\8E93C50B-AFDD-45AA-8C56-67ACB4A8E96C\\OUT-0001-2.OutJob",
+    "Managed\\OutputJobs\\62EFC360-F110-4853-A6C7-FEB3698B6FB7\\OUT-0000-2.OutJob",
+    "Managed\\OutputJobs\\36A4008D-15FE-43B0-BA1A-B6403204A329\\OUT-0004-2.OutJob",
+    "Managed\\OutputJobs\\65EEDBBA-E786-44D0-9BCD-DB7CF62E582D\\OUT-0005-2.OutJob",
+    "Project Outputs for QCMI_SOM8MM\\Design Rule Check - IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.html"
+  ],
+  "routed_connections_conservative": 1088,
+  "total_connections": 1109,
+  "named_unrouted_connections_native_drc": 21,
+  "whole_named_nets_without_native_open": 300,
+  "total_named_nets": 321,
+  "inventory_cached_remaining": 20,
+  "count_discrepancy_net": "SD2_DATA0",
+  "native_drc": {
+    "completed_utc": "2026-10-02T18:37:36Z",
+    "total": 3569,
+    "waived": 0,
+    "baseline_total": 4320,
+    "exact_added": 243,
+    "exact_removed": 994
+  },
+  "inventory_counts": {
+    "net_count": 321,
+    "pad_count": 1593,
+    "track_segment_count": 9724,
+    "via_count": 995,
+    "rule_count": 78,
+    "connection_object_count": 20,
+    "nonredundant_ratsnest_connections": 20,
+    "redundant_connection_objects": 0,
+    "connectivity_invalid_nets": 321
+  },
+  "baseline_to_final_exact_record_changes": {
+    "pads": {
+      "added_count": 0,
+      "removed_count": 0
+    },
+    "rules": {
+      "added_count": 0,
+      "removed_count": 0
+    },
+    "tracks": {
+      "added_count": 6927,
+      "removed_count": 28
+    },
+    "vias": {
+      "added_count": 626,
+      "removed_count": 3
+    },
+    "net_assignments": {
+      "added_count": 0,
+      "removed_count": 0
+    }
+  },
+  "immutable_board_changes": {},
+  "post_drc_geometry_unchanged": true,
+  "final_save_reopened": false,
+  "manufacturing_ready": false,
+  "included_input_files_verified_unchanged": 24,
+  "input_manifest": "../astra-run/notes/input-manifest.json",
+  "input_history_files_omitted": 3,
+  "omitted_project_history_and_cache_count": 144,
+  "edition": "Public copy of the original validation summary; private publication records and local workspace identifiers are omitted."
+}

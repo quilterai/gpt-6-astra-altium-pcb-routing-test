@@ -1,0 +1,47 @@
+{
+  "routed_connections": 1088,
+  "remaining_connections": 21,
+  "total_connections": 1109,
+  "whole_nets_complete": 300,
+  "total_named_nets": 321,
+  "tracks": 9681,
+  "vias": 992,
+  "gain": 0,
+  "exact_request_compliant": true,
+  "native_drc_checked": false,
+  "changed_nets": [
+    {
+      "net": "GPIO1_IO05",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    },
+    {
+      "net": "GPIO1_IO06",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    },
+    {
+      "net": "GPIO1_IO07",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    },
+    {
+      "net": "PDM_DATA2",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    }
+  ],
+  "regressions": []
+}

@@ -1,0 +1,3 @@
+refdes	pad	net	x_raw	y_raw	layer_id	layer	selected
+U1	AG16	SAI1_RXFS	125276100	91834000	1	Top Layer	true
+U1	AG18	SAI1_RXD4	125669800	91834000	1	Top Layer	true

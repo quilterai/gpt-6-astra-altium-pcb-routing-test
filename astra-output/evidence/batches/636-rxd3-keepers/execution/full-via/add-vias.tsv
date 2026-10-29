@@ -1,0 +1,2 @@
+net	x_raw	y_raw	size_raw	hole_size_raw	expected_via_count
+GPIO1_IO05	127988500	86079100	160000	80000	991

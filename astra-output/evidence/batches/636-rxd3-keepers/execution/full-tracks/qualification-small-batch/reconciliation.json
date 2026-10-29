@@ -1,0 +1,254 @@
+{
+  "mode": "after_reconciliation",
+  "created_utc": "2026-09-30T05:50:14.555819+00:00",
+  "board": {
+    "board_file": "recorded-workspace\\projects\\work\\full-routing-2026-09-30\\QCMI_SOM8MM\\IMX8MMLPD4-CPU2_FULLY_PREPLACED_FANOUT.PcbDoc",
+    "coordinate_units": "Altium internal units",
+    "internal_units_per_mil": "10000",
+    "x_origin_raw": "115633500",
+    "y_origin_raw": "82894100",
+    "net_count": "321",
+    "pad_count": "1593",
+    "track_segment_count": "2939",
+    "via_count": "372",
+    "connection_object_count": "837",
+    "nonredundant_ratsnest_connections": "837",
+    "redundant_connection_objects": "0",
+    "connectivity_invalid_nets": "320",
+    "rule_count": "78"
+  },
+  "request_rows": 3,
+  "edit_rows": 2,
+  "add_rows": 1,
+  "preflight_passed": true,
+  "post_edit_verified": true,
+  "expected_track_count": 2940,
+  "requested_old_tracks": [
+    {
+      "record": {
+        "layer_id": "1",
+        "net": "DRAMA_DATA8",
+        "width_raw": "41000",
+        "x1_raw": "121599572",
+        "x2_raw": "122285841",
+        "y1_raw": "96070755",
+        "y2_raw": "96070755"
+      },
+      "count": 1
+    },
+    {
+      "record": {
+        "layer_id": "1",
+        "net": "DRAMA_DATA8",
+        "width_raw": "41000",
+        "x1_raw": "122285841",
+        "x2_raw": "122323300",
+        "y1_raw": "96070755",
+        "y2_raw": "96066350"
+      },
+      "count": 1
+    }
+  ],
+  "requested_new_tracks": [
+    {
+      "record": {
+        "layer_id": "1",
+        "net": "DRAMA_DATA8",
+        "width_raw": "41000",
+        "x1_raw": "121599572",
+        "x2_raw": "122129095",
+        "y1_raw": "96070755",
+        "y2_raw": "96070755"
+      },
+      "count": 1
+    },
+    {
+      "record": {
+        "layer_id": "1",
+        "net": "DRAMA_DATA8",
+        "width_raw": "41000",
+        "x1_raw": "122129095",
+        "x2_raw": "122133500",
+        "y1_raw": "96070755",
+        "y2_raw": "96066350"
+      },
+      "count": 1
+    },
+    {
+      "record": {
+        "layer_id": "1",
+        "net": "DRAMA_DATA8",
+        "width_raw": "41000",
+        "x1_raw": "122133500",
+        "x2_raw": "122263300",
+        "y1_raw": "96066350",
+        "y2_raw": "96066350"
+      },
+      "count": 1
+    }
+  ],
+  "sources": {
+    "request": {
+      "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-batch\\track-changes.tsv",
+      "bytes": 430,
+      "sha256": "ae2e5a2fd0979b63b5680d37583f1fdf30021ef31ccd20792acf5b9b01d523a4",
+      "mtime_ns": 1790747315337539800
+    },
+    "before": [
+      {
+        "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-single-redo\\inventory-status.txt",
+        "bytes": 10,
+        "sha256": "5963977da4c2cb333a978aa0daa86f36234831cd8bc416443ca9087268bc8645",
+        "mtime_ns": 1790747266629412700
+      },
+      {
+        "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-single-redo\\board.tsv",
+        "bytes": 546,
+        "sha256": "daafd1772bdff0aa34601c55cb79b9ddc1cad1c2e3ea37b92e381ad8afc82c3b",
+        "mtime_ns": 1790747266628410800
+      },
+      {
+        "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-single-redo\\nets.tsv",
+        "bytes": 9908,
+        "sha256": "1c94c372a74d598fa952a1063680e8b96f18e29641636926033c652137062442",
+        "mtime_ns": 1790747266623414700
+      },
+      {
+        "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-single-redo\\pads.tsv",
+        "bytes": 115224,
+        "sha256": "d12601c1289f70739e10683ebef5b72abf19ec12b6dcd7ae1eec8c399d7b3a9a",
+        "mtime_ns": 1790747266624419800
+      },
+      {
+        "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-single-redo\\tracks.tsv",
+        "bytes": 214260,
+        "sha256": "027fda9722e7b19a25b6307bb34e97ee858dcd50659fa61e074981f00b4971f5",
+        "mtime_ns": 1790747266625410500
+      },
+      {
+        "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-single-redo\\vias.tsv",
+        "bytes": 19743,
+        "sha256": "2310bb9c2b8a71fcec15035d68ddab9fec634e802bb8e3dd1c96ad09390ef564",
+        "mtime_ns": 1790747266626412000
+      },
+      {
+        "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-single-redo\\connections.tsv",
+        "bytes": 62150,
+        "sha256": "c5320c2ab1ef57c59f83123299535be1bd84d34c16a785e6423cf9c865e34056",
+        "mtime_ns": 1790747266627411700
+      },
+      {
+        "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-single-redo\\rules.tsv",
+        "bytes": 7455,
+        "sha256": "e6d1e6f68d896ad482bc9c222c58b633488fc2a554781dad4b7e00f8c8c6751e",
+        "mtime_ns": 1790747266628410800
+      }
+    ],
+    "after": [
+      {
+        "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-batch\\inventory\\inventory-status.txt",
+        "bytes": 10,
+        "sha256": "5963977da4c2cb333a978aa0daa86f36234831cd8bc416443ca9087268bc8645",
+        "mtime_ns": 1790747368913793300
+      },
+      {
+        "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-batch\\inventory\\board.tsv",
+        "bytes": 546,
+        "sha256": "9cd90e5eb355fa1633c6ba807a840913f17b53695438511c47e6524c4c11f139",
+        "mtime_ns": 1790747368912774500
+      },
+      {
+        "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-batch\\inventory\\nets.tsv",
+        "bytes": 9908,
+        "sha256": "525b5899b5484fa5a1ed9ecfedac09d45a82100c7a82bea702ed0c7c19b98503",
+        "mtime_ns": 1790747368906727200
+      },
+      {
+        "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-batch\\inventory\\pads.tsv",
+        "bytes": 115224,
+        "sha256": "d12601c1289f70739e10683ebef5b72abf19ec12b6dcd7ae1eec8c399d7b3a9a",
+        "mtime_ns": 1790747368907218500
+      },
+      {
+        "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-batch\\inventory\\tracks.tsv",
+        "bytes": 214335,
+        "sha256": "275a1a845f562b91e02501552cddf270853e7d43c5762e0fbc41b419b019db5f",
+        "mtime_ns": 1790747368908729100
+      },
+      {
+        "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-batch\\inventory\\vias.tsv",
+        "bytes": 19743,
+        "sha256": "2310bb9c2b8a71fcec15035d68ddab9fec634e802bb8e3dd1c96ad09390ef564",
+        "mtime_ns": 1790747368909745900
+      },
+      {
+        "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-batch\\inventory\\connections.tsv",
+        "bytes": 62150,
+        "sha256": "c5320c2ab1ef57c59f83123299535be1bd84d34c16a785e6423cf9c865e34056",
+        "mtime_ns": 1790747368911263600
+      },
+      {
+        "path": "recorded-workspace\\runs\\full-routing-2026-09-30\\quality\\full-tracks\\qualification-small-batch\\inventory\\rules.tsv",
+        "bytes": 7455,
+        "sha256": "e6d1e6f68d896ad482bc9c222c58b633488fc2a554781dad4b7e00f8c8c6751e",
+        "mtime_ns": 1790747368912271900
+      }
+    ]
+  },
+  "limits": [
+    "No Altium calls or source-file writes occur.",
+    "Track identity uses net, raw endpoints, width, and layer ID; selection and layer display names are ignored.",
+    "Exact request compliance does not establish copper preservation, connectivity, DRC, timing, or electrical acceptance.",
+    "Components, arcs, polygons, pad stacks, and keepouts are outside the base inventory.",
+    "Run compare_routing.py independently; its preserved-copper flags remain unchanged."
+  ],
+  "request_compliant": true,
+  "failures": [],
+  "actual_track_count": 2940,
+  "unexpected_track_changes": {
+    "added_count": 0,
+    "removed_count": 0,
+    "added": [],
+    "removed": []
+  },
+  "nontrack_changes": {
+    "pads": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    },
+    "vias": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    },
+    "rules": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    },
+    "net_assignments": {
+      "added_count": 0,
+      "removed_count": 0,
+      "added": [],
+      "removed": []
+    }
+  },
+  "immutable_board_changes": {},
+  "changed_nets": [
+    {
+      "net": "DRAMA_DATA8",
+      "baseline_remaining": 0,
+      "current_remaining": 0,
+      "reduction": 0,
+      "newly_complete": false,
+      "geometry_changed": true
+    }
+  ],
+  "ordinary_comparator_regressions": [
+    "Baseline tracks removed or modified"
+  ]
+}

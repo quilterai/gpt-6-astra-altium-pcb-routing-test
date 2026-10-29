@@ -1,0 +1,23 @@
+category	baseline	final	added	removed
+Board Clearance	4	11	7	0
+Clearance	911	917	6	0
+Component Clearance	0	1	1	0
+Delay	0	4	4	0
+Differential pair coupling	0	59	59	0
+Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)	0	0	0	0
+Hole Size	3	3	0	0
+Hole To Hole Clearance	0	0	0	0
+Matched Lengths	19	84	84	19
+Minimum Solder Mask Sliver	1363	1363	0	0
+Modified Polygon (Allow modified: No), (Allow shelved: No)	0	0	0	0
+Net Antennae	165	101	58	122
+Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)	0	0	0	0
+Room Definition	61	61	0	0
+Routing Layers(All)	0	0	0	0
+Routing Topology Rule(Topology=Shortest) (All)	0	0	0	0
+Routing Via (MinHoleWidth=8mil) (MaxHoleWidth=28mil) (PreferredHoleWidth=8mil) (MinWidth=16mil) (MaxWidth=50mil) (PreferedWidth=16mil) (All)	0	0	0	0
+Short-Circuit	3	3	0	0
+Silk To Silk	34	34	0	0
+Silk To Solder Mask	475	475	0	0
+Un-Routed Net	869	33	1	837
+Width	413	420	23	16
